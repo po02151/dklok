@@ -1,0 +1,2174 @@
+.thumbnail_win10{top: auto !important; bottom: 0;}
+
+/* 공통요소 */
+ul,ol{list-style: none;}
+/* .mainPage h2,
+.company_introduction h2,
+.quality_assurance h2,
+.investment_information h2,
+.service_network h2,
+.sustainable_management h2,
+.product_classification h2,
+.customer_support h2,
+.public_relationsCenter h2, */
+h2,
+h3{word-break: keep-all;}
+h2,
+.mainPage .section_2,
+.mainPage .section_3,
+.mainPage .section_4 > div,
+.subNavBox,
+.stickyNavBox > div,
+.company_introduction .section_1 .bgBox,
+.managementPhilosophy .section_1 > div:nth-child(2),
+.managementPhilosophy .section_2 > div,
+.managementPhilosophy .section_3 > div,
+.ceo_greetings .section_2,
+.growth_process .section_2,
+.ci_bi .section_2,
+.quality_assurance .section_1,
+.investment_information .section_1,
+.service_network .section_1,
+.sustainable_management .section_1 > ul,
+.sustainable_management.anti_bribery_policy .section_1 .grayBox,
+.sustainable_management.whistle_blow .section_1,
+.product_classification.all_product .section_1,
+.product_classification .section_1,
+.customer_support .section_1,
+.public_relationsCenter.newsRoom .section_1,
+.public_relationsCenter.mediaCenter .section_1,
+.esg .section_1 > div,
+.esg .section_2,
+.esg .section_3,
+.informationUse .section_1,
+.newsRoom_view .section_1,
+.businessAreas .section_1 .bgBox,
+.businessAreas .section_2,
+.environment_safety_health .section_1 .hseBox .left,
+.environment_safety_health .section_1 .isoBox{width: 1480px; margin: 0 auto;}
+
+.mainPage .section_1,
+.company_introduction,
+.quality_assurance,
+.investment_information,
+.service_network,
+.sustainable_management,
+.product_classification,
+.customer_support,
+.public_relationsCenter,
+.businessAreas{padding-top: 220px;}
+
+.company_introduction h2,
+.quality_assurance h2,
+.investment_information h2,
+.service_network h2,
+.sustainable_management h2,
+.product_classification h2,
+.customer_support h2,
+.public_relationsCenter h2,
+.informationUse h2,
+.businessAreas h2{font-size: 48px; font-weight: 800; color: #333333; margin-bottom: 30px;}
+
+.subNavBox{padding-bottom: 45px; display: flex; justify-content: space-between; align-items: center;}
+.subNavBox ul{display: flex; align-items: center;}
+.subNavBox ul li a{text-decoration: none;}
+.subNavBox ul:nth-child(1) li:not(:first-child){margin-left: 45px;}
+.subNavBox ul:nth-child(1) li a{text-decoration: none; cursor: pointer; position: relative; padding-bottom: 5px;}
+.subNavBox ul:nth-child(1) li.active a{font-weight: 700; color: #0E56A7;}
+.subNavBox ul:nth-child(1) li.active a:after{content: ''; position: absolute; display: block; width: 100%; height: 2px; background-color: #0E56A7; bottom: 0; left: 0;}
+.subNavBox ul:nth-child(1) li a{display: block; font-size: 20px; font-weight: 600; color: #999999;}
+.subNavBox ul:nth-child(2) li a{color: #444444; font-size: 14px; font-weight: 400; display: block; position: relative;}
+.subNavBox ul:nth-child(2) li:not(:last-child) a{margin-right: 10px;}
+.subNavBox ul:nth-child(2) li:nth-child(1) a{padding-right: 50px;}
+.subNavBox ul:nth-child(2) li:not(:nth-child(1), :last-child) a{padding-right: 20px;}
+.subNavBox ul:nth-child(2) li:nth-child(1) a{background: url('/assets/images/home_icon.png') center / contain no-repeat; width: 18px; height: 16px;}
+.subNavBox ul:nth-child(2) li:not(:last-child) a:after{content: '>'; position: absolute; right: 0; top: 50%; transform: translateY(-50%); font-size: 14px; font-weight: 200; color: #DDDDDD;}
+.subNavBox ul:nth-child(2) li:last-child a{text-decoration: underline;}
+
+.stickyNavBox{z-index: 99; position: sticky; top: 0; background-color: #fff; width: 100%; border-bottom: 1px solid #EEEEEE;}
+.stickyNavBox > div{display: flex;}
+.stickyNavBox > div > a{display: block; position: relative; width: 60px; height: 60px; background-color: #E01E25;}
+.stickyNavBox > div > a:after{content: ''; position: absolute; display: block; background: url('/assets/images/suv_navi_home.png') center / contain no-repeat; width: 18px; height: 18px; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+.stickyNavBox > div > div{position: relative; width: 260px; box-sizing: border-box;}
+.stickyNavBox > div > div:after{content: ''; position: absolute; right: 0; top: 50%; transform: translateY(-50%); width: 1px; height: 60px; background-color: #EEEEEE;}
+.stickyNavBox > div > div > span{cursor: pointer; position: relative; text-decoration: none; padding: 21px 30px; box-sizing: border-box; display: block; font-size: 18px; font-weight: 500; color: #777777; position: relative;}
+.stickyNavBox > div > div > span:after{content: ''; position: absolute; right: 30px; top: 50%; transform: translateY(-50%); display: block; background: url('/assets/images/stickyNavBox_arrow.png') center / contain no-repeat; width: 10px; height: 5px;}
+.stickyNavBox > div > div > span + ul{visibility: hidden; opacity: 0; transition: all 0.3s ease-out; border-left: 1px solid #EEEEEE; border-right: 1px solid #EEEEEE; border-bottom: 1px solid #EEEEEE; position: absolute; border-top: 1px solid #E01E25; width: 100%; box-sizing: border-box; background-color: #fff; padding: 10px 0;}
+.stickyNavBox > div > div > span + ul li a{cursor: pointer; display: block; padding: 15px 30px; box-sizing: border-box; text-decoration: none; font-size: 17px; font-weight: 500; color: #777777;}
+/* .stickyNavBox > div > div > a + ul li:hover{background-color: #F9F9F9;}
+.stickyNavBox > div > div > a + ul li a:hover{color: #555555;}
+.stickyNavBox > div > div:hover > a + ul,
+.stickyNavBox > div > div > a:hover + ul{visibility: visible; opacity: 1;} */
+
+
+/* 제품 트리 */
+/* .productSideBar{margin-top: -20px;}
+.productSideBar ul li span{display: block;}
+.productSideBar .depth_1 > li > span{padding: 20px 0; font-size: 20px; color: #E01E25; line-height: 24px; font-weight: 600;} */
+/* 제품 트리 Fin */
+/* 공통요소 Fin */
+
+/* 메인페이지 */
+.mainPage .section_1 h2{margin-bottom: 40px; font-weight: 400; font-size: 54px; line-height: 80px; color: #222222;}
+.mainPage .section_1 h2 span{font-weight: 800; line-height: 80px; color: #222222; display: block;}
+.mainPage .mainSliderBox{position: relative;}
+.mainPage .slick-arrow{text-indent: -9999px; border: none; background-color: transparent; z-index: 9; position: absolute; top: 50%; transform: translateY(-50%);}
+.mainPage .slick-arrow:after{content: ''; position: absolute; top: 50%; transform: translateY(-50%); background-repeat: no-repeat; background-size: contain; background-position: center; width: 49px; height: 64px;}
+.mainPage .slick-prev:after{left: 0%; background-image: url('/assets/images/mainSlider_arrowLeft.png');}
+.mainPage .slick-next:after{right: 0%; background-image: url('/assets/images/mainSlider_arrowRight.png');}
+.mainPage .slick-prev{left: 11%;}
+.mainPage .slick-next{right: 11%;}
+.mainPage .center{overflow: hidden;}
+.mainPage .center .slider,
+.mainPage .center .slick-track{width: 100%; height: 536px; overflow: hidden; position: relative;}
+.mainPage .center p{font-size: 54px; line-height: 72px; color: #fff; position: absolute; bottom: 80px; left: 120px; z-index: 99;}
+.mainPage .center p strong{display: block; font-weight: 800; color: #fff; font-size: 54px; line-height: 72px;}
+.mainPage .center img{border-radius: 20px; object-fit: cover; height: 536px; width: 100%; max-width: 100%;}
+.mainPage .center .slider:after{content: ''; z-index: 1; position: absolute; left: 0; top: 0; display: block; width: 100%; height: 100%; border-radius: 20px; background: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%);}
+.mainPage .slick-list{margin: 0 -35px;}
+.mainPage .slick-slide{margin: 0 35px;}
+.mainPage .section_2{padding: 120px 0 130px 0;}
+.mainPage .section_2 h2{text-align: center; margin-bottom: 40px; font-size: 20px; font-weight: 800; color: #C4000E;}
+.mainPage .section_2 > p{word-break: keep-all; margin-bottom: 100px; text-align: center; font-size: 32px; line-height: 50px; color: #333333;}
+.mainPage .section_2 > p strong{font-weight: 800; display: block; line-height: 50px;}
+.mainPage .section_2 > ul{display: flex; justify-content: center; flex-wrap: wrap; padding: 0 16.22%; box-sizing: border-box;}
+.mainPage .section_2 > ul li{cursor: pointer; width: 20%; position: relative; margin-bottom: 70px; text-align: center; float: left;}
+.mainPage .section_2 > ul li a{position: absolute; width: 100%; height: 100%; left: 0; top: 0; z-index: 1;}
+.mainPage .section_2 > ul li > span{display: block; margin: 0 auto; transform: translateY(0px); transition: transform 0.1s ease-out;}
+.mainPage .section_2 > ul li:not(:nth-child(10)):hover > span:nth-of-type(1){transform: translateY(-5px);}
+.mainPage .section_2 > ul li > span:nth-of-type(1):after{content: ''; margin: 0 auto 15px; display: block; background-repeat: no-repeat; background-position: center; background-size: contain; transition: background 0.3s ease-out;}
+.mainPage .section_2 > ul li:nth-child(1) > span:nth-of-type(1):after{background-image: url('/assets/images/oil_gas.png'); width: 65px; height: 65px;}
+.mainPage .section_2 > ul li:nth-child(3) > span:nth-of-type(1):after{background-image: url('/assets/images/epc.png'); width: 65px; height: 65px;}
+.mainPage .section_2 > ul li:nth-child(9) > span:nth-of-type(1):after{background-image: url('/assets/images/space_air.png'); width: 65px; height: 65px;}
+.mainPage .section_2 > ul li:nth-child(2) > span:nth-of-type(1):after{background-image: url('/assets/images/oilRefining_chemistry.png'); width: 65px; height: 65px;}
+.mainPage .section_2 > ul li:nth-child(4) > span:nth-of-type(1):after{background-image: url('/assets/images/shipbuilding_marine.png'); width: 65px; height: 65px;}
+.mainPage .section_2 > ul li:nth-child(6) > span:nth-of-type(1):after{background-image: url('/assets/images/cng_rng_ngv.png'); width: 65px; height: 65px;}
+.mainPage .section_2 > ul li:nth-child(5) > span:nth-of-type(1):after{background-image: url('/assets/images/machine_equipment.png'); width: 65px; height: 65px;}
+.mainPage .section_2 > ul li:nth-child(8) > span:nth-of-type(1):after{background-image: url('/assets/images/semiconduct_display.png'); width: 65px; height: 65px;}
+.mainPage .section_2 > ul li:nth-child(7) > span:nth-of-type(1):after{background-image: url('/assets/images/hydrogen_tram.png'); width: 61px; height: 65px;}
+.mainPage .section_2 > ul li:nth-child(1):hover > span:nth-of-type(1):after{background-image: url('/assets/images/oil_gas_hover.png');}
+.mainPage .section_2 > ul li:nth-child(3):hover > span:nth-of-type(1):after{background-image: url('/assets/images/epc_hover.png')}
+.mainPage .section_2 > ul li:nth-child(9):hover > span:nth-of-type(1):after{background-image: url('/assets/images/space_air_hover.png');}
+.mainPage .section_2 > ul li:nth-child(2):hover > span:nth-of-type(1):after{background-image: url('/assets/images/oilRefining_chemistry_hover.png');}
+.mainPage .section_2 > ul li:nth-child(4):hover > span:nth-of-type(1):after{background-image: url('/assets/images/shipbuilding_marine_hover.png');}
+.mainPage .section_2 > ul li:nth-child(6):hover > span:nth-of-type(1):after{background-image: url('/assets/images/cng_rng_ngv_hover.png');}
+.mainPage .section_2 > ul li:nth-child(5):hover > span:nth-of-type(1):after{background-image: url('/assets/images/machine_equipment_hover.png');}
+.mainPage .section_2 > ul li:nth-child(8):hover > span:nth-of-type(1):after{background-image: url('/assets/images/semiconduct_display_hover.png');}
+.mainPage .section_2 > ul li:nth-child(7):hover > span:nth-of-type(1):after{background-image: url('/assets/images/hydrogen_tram_hover.png');}
+.mainPage .section_2 > ul li:nth-child(10) > span:nth-of-type(1){display: block; margin: 0 auto; position: relative; width: 100px; height: 100px; border: 1px solid #EEEEEE; border-radius: 10px;}
+.mainPage .section_2 > ul li:nth-child(10) > span:nth-of-type(1):after{content: ''; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background-image: url('/assets/images/aboutUs_addBtn.png'); width: 12px; height: 12px;}
+.mainPage .section_2 > ul li:nth-child(10):hover > span:nth-of-type(1):after{background-image: url('/assets/images/aboutUs_addBtn_hover.png');}
+.mainPage .section_3{padding-bottom: 140px;}
+.mainPage .section_3 > div{display: flex;}
+.mainPage .section_3 h2{font-size: 20px; font-weight: 800; color: #E01E25; margin-bottom: 40px;}
+.mainPage .section_1 h2 br{display: none;}
+.mainPage .section_3 .left{width: 35%; position: relative;}
+.mainPage .section_3 .left p{margin-bottom: 60px; font-size: 32px; line-height: 50px; color: #FFFFFF; font-weight: 400;}
+.mainPage .section_3 .left p strong{font-weight: 800; display: block; line-height: 50px;}
+.mainPage .section_3 .left > div{height: 100%; padding: 50px 65px; box-sizing: border-box; background-color: #222222; border-radius: 16px;}
+.mainPage .section_3 .left .tabMenuBox{width: 500px; position: absolute;}
+.mainPage .section_3 .left .tabMenuBox button{color: #fff; font-weight: 300; font-size: 18px; text-align: left; background-color: transparent; display: block; padding: 40px 50px; box-sizing: border-box; border-radius: 10px; border: none; width: 100%;}
+.mainPage .section_3 .left .tabMenuBox button:not(:last-child){margin-bottom: 20px;}
+.mainPage .section_3 .left .tabMenuBox button.active{box-shadow: 3px 3px 10px rgba(224, 30, 37, 0.25); background-color: #E01E25;}
+.mainPage .section_3 .left .tabMenuBox button span{color: #999999; font-weight: 700; margin-right: 15px;}
+.mainPage .section_3 .left .tabMenuBox button.active span{color: #fff;}
+.mainPage .section_3 .right{width: 65%;}
+.mainPage .section_3 .right > div{display: none; padding: 55px 6.75% 20px 9.45%; box-sizing: border-box; flex-wrap: wrap;}
+.mainPage .section_3 .right > div.active{display: flex;}
+.mainPage .section_3 .right > div > div{position: relative;}
+.mainPage .section_3 .right > div > div > a{cursor: default; position: absolute; width: 100%; height: 100%; left: 0; top: 0;}
+.mainPage .section_3 .right > div > div:not(:nth-child(2n)){margin-right: 4%;}
+.mainPage .section_3 .right > div > div{margin-bottom: 4%; overflow: hidden; width: 48%; box-sizing: border-box; border: 1px solid #EEEEEE; border-radius: 10px;}
+.mainPage .section_3 .right > div > div img{width: 100%; height: 180px; object-fit: cover;}
+.mainPage .section_3 .right .tabContent_2 > div img,
+.mainPage .section_3 .right .tabContent_3 > div img{object-fit: contain;}
+.mainPage .section_3 .right > div > div > div:nth-of-type(1){line-height: 0;}
+.mainPage .section_3 .right > div > div > div:nth-of-type(2){line-height: 0; border-top: 1px solid #EEEEEE; background-color: #FBFBFB; padding: 15px 25px 50px 25px; box-sizing: border-box;}
+.mainPage .section_3 .right > div > div > div:nth-of-type(2) span{line-height: 18px; font-size: 18px; font-weight: 500; color: #3D3D3D;}
+.mainPage .section_4{padding: 120px 0; background-color: #FBFBFB;}
+.mainPage .section_4 h2{text-align: center; font-size: 20px; font-weight: 800; color: #C4000E; margin-bottom: 40px;}
+.mainPage .section_4 p{word-break: keep-all; margin-bottom: 100px; text-align: center; font-size: 32px; line-height: 50px; color: #333333;}
+.mainPage .section_4 p strong{word-break: keep-all; display: block; line-height: 50px; font-weight: 800;}
+/* 이미지맵 이미지 반응형 */
+.mainPage .section_4 img{margin: 0 auto; display: block; height: auto; max-width: 100%; border: none; border-radius: 0; -webkit-box-shadow: none; box-shadow: none;}
+/* 이미지맵 이미지 반응형 Fin */
+/* 메인페이지 Fin */
+
+/* 서브페이지 배너영역 */
+.banner_area{background-repeat: no-repeat; background-position: center; background-size: cover; width: 100%; height: 620px;}
+.company_introduction .banner_area{background-image: url('/assets/images/company_introduction_banner.png');}
+.quality_assurance .banner_area{background-image: url('/assets/images/quality_assurance_banner.jpg');}
+.investment_information .banner_area{background-image: url('/assets/images/investment_information_banner.jpg');}
+.service_network .banner_area{background-image: url('/assets/images/service_network_banner.jpg');}
+.sustainable_management .banner_area{background-image: url('/assets/images/sustainable_management_banner.jpg');}
+.customer_support .banner_area{background-image: url('/assets/images/customer_support_banner.png');}
+.public_relationsCenter .banner_area{background-image: url('/assets/images/publicRelationsCenter_banner.jpg');}
+.businessAreas .banner_area{background-image: url('/assets/images/businessAreas_banner.jpg');}
+
+.managementPhilosophy .banner_area{background-image: url('/assets/images/managementPhilosophy_banner.jpg');}
+/* 서브페이지 배너영역 Fin */
+
+/* table title */
+.data-table > span{position: sticky; left: 0; display: block; margin-bottom: 40px; font-size: 24px; font-weight: 800; color: #E01E25; text-align: left;}
+/* table title Fin */
+
+/* 회사소개 / 기업소개 */
+/* 회사소개 / 기업소개 공통 */
+.company_introduction .section_1{padding-top: 100px;}
+.company_introduction .section_1 .bgBox{position: relative; background-repeat: no-repeat; background-size: cover; background-position: center; height: 380px;}
+.company_introduction .section_1 .bgBox > div{position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); text-align: center; width: 100%;}
+.company_introduction .section_1 .bgBox > div > span{display: block; margin-bottom: 35px; font-size: 24px; font-weight: 800; color: #E01E25;}
+.company_introduction .section_1 .bgBox > div p{font-weight: 400; font-size: 32px; color: #444444; line-height: 50px;}
+.company_introduction .section_1 .bgBox > div p strong{display: block; font-weight: 700; line-height: 50px;}
+/* 회사소개 / 기업소개 공통 Fin */
+
+/* 회사소개 / 기업소개 / 경영이념 */
+.managementPhilosophy .section_1{padding-bottom: 105px;}
+.managementPhilosophy .section_1 .bgBox{margin-bottom: 50px; background-image: url('/assets/images/company_Philosophy.jpg');}
+.managementPhilosophy .section_1 > div:nth-child(2) > p:nth-child(1){font-size: 26px; font-weight: 700; color: #444444; line-height: 32px; margin-bottom: 25px;}
+.managementPhilosophy .section_1 > div:nth-child(2) > p:nth-child(2){font-size: 21px; line-height: 35px; color: #444444; font-weight: 400;}
+.managementPhilosophy h3.sticky{position: sticky; top: 205px; width: 40%;}
+.managementPhilosophy h3.sticky span{display: block;}
+.managementPhilosophy h3.sticky span:nth-child(1){font-size: 24px; color: #E01E25; font-weight: 800; margin-bottom: 40px;}
+.managementPhilosophy h3.sticky span:not(:first-child){font-size: 42px; line-height: 60px; color: #333333;}
+.managementPhilosophy h3.sticky span.center{padding-right: 20%; box-sizing: border-box; text-align: center;}
+.managementPhilosophy .wrap:after{content: ''; display: block; clear: both;}
+.managementPhilosophy .wrap > *{float: left;}
+.managementPhilosophy .wrap > div{width: 60%;}
+.managementPhilosophy .section_2 .wrap > div > div:not(:last-child){margin-bottom: 140px;}
+.managementPhilosophy .section_2{padding: 120px 0; background-color: #F9F9F9;}
+.managementPhilosophy .section_2 h3:not(.sticky){top: 175px;}
+.managementPhilosophy .section_2 img{border-radius: 10px; width: 100%; margin-bottom: 30px; display: block;}
+.managementPhilosophy .section_2 .wrap > div > div p{font-size: 20px; font-weight: 400; color: #555555; line-height: 32px;}
+.managementPhilosophy .section_2 .wrap > div > div .blue{color: #0E56A7;}
+.managementPhilosophy .section_2 .wrap > div > div .red{color: #E01E25;}
+.managementPhilosophy .section_2 .wrap > div > div:nth-child(1) .red{font-weight: 600;}
+.managementPhilosophy .section_2 .wrap > div > div:nth-child(2) .blue{margin-bottom: 40px;}
+.managementPhilosophy .section_2 .wrap > div > div:nth-child(2) .blue strong{font-weight: 600;}
+.managementPhilosophy .section_2 .wrap > div > div:nth-child(2) .red{font-weight: 600;}
+.managementPhilosophy .section_2 .wrap > div > div:nth-child(3) strong{font-weight: 600;}
+.managementPhilosophy .section_3{padding: 145px 0 60px 0;}
+.managementPhilosophy .section_3 .wrap > div > div:not(:last-child){margin-bottom: 80px;}
+.managementPhilosophy .section_3 .wrap > div > div:nth-child(1){border-radius: 10px; overflow: hidden;}
+.managementPhilosophy .section_3 .wrap > div > div:nth-child(1) h4{text-align: center; display: block; background-color: #E01E25; color: #fff; font-size: 20px; font-weight: 500; padding: 18px 0;}
+.managementPhilosophy .section_3 .wrap > div > div:nth-child(1) h4 span{color: rgba(255,255,255,0.65); margin: 0 5px;}
+.managementPhilosophy .section_3 .wrap ul{display: flex; flex-wrap: wrap;}
+.managementPhilosophy .section_3 .wrap ul li{position: relative; width: 25%;}
+.managementPhilosophy .section_3 .wrap ul li img{display: block; margin: 0 auto 15px;}
+.managementPhilosophy .section_3 .wrap ul li span{font-size: 18px; font-weight: 500; color: #444444; display: block; text-align: center;}
+.managementPhilosophy .section_3 .wrap > div > div:nth-child(1) ul li{padding: 35px 0 30px 0;}
+.managementPhilosophy .section_3 .wrap > div > div:nth-child(1) ul li:not(:last-child):after{content: ''; display: block; position: absolute; width: 1px; height: 60px; background-color: #EEEEEE; right: 0; top: 50%; transform: translateY(-50%);}
+.managementPhilosophy .section_3 .wrap > div > div:nth-child(2) h4{margin-bottom: 75px; padding-bottom: 15px; font-size: 18px; font-weight: 600; color: #444444; border-bottom: 1px solid #EEEEEE;}
+.managementPhilosophy .section_3 .wrap > div > div:nth-child(2) h4 span{position: relative; padding-bottom: 15px;}
+.managementPhilosophy .section_3 .wrap > div > div:nth-child(2) h4 span:after{content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 2px; background-color: #E01E25;}
+.managementPhilosophy .section_3 .wrap > div > div:nth-child(2) ul li{margin-bottom: 70px;}
+.managementPhilosophy .section_3 .wrap .imgBox img{width: 100%;}
+/* 회사소개 / 기업소개 / 경영이념 Fin */
+
+/* 회사소개 / 기업소개 / CEO 인사말 */
+.ceo_greetings .section_1 .bgBox{margin-bottom: 55px; background-image: url('/assets/images/building.png');}
+.ceo_greetings .section_2{padding-bottom: 100px;}
+.ceo_greetings .section_2 h3{margin-bottom: 45px; color: #E01E25; font-size: 24px; font-weight: 800; display: block;}
+.ceo_greetings .section_2 > div:after{content: ''; display: block; clear: both;}
+.ceo_greetings .section_2 > div > div{float: left;}
+.ceo_greetings .section_2 > div > div:nth-child(1){width: 40%; padding-right: 70px; box-sizing: border-box;}
+.ceo_greetings .section_2 > div > div:nth-child(2){width: 60%; position: relative;}
+.ceo_greetings .section_2 > div > div:nth-child(1) > p:nth-child(1){margin-bottom: 45px; font-size: 42px; line-height: 64px; color: #333333; font-weight: 800;}
+.ceo_greetings .section_2 > div > div:nth-child(1) > p:nth-child(1) span{word-break: keep-all; line-height: 64px; display: block; color: #0E56A7;}
+.ceo_greetings .section_2 > div > div:nth-child(1) > p:nth-child(2){margin-bottom: 55px; font-size: 24px; font-weight: 600; line-height: 40px; color: #444444;}
+.ceo_greetings .section_2 > div > div:nth-child(1) img{width: 100%; display: block;}
+.ceo_greetings .section_2 > div > div:nth-child(2):after{content: ''; position: absolute; display: block; background: url('/assets/images/signature.png') center / contain no-repeat; width: 209px; height: 200px; right: 150px; bottom: 0; z-index: -1;}
+.ceo_greetings .section_2 > div > div:nth-child(2) > p{font-size: 21px; font-weight: 400; color: #444444; line-height: 36px;}
+.ceo_greetings .section_2 > div > div:nth-child(2) > p:not(:last-child){margin-bottom: 37px;}
+.ceo_greetings .section_2 > div > div:nth-child(2) > p:last-child{margin-bottom: 50px;}
+.ceo_greetings .section_2 > div > div:nth-child(2) > div > span{text-align: right; display: block; font-size: 21px; color: #222222; line-height: 36px;}
+.ceo_greetings .section_2 > div > div:nth-child(2) > div > span:nth-child(1){font-weight: 400;}
+.ceo_greetings .section_2 > div > div:nth-child(2) > div > span:nth-child(2){font-weight: 600;}
+/* 회사소개 / 기업소개 / CEO 인사말 Fin */
+
+/* 회사소개 / 기업소개 / 성장과정 */
+.growth_process .section_1 .bgBox{background-image: url('/assets/images/company_history.png');}
+.growth_process .section_2 .tabBtnBox{display: flex;}
+.growth_process .section_2 .tabBtnBox button{position: relative; padding: 24px 0; font-size: 19px; font-weight: 500; color: #444444; width: 33.33%; border: none; background-color: #FBFBFB;}
+.growth_process .section_2 .tabBtnBox button.active{background-color: #0054A7; color: #fff;}
+.growth_process .section_2 .tabBtnBox button:not(:last-child):after{content: ''; display: block; width: 1px; height: 20px; background-color: #DDDDDD; z-index: 1; right: 0; top: 50%; transform: translateY(-50%); position: absolute;}
+.growth_process .section_2 .tabBtnBox button:not(:last-child).active:after{display: none;}
+.growth_process .section_2 .tabContentBox{padding-bottom: 55px;}
+.growth_process .section_2 .tabContentBox ul{display: none;}
+.growth_process .section_2 .tabContentBox ul.active{display: block;}
+.growth_process .section_2 .tabContentBox ul li{display: flex; flex-wrap: wrap; padding: 45px 0;}
+.growth_process .section_2 .tabContentBox ul li:not(:last-child){border-bottom: 1px solid #EEEEEE;}
+.growth_process .section_2 .tabContentBox ul li span{display: block;}
+.growth_process .section_2 .tabContentBox ul li .blue{color: #0054A7;}
+.growth_process .section_2 .tabContentBox ul li > span{width: 145px; font-size: 28px; font-weight: 700; color: #E01E25;}
+.growth_process .section_2 .tabContentBox ul li > div > div{display: flex;}
+.growth_process .section_2 .tabContentBox ul li > div > div:not(:last-child){margin-bottom: 40px;}
+.growth_process .section_2 .tabContentBox ul li > div > div span{font-size: 18px; font-weight: 500; color: #444444; line-height: 28px;}
+.growth_process .section_2 .tabContentBox ul li > div > div > span:nth-child(1){width: 60px; position: relative; padding-left: 12px; box-sizing: border-box; font-size: 18px; font-weight: 700; color: #444444;}
+.growth_process .section_2 .tabContentBox ul li > div > div > span:nth-child(1):not(.none):before{content: ''; position: absolute; left: 0; top: 11px; width: 4px; height: 4px; border-radius: 100%; background-color: #444444;}
+.growth_process .section_2 .tabContentBox ul li > div > div > span:nth-child(2){width: calc(100% - 60px);}
+/* 회사소개 / 기업소개 / 성장과정 Fin */
+
+/* 회사소개 / 기업소개 / CI.BI */
+.ci_bi .section_1 .bgBox{margin-bottom: 50px; /* background-image: url('/assets/images/stairs.png'); */}
+.ci_bi .section_2 > div{margin-bottom: 100px;}
+.ci_bi .section_2 > div:nth-child(1){margin-bottom: 100px;}
+.ci_bi .section_2 > div:nth-child(1) p:nth-child(1){margin-bottom: 35px;}
+.ci_bi .section_2 > div:nth-child(1) p:nth-child(1) strong{font-size: 24px; font-weight: 600; color: #444444; line-height: 40px;}
+.ci_bi .section_2 > div:nth-child(1) p:nth-child(2){font-size: 22px; font-weight: 400; line-height: 36px; color: #444444;}
+.ci_bi .section_2 > div:nth-child(2):after{content: ''; display: block; clear: both;}
+.ci_bi .section_2 > div:nth-child(2) > div{float: left; width: 48%;}
+.ci_bi .section_2 > div:nth-child(2) > div:nth-child(2){margin-left: 4%;}
+.ci_bi .section_2 > div:nth-child(2) > div > span{display: block; font-size: 22px; font-weight: 600; color: #0054A7; margin-bottom: 20px;} 
+.ci_bi .section_2 > div:nth-child(2) img{width: 100%;}
+.ci_bi .section_2 > div:nth-child(3) p{font-size: 22px; font-weight: 400; color: #444444; line-height: 36px;}
+.ci_bi .section_2 > div:nth-child(3) p:not(:last-child){margin-bottom: 40px;}
+.ci_bi .section_2 > div:nth-child(4) > span{font-size: 26px; font-weight: 800; color: #444444; display: block; border-bottom: 1px solid #CCCCCC; padding-bottom: 25px; margin-bottom: 25px;}
+.ci_bi .section_2 > div:nth-child(4) .colorBox{display: flex; justify-content: space-between;}
+.ci_bi .section_2 > div:nth-child(4) .colorBox > div{width: 33.33%; height: 160px;}
+.ci_bi .section_2 > div:nth-child(4) .colorBox .red{background-color: #E01E25;}
+.ci_bi .section_2 > div:nth-child(4) .colorBox .blue{background-color: #0E56A7;}
+.ci_bi .section_2 > div:nth-child(4) .colorBox .black{background-color: #000000;}
+.ci_bi .section_2 > div:nth-child(4) .colorBox p{color: #fff; font-weight: 200; font-weight: 15px; line-height: 36px;}
+.ci_bi .section_2 > div:nth-child(4) .colorBox p:not(:last-child){margin-right: 25px;}
+.ci_bi .section_2 > div:nth-child(4) .colorBox p span{margin-right: 7px; font-weight: 400; color: rgba(255,255,255,0.5);}
+.ci_bi .section_2 > div:nth-child(4) .colorBox > div > div{height: 160px; align-items: center; display: flex; justify-content: center;}
+.ci_bi .section_3{background-color: #F9F9F9; padding: 65px 0;}
+.ci_bi .section_3 > div *{text-align: center;}
+.ci_bi .section_3 > div span{display: block; font-size: 32px; font-weight: 700; color: #333333; margin-bottom: 15px;}
+.ci_bi .section_3 > div p{font-size: 22px; font-weight: 400; color: #555555; line-height: 36px; margin-bottom: 45px;}
+.ci_bi .section_3 > div button{background-color: transparent; transition: all 0.3s ease-out; display: block; width: 185px; margin: 0 auto; font-size: 16px; font-weight: 600; color: #666666; border: 1px solid #666666; border-radius: 10px; text-decoration: none; padding: 15px 0;}
+.ci_bi .section_3 > div button:hover{border-color: #444444; color: #444444;}
+/* 회사소개 / 기업소개 / CI.BI Fin */
+/* 회사소개 / 기업소개 Fin */
+
+
+/* 회사소개 / 품질보증 */
+.quality_assurance .section_1{padding: 80px 0 100px 0;}
+/* .quality_assurance .section_1 table caption, */
+#history-part-1 .data-table table thead tr td:nth-child(1),
+#history-part-1 .data-table table thead tr td:nth-child(2),
+#history-part-1 .data-table table thead tr td:nth-child(4){width: 200px;}
+#history-part-2 .data-table table thead tr td:nth-child(1),
+#history-part-2 .data-table table thead tr td:nth-child(3){width: 300px;}
+#history-part-3 .data-table table thead tr td:nth-child(1),
+#history-part-3 .data-table table thead tr td:nth-child(2),
+#history-part-3 .data-table table thead tr td:nth-child(4){width: 200px;}
+/* 회사소개 / 품질보증 Fin */
+
+/* 회사소개 / 대리점 */
+.service_network .section_1,
+.customer_support .section_1{padding: 80px 0 100px 0;}
+.service_network .section_1 h3,
+.customer_support .section_1 h3{margin-bottom: 40px; font-size: 24px; font-weight: 800; color: #E01E25;}
+.service_network .section_1 .areaTitle{display: block; border-bottom: 1px solid #EEEEEE; margin-bottom: 40px; padding-bottom: 15px;}
+.service_network .section_1 .areaTitle span{font-size: 20px; font-weight: 600; color: #444444; position: relative; padding-bottom: 15px;}
+.service_network .section_1 .areaTitle span:after{content: ''; position: absolute; width: 100%; height: 2px; background-color: #E01E25; left: 0; bottom: 0;}
+.service_network .section_1 .tabMenuBox,
+.customer_support .section_1 .tabMenuBox,
+.mediaCenter .section_1 .tabMenuBox{border-bottom: 1px solid #EEEEEE; margin-bottom: 40px; display: flex;}
+.service_network .section_1 .tabMenuBox li,
+.customer_support .section_1 .tabMenuBox li,
+.mediaCenter .section_1 .tabMenuBox li{cursor: pointer; position: relative; padding-bottom: 15px;}
+.service_network .section_1 .tabMenuBox li:not(:first-child),
+.customer_support .section_1 .tabMenuBox li:not(:first-child),
+.mediaCenter .section_1 .tabMenuBox li:not(:first-child){margin-left: 40px;}
+.service_network .section_1 .tabMenuBox li.active:after,
+.customer_support .section_1 .tabMenuBox li.active:after,
+.mediaCenter .section_1 .tabMenuBox li.active:after{content: ''; display: block; position: absolute; bottom: 0; left: 0; width: 100%; height: 2px; background-color: #E01E25;}
+.service_network .section_1 .tabMenuBox li span,
+.customer_support .section_1 .tabMenuBox li span,
+.mediaCenter .section_1 .tabMenuBox li span{display: block; font-size: 20px; font-weight: 600; color: #CCCCCC;}
+.service_network .section_1 .tabMenuBox li.active span,
+.customer_support .section_1 .tabMenuBox li.active span,
+.mediaCenter .section_1 .tabMenuBox li.active span{color: #444444;}
+.service_network .section_1 .tabListBox > div,
+.customer_support .section_1 .tabListBox > div,
+.mediaCenter .section_1 .tabListBox > div{display: none;}
+.service_network .section_1 .tabListBox > div.active,
+.customer_support .section_1 .tabListBox > div.active,
+.mediaCenter .section_1 .tabListBox > div.active{display: block;}
+.service_network .section_1 .tabListBox > div > div{display: flex; border: 1px solid #EEEEEE; border-radius: 10px; overflow: hidden;}
+.service_network .section_1 .tabListBox > div > div:not(:last-child){margin-bottom: 30px;}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(1){padding: 30px 35px; box-sizing: border-box; background-color: #FBFBFB; width: 310px;}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(1) h4{line-height: 34px; font-size: 20px; font-weight: 600; color: #444444;}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2){width: calc(100% - 310px); padding: 30px 40px; box-sizing: border-box;}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li{padding-left: 32px; position: relative;}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li:before{content: ''; position: absolute; left: 0; top: 50%; transform: translateY(-50%); background-repeat: no-repeat; background-size: contain; background-position: center;}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.address:before{background-image: url('/assets/images/address_icon.png'); width: 12px; height: 16px;}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.address:hover:before{background-image: url('/assets/images/address_icon_hover.png');}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.tel:before{background-image: url('/assets/images/tel_icon.png'); width: 16px; height: 16px;}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.tel:hover:before{background-image: url('/assets/images/tel_icon_hover.png');}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.fax:before{background-image: url('/assets/images/fax_icon.png'); width: 16px; height: 16px;}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.fax:hover:before{background-image: url('/assets/images/fax_icon_hover.png');}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.mail:before{background-image: url('/assets/images/mail_icon.png'); width: 16px; height: 12px;}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.mail:hover:before{background-image: url('/assets/images/mail_icon_hover.png');}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.webSite:before{background-image: url('/assets/images/webSite_icon.png'); width: 16px; height: 16px;}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.webSite:hover:before{background-image: url('/assets/images/webSite_icon_hover.png');}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.country:before{background-image: url('/assets/images/buildings.png'); width: 16px; height: 16px;}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.country:hover:before{background-image: url('/assets/images/buildings_hover.png'); width: 16px; height: 16px;}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li:not(:last-child){margin-bottom: 20px;}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li:hover > *{text-decoration: underline;}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li > *{line-height: 22px; font-size: 18px; font-weight: 400; color: #666666;}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li address{font-style: normal;}
+/* 회사소개 / 대리점 Fin */
+
+/* 지속가능경영 */
+.sustainable_management .section_1{padding: 80px 0 100px 0;}
+.sustainable_management .section_1 h3{margin-bottom: 25px; text-align: center; font-size: 48px; font-weight: 800; color: #333333; line-height: 60px;}
+.sustainable_management .section_1 h3 span{margin-bottom: 40px; display: block; font-size: 24px; font-weight: 800; color: #E01E25;}
+.sustainable_management .section_1 > p,
+.sustainable_management .section_1 .wrap > p{margin: 0 auto; text-align: center; font-size: 18px; font-weight: 400; line-height: 30px; color: #666666;}
+
+/* 지속가능경영 / ESG 소개 */
+.esg .section_1{padding-bottom: 100px; position: relative;}
+.esg .section_1:after{content: ''; z-index: -1; position: absolute; left: 0; bottom: 0; background-color: #FBFBFB; height: 485px; width: 100%;}
+.esg .section_1 .wrap > p{margin-bottom: 120px;}
+.esg .section_1 .wrap > div{display: flex; align-items: center;}
+.esg .section_1 .wrap .left{width: 35%;}
+.esg .section_1 .wrap .left img{width: 100%; display: block;}
+.esg .section_1 .wrap .right{width: 65%; padding-left: 100px; box-sizing: border-box;}
+.esg .section_1 .wrap .right > div{display: flex; padding: 35px 0; box-sizing: border-box;}
+.esg .section_1 .wrap .right > div > span{width: 65px; text-align: center; position: relative; display: block; font-size: 18px; font-weight: 600; color: #444444; padding-top: 77px; line-height: 24px;}
+.esg .section_1 .wrap .right > div > span:before{content: ''; position: absolute; top: 0; left: 50%; transform: translateX(-50%); background-repeat: no-repeat; background-size: contain; background-position: center;}
+.esg .section_1 .wrap .right > div:nth-child(1) > span:before{background-image: url('/assets/images/esg_environment.png'); width: 65px; height: 65px;}
+.esg .section_1 .wrap .right > div:nth-child(2) > span:before{background-image: url('/assets/images/esg_society.png'); width: 57px; height: 65px;}
+.esg .section_1 .wrap .right > div:nth-child(3) > span:before{background-image: url('/assets/images/esg_governance.png'); width: 65px; height: 65px;}
+.esg .section_1 .wrap .right > div > ul{margin-left: 110px; display: flex; flex-wrap: wrap; align-items: center; width: calc(100% - 175px);}
+.esg .section_1 .wrap .right > div > ul li{position: relative; padding-left: 18px; box-sizing: border-box; width: 50%; font-size: 18px; font-weight: 400; color: #666666; line-height: 28px;}
+.esg .section_1 .wrap .right > div > ul li:before{content: '-'; font-size: 18px; font-weight: 400; color: #444444; position: absolute; left: 0; top: 0;}
+.esg .section_2{padding: 120px 0 145px 0;}
+.esg h3.sticky{position: sticky; top: 180px; width: 40%;}
+.esg h3.sticky span{display: block;}
+.esg h3.sticky span:nth-child(1){font-size: 24px; color: #E01E25; font-weight: 800; margin-bottom: 40px;}
+.esg h3.sticky span:not(:first-child){font-size: 48px; line-height: 60px; color: #333333;}
+.esg .section_2{padding-top: 120px;}
+.esg .section_3{padding: 145px 0 75px 0;}
+.esg .section_2 .wrap:after,
+.esg .section_3 .wrap:after{content: ''; display: block; clear: both;}
+.esg .section_2 .wrap > *,
+.esg .section_3 .wrap > *{float: left;}
+.esg .section_2 .wrap > div,
+.esg .section_3 .wrap > ul{width: 60%;}
+.esg .section_2 .wrap .contentBox img{width: 100%; display: block; margin-bottom: 40px;}
+.esg .section_2 .wrap .contentBox > div{display: flex;}
+.esg .section_2 .wrap .contentBox > div:not(:last-child){margin-bottom: 40px;}
+.esg .section_2 .wrap .contentBox > div > span{height: 43px; line-height: 43px; width: 120px; text-align: center; border-radius: 10px; background-color: #C4000E; display: block; font-size: 16px; font-weight: 400; color: #FBFBFB;}
+.esg .section_2 .wrap .contentBox > div > div{margin-left: 20px; width: calc(100% - 120px);}
+.esg .section_2 .wrap .contentBox > div > div h4{line-height: 43px; font-size: 20px; font-weight: 700; color: #E01E25;}
+.esg .section_2 .wrap .contentBox > div > div p{font-size: 20px; line-height: 36px; font-weight: 500; color: #555555; margin-bottom: 8px;}
+.esg .section_2 .wrap .contentBox > div > div span{font-size: 16px; color: #999999; font-weight: 500;}
+.esg .section_3 .wrap ul{display: flex; flex-wrap: wrap;}
+.esg .section_3 .wrap ul li{margin-bottom: 85px; width: 48%;}
+.esg .section_3 .wrap ul li:not(:nth-child(2n)){margin-right: 4%;}
+.esg .section_3 .wrap ul li img{margin-bottom: 25px; width: 100%; display: block;}
+.esg .section_3 .wrap ul li h4{padding-left: 15px; box-sizing: border-box; font-size: 20px; margin-bottom: 15px; font-weight: 600; color: #444444; line-height: 24px;}
+.esg .section_3 .wrap ul li > div{padding-left: 25px; box-sizing: border-box;}
+.esg .section_3 .wrap ul li span{position: relative; padding-left: 25px; display: block; font-size: 18px; line-height: 28px; color: #666666; font-weight: 400;}
+.esg .section_3 .wrap ul li span:before{content: '-'; position: absolute; left: 0; font-size: 18px; color: #666666; font-weight: 400;}
+.esg .section_3 .wrap ul li span:not(:last-child){margin-bottom: 10px;}
+/* 지속가능경영 / ESG 소개 Fin */
+
+/* 지속가능경영 / 환경안전보건 */
+.environment_safety_health .section_1 > p{margin-bottom: 120px;}
+.environment_safety_health .section_1 .centerBox{position: relative; padding-bottom: 100px;}
+.environment_safety_health .section_1 .centerBox:after{content: ''; display: block; position: absolute; width: 100%; height: 1150px; background-color: #F9F9F9; z-index: -1; left: 0; bottom: 0;}
+.environment_safety_health .section_1 .centerBox img{max-width: 100%; display: block; margin: 0 auto;}
+.environment_safety_health .section_1 h4{margin-bottom: 25px; font-size: 48px; font-weight: 800; color: #333333;}
+.environment_safety_health .section_1 h4 span{margin-bottom: 40px; display: block; font-size: 24px; font-weight: 800; color: #E01E25;}
+.environment_safety_health .section_1 .left p{font-size: 18px; font-weight: 400; color: #666666; line-height: 30px;}
+.environment_safety_health .section_1 .hseBox{margin-bottom: 140px; position: relative; height: 550px;}
+.environment_safety_health .section_1 .hseBox .left{height: 550px; align-content: space-between; display: flex; flex-wrap: wrap;}
+.environment_safety_health .section_1 .hseBox .left > div{width: 100%;}
+.environment_safety_health .section_1 .hseBox .left .arrowBox .slick-arrow{transition: background 0.3s ease-out; position: relative; width: 65px; height: 65px; border-radius: 100%; border: 1px solid #EEEEEE; text-indent: -9999px; background-color: transparent;}
+.environment_safety_health .section_1 .hseBox .left .arrowBox .slick-arrow:after{content: ''; position: absolute; background-repeat: no-repeat; background-position: center; background-size: contain; display: block; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 14px; height: 14px;}
+.environment_safety_health .section_1 .hseBox .left .arrowBox .slick-arrow:hover{background-color: #E01E25;}
+.environment_safety_health .section_1 .hseBox .left .arrowBox .slick-next{margin-left: 10px;}
+.environment_safety_health .section_1 .hseBox .left .arrowBox .slick-prev:after{background-image: url('/assets/images/hse_left.png');}
+.environment_safety_health .section_1 .hseBox .left .arrowBox .slick-next:after{background-image: url('/assets/images/hse_right.png');}
+.environment_safety_health .section_1 .hseBox .left .arrowBox .slick-prev:hover:after{background-image: url('/assets/images/hse_left_hover.png');}
+.environment_safety_health .section_1 .hseBox .left .arrowBox .slick-next:hover:after{background-image: url('/assets/images/hse_right_hover.png');}
+.environment_safety_health .section_1 .hseBox .right{position: absolute; right: 0; top: 0; width: 1100px;}
+.environment_safety_health .section_1 .hseSlider .slick-slide{border-radius: 10px; overflow: hidden; padding-right: 100px;}
+.environment_safety_health .section_1 .hseSlider .slick-slide img{width: 100%;}
+.environment_safety_health .section_1 .hseSlider .contentBox{display: flex;}
+.environment_safety_health .section_1 .hseSlider .contentBox span{font-size: 22px; font-weight: 600; color: #444444; background-color: #F9F9F9; width: 230px; display: block; padding: 30px 35px; box-sizing: border-box;}
+.environment_safety_health .section_1 .hseSlider .contentBox dl{padding: 30px 40px; box-sizing: border-box; background-color: #fff; width: calc(100% - 230px);}
+.environment_safety_health .section_1 .hseSlider .contentBox dl dt{margin-bottom: 15px; font-size: 20px; font-weight: 600;}
+.environment_safety_health .section_1 .hseSlider .contentBox dl dt.red{color: #C4000E;}
+.environment_safety_health .section_1 .hseSlider .contentBox dl dt.yellow{color: #AE7600;}
+.environment_safety_health .section_1 .hseSlider .contentBox dl dt.green{color: #0EA46C;}
+.environment_safety_health .section_1 .hseSlider .contentBox dl dd{padding-left: 0; font-size: 18px; font-weight: 400; line-height: 28px; color: #666666;}
+.environment_safety_health .section_1 .isoBox{display: flex; margin-bottom: 220px;}
+.environment_safety_health .section_1 .isoBox .left{width: 40%;}
+.environment_safety_health .section_1 .isoBox .right{width: 60%; display: flex; justify-content: space-between;}
+.environment_safety_health .section_1 .isoBox .right > div{width: 49%;}
+.environment_safety_health .section_1 .isoBox .right > div img{display: block; width: 100%;}
+/* 지속가능경영 / 환경안전보건 Fin */
+
+/* 지속가능경영 / 윤리경영 */
+.ethical_management .section_1 > p{margin-bottom: 120px;}
+.ethical_management .section_1 .centerBox{position: relative; padding-bottom: 75px; margin-bottom: 100px;}
+.ethical_management .section_1 .centerBox:after{content: ''; display: block; position: absolute; width: 100%; height: 610px; background-color: #F9F9F9; z-index: -1; left: 0; bottom: 0;}
+.ethical_management .section_1 .centerBox img{max-width: 100%; display: block; margin: 0 auto 40px;}
+.ethical_management .section_1 .centerBox p{text-align: center; font-size: 20px; font-weight: 400; line-height: 32px; color: #666666;}
+.ethical_management .section_1 .centerBox p .blue{color: #0E56A7; font-weight: 600; line-height: 32px; display: block;}
+.ethical_management .section_1 > ul > li:not(:last-child){margin-bottom: 100px;}
+.ethical_management .section_1 > ul > li > h4{padding-bottom: 25px; border-bottom: 1px solid #CCCCCC; margin-bottom: 25px; font-size: 22px; font-weight: 800; color: #444444;}
+.ethical_management .section_1 > ul > li > p{font-size: 20px; font-weight: 600; color: #444444; line-height: 32px; margin-bottom: 20px;}
+.ethical_management .section_1 > ul > li > ul li{padding-left: 10px; font-size: 18px; font-weight: 400; color: #666666; line-height: 28px;}
+.ethical_management .section_1 > ul > li > ul li:not(:last-child){margin-bottom: 15px;}
+/* 지속가능경영 / 윤리경영 Fin */
+
+/* 지속가능경영 / 부패방지 */
+.anti_bribery_policy .section_1 > p{margin-bottom: 80px;}
+.anti_bribery_policy .section_1 .grayBox{padding: 40px 45px; box-sizing: border-box; border-radius: 10px; background-color: #FBFBFB;}
+.anti_bribery_policy .section_1 .grayBox > div{padding-bottom: 40px; border-bottom: 1px solid #DDDDDD; margin-bottom: 40px;}
+.anti_bribery_policy .section_1 .grayBox > div p{font-size: 20px; font-weight: 400; color: #444444; line-height: 32px;}
+.anti_bribery_policy .section_1 .grayBox > div p .list{display: block; margin-bottom: 20px; color: #0054A7; font-size: 20px; font-weight: 600;}
+.anti_bribery_policy .section_1 .grayBox > div p .blue{color: #0E56A7;}
+.anti_bribery_policy .section_1 .grayBox > div p:not(:last-child){margin-bottom: 60px;}
+.anti_bribery_policy .section_1 .grayBox > div p strong{font-size: 20px; font-weight: 600; color: #333333;}
+.anti_bribery_policy .section_1 .grayBox > p{font-size: 20px; font-weight: 500; color: #666666; line-height: 32px; margin-bottom: 55px;}
+.anti_bribery_policy .section_1 .grayBox > span{display: block; text-align: right; font-size: 20px; font-weight: 600; color: #444444;}
+/* 지속가능경영 / 부패방지 Fin */
+
+/* 지속가능경영 / 클린신고 */
+.whistle_blow .section_1 > p{margin-bottom: 50px;}
+.whistle_blow .section_1 .tabBtnBox:after{content: ''; display: block; clear: both;}
+.whistle_blow .section_1 .tabBtnBox button{border: none; background-color: #F9F9F9; font-size: 19px; font-weight: 500; color: #444444; padding: 24px 0; float: left; width: 50%;}
+.whistle_blow .section_1 .tabBtnBox button.active{background-color: #0054A7; color: #fff;}
+.whistle_blow .section_1 .tabContentBox h4{padding-bottom: 25px; margin-bottom: 25px; display: block; font-size: 22px; font-weight: 800;}
+.whistle_blow .section_1 .tabContentBox > div{display: none;}
+.whistle_blow .section_1 .tabContentBox > div.active{display: block;}
+.whistle_blow .section_1 .tabContentBox .guideToUsageInfoContent{padding-top: 100px;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(1) > div:not(:last-child){margin-bottom: 100px;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(1) > div:nth-child(1) h4{color: #0054A7;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(1) > div:nth-child(1) h4{border-bottom: 1px solid #0054A7;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(1) > div:not(:nth-child(1)){color: #444444;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(1) > div:not(:nth-child(1)) h4{border-bottom: 1px solid #CCCCCC;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(1) > div ul{padding-left: 10px; box-sizing: border-box;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(1) > div ul li{position: relative; padding-left: 16px; font-size: 18px; font-weight: 400; color: #666666; line-height: 28px;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(1) > div ul li:before{content: '-'; font-size: 18px; font-weight: 400; color: #666666; position: absolute; left: 0; top: 0;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(1) > div ul li:not(:last-child){margin-bottom: 15px;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(1) > div > p,
+.whistle_blow .section_1 .tabContentBox > div:nth-child(1) > div > p a{font-size: 20px; line-height: 32px; color: #666666; font-weight: 500;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(1) > div > p span{margin-right: 30px; font-size: 20px; font-weight: 700; color: #444444;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(1) > div > p:not(:last-child){margin-bottom: 20px;}
+.whistle_blow .section_1 .tabContentBox .reportContent{padding-top: 80px;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset legend{display: none;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset > div:not(:last-of-type){margin-bottom: 100px;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset > div table{width: 100%;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset > div table caption{text-align: left; padding-bottom: 25px; font-size: 22px; font-weight: 800;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset > div table tr th{background-color: #FBFBFB;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset > div table tr th,
+.whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset > div table tr td{border-bottom: 1px solid #EEEEEE; text-align: left;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset > div:nth-of-type(1) table tr th,
+.whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset > div:nth-of-type(1) table tr td,
+.whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset > div:nth-of-type(3) table tr th,
+.whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset > div:nth-of-type(3) table tr td{padding: 25px;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset > div:not(:nth-of-type(1), :nth-of-type(3)) table tr th,
+.whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset > div:not(:nth-of-type(1), :nth-of-type(3)) table tr td{padding: 12px 25px;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset > div:nth-of-type(1) table{border-top: 1px solid #999999;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset > div:not(:nth-of-type(1)) table{border-top: 1px solid #0054A7;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset > div:nth-of-type(1) table caption{color:#444444;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset > div:not(:nth-of-type(1)) table caption{color: #0054A7;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset > div:nth-of-type(1) table thead tr th:nth-child(1){width: 300px; box-sizing: border-box;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset > div:not(:nth-of-type(1)) table tr th:nth-child(1){width: 250px; box-sizing: border-box;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset > div:nth-of-type(1) table thead tr th:not(:nth-child(1)),
+.whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset > div:nth-of-type(1) table tbody tr td:not(:nth-child(1)){border-left: 1px solid #EEEEEE;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset > div:nth-of-type(1) table tbody tr td > div{display: flex; align-items: center; justify-content: space-between;}
+.whistle_blow .section_1 .radioBox{align-items: center; display: flex;}
+.whistle_blow .section_1 .radioBox > div{display: flex; align-items: center;}
+.whistle_blow .section_1 .radioBox div:not(:first-child){margin-left: 33px;}
+.whistle_blow .section_1 .radioBox input[type='radio']{display: none;}
+.whistle_blow .section_1 .radioBox label{cursor: pointer; position: relative; padding-left: 20px; font-size: 18px; font-weight: 600; color: #666666;}
+.whistle_blow .section_1 .radioBox label:before{content: ''; background: url('/assets/images/radio.png') center / contain no-repeat; width: 10px; height: 10px; position: absolute; left: 0; top: 50%; transform: translateY(-50%);}
+.whistle_blow .section_1 .radioBox input[type='radio']:checked + label:before{background-image: url('/assets/images/radio_checked.png');}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset > div:nth-of-type(2) .radioBox input[type='text']{margin-left: 18px;}
+.whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset > div:nth-of-type(2) table tbody tr:not(:first-of-type) td input{width: 100%;}
+.whistle_blow .inputType_text{border: 1px solid #EEEEEE; border-radius: 3px; line-height: 45px;}
+/* 지속가능경영 / 클린신고 Fin */
+/* 지속가능경영 Fin */
+
+/* 제품소개 */
+/* 제품소개 / 제품분류 / 전체제품 */
+.product_classification.all_product{padding-bottom: 75px;}
+.product_classification.all_product .section_1{transition: all 0.2s ease-out; display: flex; border-radius: 10px; overflow: hidden; background-repeat: no-repeat; background-position: center; background-size: cover; height: 590px;}
+.product_classification.all_product .section_1.instrumentationWrap{background-image: url('/assets/images/instrumentation_thumb.png');}
+.product_classification.all_product .section_1.semiconductorWrap{background-image: url('/assets/images/semiconductor_thumb.png');}
+.product_classification.all_product .section_1.processValvesWrap{background-image: url('/assets/images/processValves_thumb.png');}
+.product_classification.all_product .section_1 > div{cursor: pointer; position: relative; width: 33.33%; padding: 55px 60px;}
+.product_classification.all_product .section_1 > div > a{position: absolute; width: 100%; height: 100%; left: 0; top: 0; z-index: 1;}
+.product_classification.all_product .section_1 > div.active > span{display: none;}
+.product_classification.all_product .section_1 > div.active > span{display: block; position: absolute; background: url('/assets/images/red_ribbon.png') center / contain no-repeat; width: 28px; height: 38px; right: 30px; top: 0;}
+.product_classification.all_product .section_1 > div:not(:last-child){border-right: 1px solid rgba(255,255,255,0.3);}
+.product_classification.all_product .section_1 > div > div{position: absolute; width: calc(100% - 55px); left: 55px; bottom: 60px;}
+.product_classification.all_product .section_1 > div h3{color: rgba(255,255,255,0.5); font-size: 28px; line-height: 33px; display: block; margin-bottom: 25px;}
+.product_classification.all_product .section_1 > div p{font-size: 20px; font-weight: 400; color: rgba(255,255,255,0.5); line-height: 28px;}
+.product_classification.all_product .section_1 > div.active h3,
+.product_classification.all_product .section_1 > div.active p{color: #FFFFFF;}
+/* 제품소개 / 제품분류 / 전체제품 Fin */
+
+/* 제품 트리 */
+.productSideBar{width: 320px;}
+.productSideBar .depth1{width: 100%;}
+.productSideBar ul li span{cursor: pointer; display: block;}
+.productSideBar .closeBtn{border: none; background-color: #0E56A7; border-radius: 5px; text-indent: -9999px; visibility: hidden; opacity: 0; position: fixed; top: 20px; left: -100%; z-index: 9999; width: 30px; height: 30px;}
+.productSideBar .closeBtn:after{content: ''; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 16px; height: 16px; background: url('/assets/images/product_hamburger_close.png') center / contain no-repeat;}
+.productSideBar{width: 320px; margin-top: -10px;}
+.productSideBar .depth1 > li > span + ul,
+.productSideBar .depth3,
+.productSideBar .depth4,
+.productSideBar .depth5{display: none;}
+.productSideBar .depth1 > li > span.active + ul,
+.productSideBar .depth2 > li > span.active + .depth3,
+.productSideBar .depth3 > li > span.active + .depth4,
+.productSideBar .depth4 > li > span.active + .depth5{display: block;}
+.productSideBar .depth1 > li > span{display: block; font-size: 20px; font-weight: 600; color: #666666;}
+.productSideBar .depth1 > li > span.active{color: #E01E25;}
+.productSideBar .depth1 > li:nth-child(1) > span{padding-bottom: 20px;}
+.productSideBar .depth1 > li:not(:nth-child(1)) > span{padding: 20px 0;}
+.productSideBar .depth1 > li:not(:last-child){border-bottom: 1px solid #EEEEEE;}
+.productSideBar .depth2{padding-bottom: 30px;}
+.productSideBar .depth2 > li > span{padding: 0 5px; box-sizing: border-box; font-size: 16px; font-weight: 500; color: #666666; display: block; position: relative;}
+.productSideBar li > span{display: block; position: relative;}
+.productSideBar li > span img{display: block; transform: rotate(0deg); transition: 0.5s ease-in-out; position: absolute; right: 0; top: 50%; transform: translateY(-50%);}
+.productSideBar li > span.active img{transform: rotate(-180deg);}
+.productSideBar .depth2 > li > span.active{text-decoration: underline;}
+.productSideBar .depth2 > li:not(:last-child) > span{margin-bottom: 18px;}
+/* .productSideBar .depth2 > li > span > span:nth-child(2){position: absolute; right: 0; top: 50%; transform: translateY(-50%);}
+.productSideBar .depth2 > li > span > span:nth-child(2) img{transform: rotate(0deg); transition: 0.5s ease-in-out;}
+.productSideBar .depth2 > li > span.active > span:nth-child(2) img{transform: rotate(-180deg);}   */
+.productSideBar .depth3 > li:not(:nth-child(1)){margin-top: 15px;}
+.productSideBar .depth3 > li:last-child{margin-bottom: 30px;}
+.productSideBar .depth3 > li > span{padding: 0 15px; box-sizing: border-box; cursor: pointer; font-size: 15px; font-weight: 400; color: #777777;}
+.productSideBar .depth3 > li > span.active{text-decoration: underline;}
+.productSideBar .depth4,
+.productSideBar .depth5{margin-top: 15px;}
+.productSideBar .depth4 > li > span{padding: 0 30px; box-sizing: border-box; font-size: 15px; font-weight: 400; color: #777777;}
+.productSideBar .depth5 > li > span{padding: 0 45px; box-sizing: border-box; font-size: 15px; font-weight: 400; color: #777777;}
+.productSideBar .depth4 > li:not(:last-child),
+.productSideBar .depth5 > li:not(:last-child){margin-bottom: 10px;}
+.productSideBar .depth3 > li > span.active,
+.productSideBar .depth4 > li > span.active,
+.productSideBar .depth5 > li > span.active{text-decoration: underline;}
+/* 제품 트리 Fin */
+
+.product_classification .section_1{display: flex; position: relative;}
+/* .product_classification .section_1 > div{width: 100%; padding-left: 375px; box-sizing: border-box;} */
+.product_classification .section_1 > .right{width: 100%; padding-left: 55px; box-sizing: border-box;}
+.product_classification .search_box {display: none; /* display: flex; */ align-items: center; margin-bottom: 30px; background-color: #F9F9F9; border-radius: 10px; height:60px; width:100%; justify-content: space-between; align-items: center; padding-right: 20px; box-sizing: border-box;}
+.product_classification .search_box input[type="text"] {padding: 0 30px; box-sizing: border-box; height:60px; border:none; outline:none; background:none; width: calc(100% - 40px);}
+.product_classification .search_box input[type="text"]::placeholder {line-height: 60px; color:#CCCCCC; font-size: 14px; font-weight: 400;}
+.product_classification .search_box input[type="text"]:valid + .closeBtn{display: block;}
+.product_classification .search_box button {background-color: transparent; outline: none; border: none; height:24px; width:24px;}
+.product_classification .search_box .closeBtn{position: relative; border-radius: 5px; display: none; background-color: #707070;}
+.product_classification .search_box .closeBtn img{width: 8px; height: 8px; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+.product_classification .search_box .closeBtn:hover{background-color: #222222;}
+.product_classification .search_box .searchBtn{margin-left: 15px;}
+.product_classification .search_box .searchBtn img{width:12px; height:12px;}
+.product_classification .searchResultTitle{padding-bottom: 45px;}
+.product_classification .searchResultTitle > span{display: block; text-align: center;}
+.product_classification .searchResultTitle > span:nth-of-type(1){margin-bottom: 10px; font-size: 28px; font-weight: 700; color: #444444; line-height: 33px;}
+.product_classification .searchResultTitle > span:nth-of-type(2){font-size: 18px; font-weight: 400; color: #999999; line-height: 22px;}
+.product_classification .searchResultTitle > span:nth-of-type(2) .keyword{color: #0E56A7;}
+.product_classification .searchResultList{margin-bottom: 30px; border-top: 1px solid #DDDDDD;}
+.product_classification .searchResultList li{border-bottom: 1px solid #EEEEEE; padding: 20px; box-sizing: border-box;}
+.product_classification .searchResultList li a{display: block; font-size: 20px; font-weight: 500; color: #555555; margin-bottom: 5px;}
+.product_classification .searchResultList li:hover a{text-decoration: underline;}
+.product_classification .searchResultList li > div{display: flex;}
+.product_classification .searchResultList li > div > span{position: relative; font-size: 14px; font-weight: 300; color: #666666; padding-right: 15px; margin-right: 5px;}
+.product_classification .searchResultList li > div > span:not(:last-child):after{content: '>'; position: absolute; right: 0; top: 50%; transform: translateY(-50%); font-size: 14px; font-weight: 300; color: #666666;}
+.product_classification .searchResultList li.none p{padding-right: 0; text-align: center;}
+
+.product_classification .section_1 .productList{margin-bottom: 80px; display: flex; flex-wrap: wrap;}
+.product_classification .section_1 .productList > li{box-sizing: border-box; cursor: pointer; position: relative; margin-bottom: 2%; border: 1px solid #EEEEEE; border-radius: 10px; width: 32%; overflow: hidden;}
+.product_classification .section_1 .productList > li:not(:nth-child(3n)){margin-right: 2%;}
+.product_classification .section_1 .productList > li a{position: absolute; z-index: 1; width: 100%; height: 100%; left: 0; top: 0;}
+.product_classification .section_1 .productList > li .thumbBox{overflow: hidden; border-bottom: 1px solid #EEEEEE; height: 180px;}
+.product_classification .section_1 .productList > li .thumbBox img{width: 100%;}
+.product_classification .section_1 .productList > li.cover .thumbBox img{height: 180px; object-fit: cover;}
+.product_classification .section_1 .productList > li.cover .thumbBox2 img{height: 180px; object-fit: cover;}
+.product_classification .section_1 .productList > li.contain .thumbBox{position: relative;}
+.product_classification .section_1 .productList > li.contain .thumbBox img{position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); height: 110px; object-fit: contain;}
+.product_classification .section_1 .productList > li .titleBox{height: 85px; padding: 15px 25px; box-sizing: border-box; background-color: #FBFBFB;}
+.product_classification .section_1 .productList > li .titleBox span{font-size: 18px; font-weight: 500; color: #3D3D3D;}
+
+
+.product_classification .section_1.semiconductor .productList.secondCategory > li.cover .thumbBox img,
+.product_classification .section_1.process-valves .productList.secondCategory > li.cover .thumbBox img{object-fit: contain;}
+/* 제품분류 Fin */
+
+/* 제품 viewPage */
+.product_classification_view{padding-bottom: 100px;}
+.product_classification_view .titleBox{margin-bottom: 20px; display: flex; justify-content: space-between;}
+.product_classification_view .titleBox .name{font-size: 32px; font-weight: 800; color: #333333;}
+.product_classification_view .titleBox .btnBox{position: relative;}
+.product_classification_view .titleBox .btnBox > span{cursor: pointer; position: relative; width: 200px; display: block; border: 1px solid #EEEEEE; border-radius: 5px; color: #666666; font-size: 14px; font-weight: 400; padding: 10px 15px; box-sizing: border-box;}
+.product_classification_view .titleBox .btnBox > span > span:nth-child(2){position: absolute; right: 15px; top: 50%; transform: translateY(-50%);}
+.product_classification_view .titleBox .btnBox > span > span:nth-child(2) img{transform: rotate(0deg); transition: 0.5s ease-in-out;}
+.product_classification_view .titleBox .btnBox > span.active > span:nth-child(2) img{transform: rotate(-180deg);} 
+.product_classification_view .titleBox .btnBox .saveBox{display: none; z-index: 1; border-radius: 5px; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05); background-color: #fff; position: absolute; top: 45px; width: 240px; right: 0;}
+.product_classification_view .titleBox .btnBox .saveBox.active{display: block;}
+.product_classification_view .titleBox .btnBox .saveBox > div{padding: 15px 20px; box-sizing: border-box; display: flex; justify-content: space-between;}
+.product_classification_view .titleBox .btnBox .saveBox > div:not(:first-child){border-top: 1px solid #EEEEEE;}
+.product_classification_view .titleBox .btnBox .saveBox > div a{font-size: 14px; font-weight: 400; color: #666666;}
+.product_classification_view .titleBox .btnBox .saveBox > div:hover a{text-decoration: underline;}
+.product_classification_view .titleBox .btnBox .saveBox > div button{background-color: transparent; border: none; font-size: 12px; font-weight: 400; color: #0A77FF;}
+.product_classification_view #modelFrame,
+.product_classification_view p{padding-right: 345px; box-sizing: border-box;}
+.product_classification_view .file-download dl{display: none;}
+.product_classification_view .file-download.active dl{display: flex; justify-content: space-between;}
+.product_classification_view .file-download dl dd {padding-left: 0; display: inline-block; position:relative; margin-right:0px;}
+.product_classification_view .prod-view .modeling-box {padding-right: 0; position:relative; border:1px solid #CCCCCC; height:670px; border-radius:24px; overflow:hidden;}
+.product_classification_view .modeling-box .model-3d {overflow: hidden; width:100%; height:100%; position:relative; padding-top:125px;}
+.product_classification_view .modeling-box .model-3d .selected-row {position:absolute; left:0; top:0; width:100%; border-bottom:1px solid #CCCCCC;}
+.product_classification_view .modeling-box .model-3d .selected-row thead th {height:57px; vertical-align: middle; background:#0E56A7; color:#fff; font-size:12px; text-align:center;}
+.product_classification_view .modeling-box .model-3d .selected-row thead th:first-child{overflow: hidden; border-radius: 24px 0 0 0;}
+.product_classification_view .modeling-box .model-3d .selected-row thead th:last-child{overflow: hidden; border-radius: 0 24px 0 0;}
+.product_classification_view .modeling-box .model-3d .selected-row tbody td {font-size:12px; line-height:15px; text-align:center; vertical-align: middle; height:68px;}
+.product_classification_view .modeling-box .model-3d .selected-row tbody td:first-child {font-weight:700;}
+.product_classification_view .modeling-box .model-3d iframe {width:100%; height:100%;}
+.product_classification_view .modeling-box .model-2d {position:absolute; right:0; top:125px; width:340px; height:calc(100% - 71px); padding-top:71px;}
+.product_classification_view .modeling-box .model-2d .img {width:100%; height:206px; display:flex;     align-items: center; justify-content: center; align-content: center;}
+.product_classification_view .modeling-box .model-2d .img img {object-fit:contain; max-width:100%; max-height:100%;}
+
+.product_classification_view .modeling-info {margin-top:100px;}
+.product_classification_view .modeling-info .info_tab {}
+.product_classification_view .info-tab ul {border-bottom: 1px solid #EEEEEE;}
+.product_classification_view .info-tab ul li {display: inline-block; text-align:center; position:relative; padding:10px 5px 15px 5px; color:#CCCCCC; font-size:16px; margin-right:20px; cursor:pointer;}
+.product_classification_view .info-tab ul li::last-child {margin-right:0;}
+.product_classification_view .info-tab ul li::after {content:""; width:100%; height:3px; background:#E01E25; position:absolute; left:50%; bottom: -2px; transform:translateX(-50%) scaleX(0); transition:0.3s ease-out;}
+.product_classification_view .info-tab ul li.active {color: #444444; font-size: 18px; font-weight: 500;}
+.product_classification_view .info-tab ul li.active::after {transform:translateX(-50%) scaleX(100%);}
+
+.product_classification_view .blogList table{border-top: 1px solid #999999; width: 100%;}
+.product_classification_view .blogList table thead tr th{border-bottom: 1px solid #EEEEEE; text-align: left; font-size: 18px; font-weight: 600; color: #444444; padding: 25px 0; background-color: #FBFBFB;}
+.product_classification_view .blogList table thead tr th:nth-child(1){padding-left: 40px; width: 18%; box-sizing: border-box;}
+.product_classification_view .blogList table thead tr th:nth-child(3){width: 16%; text-align: center;}
+.product_classification_view .blogList table tbody tr td{border-bottom: 1px solid #EEEEEE;}
+.product_classification_view .blogList table tbody tr td a{display: block; padding: 25px 0; font-size: 16px; font-weight: 400;}
+.product_classification_view .blogList table tbody tr td:nth-child(1) a{color: #999999; padding-left: 40px; box-sizing: border-box;}
+.product_classification_view .blogList table tbody tr td:nth-child(2) a{color: #555555;}
+.product_classification_view .blogList table tbody tr td:nth-child(3) a{color: #999999; text-align: center;}
+.product_classification_view .blogList table tbody tr:not(.none):hover td:nth-child(1){color: #0E56A7;}
+.product_classification_view .blogList table tbody tr:not(.none):hover td:nth-child(2){text-decoration: underline;}
+.product_classification_view .blogList table tbody tr.none td{font-size: 16px; font-weight: 400; color: #555555; padding: 25px 0; text-align: center;}
+.product_classification_view .blogList .toolBar{display: flex; justify-content: space-between; margin-bottom: 20px;}
+.product_classification_view .blogList .toolBar select{width: 80px; border-radius: 5px; border: 1px solid #E9E9E9;}
+.product_classification_view .blogList .searchBox {border-radius: 5px; border: 1px solid #E9E9E9;  height:35px; width:200px; display: flex; justify-content: space-between; align-items: center;}
+.product_classification_view .blogList .searchBox input[type="text"] {padding-left: 20px; box-sizing: border-box; height:38px; border:none; outline:none; background:none; width: calc(100% - 40px);}
+.product_classification_view .blogList .searchBox input[type="text"]::placeholder {color:#CCCCCC; font-size: 14px; font-weight: 400;}
+.product_classification_view .blogList .searchBox button {background-color: transparent; outline: none; border: none; height:38px; width:40px;}
+.product_classification_view .blogList .searchBox button img{width:10px; height:10px;}
+
+.product_classification_view .info-contents {margin-top:40px;}
+.product_classification_view .info-contents .info-content-box {display:none;}
+
+.product_view.instrumentation .titleBox{margin-bottom: 20px;}
+.product_view.semiconductor .titleBox{margin-bottom: 10px;}
+
+.product_view.semiconductor .titleBox + p{font-size: 18px; font-weight: 500; color: #444444;}
+.prod_body_sample .dk_pd_tit .right .thumb img{display: block; margin: 0 auto 100px;}
+
+
+.dk_pd_tit .txt .t1 {color:#444444; font-size:22px; font-weight:800; line-height:36px; border-bottom:1px solid #CCCCCC; padding-bottom:15px; margin-bottom:20px;}
+.dk_pd_tit .txt .t2 {color:#444444; font-size:18px; font-weight:500; margin-top:8px;}
+
+.dk_pd_content_sample {margin-top:100px;}
+.dk_pd_content_sample dl dt {color:#444444; font-size:22px; font-weight:800; border-bottom:1px solid #CCCCCC; padding-bottom:15px; margin-bottom:20px;}
+.dk_pd_content_sample dl dd {position: relative; color:#555555; font-weight: 400; font-size:18px; line-height:28px; margin-bottom:10px;}
+.dk_pd_content_sample dl dd:before{content: '-'; position: absolute; left: 0; top: 50%; transform: translateY(-50%); font-size: 18px; font-weight: 400; color: #555555;}
+/* 제품 viewPage Fin */
+
+
+.customer_support.catalogue .prod-list ul {}
+.customer_support.catalogue .prod-list ul li {position:relative; cursor:pointer;}
+.customer_support.catalogue .prod-list ul li .share {position:absolute; right:10px; top:10px; z-index:1; color:#fff; z-index:10; transition:0.5s; cursor:pointer; padding:10px; ;}
+.customer_support.catalogue .prod-list ul{display: flex; flex-wrap: wrap;}
+.customer_support.catalogue .prod-list ul li{width: 24%;}
+.customer_support.catalogue .prod-list ul li:not(:nth-child(4n)){margin-right: 1.33%;}
+
+/* .catalog-content .prod-list ul li .share:hover {transform:scale(1.2); opacity:1;} */
+/* .customer_support.catalogue .prod-list ul li .top .thumb {box-sizing: border-box; background-repeat: no-repeat; background-position: center; background-size:cover; display:flex; font-size:21px; font-weight:500; line-height:1.4; padding:40px; color:#fff; transition:0.5s; text-align:center;} */
+/* .customer_support.catalogue .prod-list ul li .top .thumb span {opacity:0.5; line-height:1.4;} */
+.customer_support.catalogue .prod-list ul li .top .thumb span {opacity:0; line-height:1.4;}
+/* .customer_support.catalogue .prod-list ul li:hover .top .thumb span {opacity:1;} */
+.customer_support.catalogue .prod-list ul li:hover .top .thumb span {opacity:0;}
+.customer_support.catalogue .prod-list ul li .top .thumb img {width:100%; height:100%; object-fit:cover;}
+.customer_support.catalogue .prod-list ul li .pdf-link {position:absolute; left:0; top:0; width:100%; height:100%; z-index:5;}
+.customer_support.catalogue .prod-list ul li .pdf-link a{position: absolute; width: 100%; height: 100%; left: 0; top: 0;}
+.customer_support.catalogue .prod-list ul li .bot .name{font-size: 18px; font-weight: 500; color: #3D3D3D;}
+
+.customer_support.catalogue .section_2{padding: 65px 0; background-color: #F9F9F9;}
+.customer_support.catalogue .section_2 h3{font-size: 32px; font-weight: 700; color: #333333; line-height: 50px; text-align: center;}
+.customer_support.catalogue .section_2 p{text-align: center; margin-bottom: 45px; font-size: 22px; font-weight: 400; color: #555555; line-height: 36px;}
+/* .customer_support.catalogue .section_2 .catalog_downloadBtn{display: flex; justify-content: space-between; flex-wrap: wrap;} */
+.customer_support.catalogue .section_2 .catalog_downloadBtn{text-decoration: none; font-size: 16px; font-weight: 600; color: #666666; margin: 0 auto; padding: 15px 0; width: 185px; text-align: center; border: 1px solid #666666; border-radius: 10px; text-align: center; display: block; position: relative; box-sizing: border-box;}
+.customer_support.catalogue .section_2 .catalog_downloadBtn:hover{color: #444444;}
+/* .customer_support.catalogue .section_2 .catalog_downloadBtn span{padding-left: 30px; font-size: 16px; font-weight: 600; color: #666666;}
+.customer_support.catalogue .section_2 .catalog_downloadBtn span:before{content: ''; position: absolute; width: 16px; height: 14px; background: url('../images/pdfDownload_icon.png') center / contain no-repeat; left: 25px; top: 20px;}
+.customer_support.catalogue .section_2 .catalog_downloadBtn span:after{content: ''; position: absolute; width: 12px; height: 14px; background: url('../images/pdfDownload_btn.png') center / contain no-repeat; right: 25px; top: 20px;} */
+.customer_support.catalogue .section_2 .catalog_downloadBtn span:after{content: ''; position: absolute; width: 12px; height: 14px; background: url('../images/pdfDownload_btn.png') center / contain no-repeat; right: 25px; top: 20px;} */
+
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(1) .thumb{background-image: url('/assets/images/1-1 Condensed Catalog.jpg');}
+/* .customer_support.catalogue .prod-list.instrumentation ul li:nth-child(2) .top .thumb{background-image: url('/assets/images/1-2 Condensed Catalog-UHP.jpg');} */
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(2) .top .thumb{background-image: url('/assets/images/2-1 DK-Lok VR Series Tube Fittings.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(3) .top .thumb{background-image: url('/assets/images/2-2 DK-Lok Tube Fittings.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(4) .top .thumb{background-image: url('/assets/images/2-3 Hose Adapter Fittings.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(5) .top .thumb{background-image: url('/assets/images/2-4 Push-On Hose Fittings.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(6) .top .thumb{background-image: url('/assets/images/2-5 JIS Bite Type Tube Fitting.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(7) .top .thumb{background-image: url('/assets/images/2-6 DK DIN Bite Type Fittings.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(8) .top .thumb{background-image: url('/assets/images/2-7 Hydraulic Pipe Fittings.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(9) .top .thumb{background-image: url('/assets/images/2-8 Instrumentation Pipe Weld Fittings.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(10) .top .thumb{background-image: url('/assets/images/2-9 Metal Flexible Hose.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(11) .top .thumb{background-image: url('/assets/images/2-10 K Series JIC Tube Fittings.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(12) .top .thumb{background-image: url('/assets/images/2-11 High pressure Fitting & Valve.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(13) .top .thumb{background-image: url('/assets/images/2-12 HD Series O Ring Fittings.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(14) .top .thumb{background-image: url('/assets/images/2-13 Z seires DK-Lok.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(15) .top .thumb{background-image: url('/assets/images/2-14 DO Series O-Ring Face Seal Fittings.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(16) .top .thumb{background-image: url('/assets/images/2-15 Ultra-Torr Vacuum Fittings.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(17) .top .thumb{background-image: url('/assets/images/3-1-Ball-&-Plug-Valves.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(18) .top .thumb{background-image: url('/assets/images/3-2-Check-&-Relief-Valves.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(19) .top .thumb{background-image: url('/assets/images/3-3-Needle-Valves.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(20) .top .thumb{background-image: url('/assets/images/3-4-Regulator-&-Metering-Valves.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(21) .top .thumb{background-image: url('/assets/images/3-5-Bleed-&-Purge-Valves.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(22) .top .thumb{background-image: url('/assets/images/3-6-Manifolds-&-Gauge-Root.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(23) .top .thumb{background-image: url('/assets/images/3-7-Diaphragm-Valves.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(24) .top .thumb{background-image: url('/assets/images/3-8-Bellows-Valves.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(25) .top .thumb{background-image: url('/assets/images/3-9-Cryogenic-Valves.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(26) .top .thumb{background-image: url('/assets/images/3-10-Rising-Plug-&-Toggle-Valves.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(27) .top .thumb{background-image: url('/assets/images/3-11-Block-&-Bleed-Valves-Monoflange.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(28) .top .thumb{background-image: url('/assets/images/3-12-Filter.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(29) .top .thumb{background-image: url('/assets/images/3-13-ETC.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(30) .top .thumb{background-image: url('/assets/images/4. Quick Connecter.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(31) .top .thumb{background-image: url('/assets/images/5Tube-&-Hose.jpg');}
+/* 계측장비 제품 카탈로그 썸네일 */
+
+
+.customer_support.catalogue .prod-list.semiconductor ul li:nth-child(1) .top .thumb{background-image: url('/assets/images/1-2 Condensed Catalog-UHP.jpg');}
+.customer_support.catalogue .prod-list.semiconductor ul li:nth-child(2) .top .thumb{background-image: url('/assets/images/1-UHP-Fitting.jpg');}
+.customer_support.catalogue .prod-list.semiconductor ul li:nth-child(3) .top .thumb{background-image: url('/assets/images/2-1 Diaphgragm Valve.jpg');}
+.customer_support.catalogue .prod-list.semiconductor ul li:nth-child(4) .top .thumb{background-image: url('/assets/images/2-2-Bellows-Valve.jpg');}
+.customer_support.catalogue .prod-list.semiconductor ul li:nth-child(5) .top .thumb{background-image: url('/assets/images/2-3-Check-Valve.jpg');}
+.customer_support.catalogue .prod-list.semiconductor ul li:nth-child(6) .top .thumb{background-image: url('/assets/images/3-Regulator.jpg');}
+.customer_support.catalogue .prod-list.semiconductor ul li:nth-child(7) .top .thumb{background-image: url('/assets/images/4-IGS.jpg');}
+/* 반도체장비 제품 카탈로그 썸네일 */
+
+.customer_support.catalogue .prod-list.process ul li:nth-child(1) .top .thumb{background-image: url('/assets/images/Process-Valves-Brochure.jpg');}
+/* 프로세스 장비 제품 카탈로그 썸네일 */
+/* 카달로그 */
+
+/* 투자정보 */
+/* 투자정보 / 전자공고 */
+.investment_information .section_1{padding: 80px 0 85px 0; box-sizing: border-box;}
+.investment_information table caption{text-align: left; font-size: 24px; font-weight: 800; color: #E01E25;}
+.investment_information:not(.stockPrice_information, .settlement_announcement_view){margin-bottom: 40px;}
+.electronic_notice{width: 1480px; margin: 0 auto; border-top: 1px solid #999999;}
+.electronic_notice tbody tr td{border-bottom: 1px solid #EEEEEE;}
+.electronic_notice thead tr th:nth-child(1){width: 7%;}
+.electronic_notice thead tr th:nth-child(2){width: 54%;}
+.electronic_notice thead tr th:nth-child(3){width: 13%;}
+.electronic_notice thead tr th:nth-child(4){width: 13%;}
+.electronic_notice thead tr th:nth-child(5){width: 13%;}
+.electronic_notice thead tr th{background-color: #FBFBFB; padding: 25px 0; font-weight: 600; color: #444444; font-size: 18px;}
+.electronic_notice tbody tr td{text-align: center; font-weight: 400; font-size: 16px; color: #555555; padding: 25px 0;}
+.electronic_notice tbody tr:not(.none):hover td{cursor: pointer;}
+.electronic_notice tbody tr:not(.none):hover td:nth-child(1) span{color: #E01E25;}
+.electronic_notice tbody tr:not(.none):hover td:nth-child(2){text-decoration: underline;}
+/* 투자정보 / 전자공고 Fin */
+
+/* 투자정보 / 전자공고 view */
+/* .view .section_1{padding: 80px 17% 85px 17%; box-sizing: border-box;} */
+/* 투자정보 / 전자공고 view Fin */
+
+/* 투자정보 / 전자공시 */
+.public_announcement .section_1:after{content: ''; display: block; clear: both;}
+.public_announcement .section_1 > div{float: left;}
+.public_announcement .section_1 > div:nth-child(1){width: 40%;}
+.public_announcement .section_1 > div:nth-child(2){width: 60%;}
+.public_announcement .section_1 h3{margin-bottom: 25px; font-size: 48px; font-weight: 800; color: #333333; line-height: 60px;}
+.public_announcement .section_1 h3 span{display: block; margin-bottom: 40px; font-size: 24px; font-weight: 800; color: #E01E25;}
+.public_announcement .section_1 p{margin-bottom: 45px; font-size: 18px; font-weight: 400; color: #666666; line-height: 30px;}
+.public_announcement .section_1 a{text-decoration: none; padding: 10px 25px; background-color: #444444; border-radius: 5px; color: #fff; font-size: 17px; font-weight: 400;}
+/* 투자정보 / 전자공시 Fin */
+
+/* 투자정보 / 전자공고 view */
+.settlement_announcement_view .section_1 h3{margin-bottom: 40px; font-size: 24px; font-weight: 800; color: #E01E25;}
+.settlement_announcement_view .section_1 > p{font-size: 48px; margin-bottom: 30px; color: #333333; font-weight: 800; line-height: 60px;}
+.settlement_announcement_view .section_1 > span{font-size: 16px; font-weight: 400; color: #666666; display: block; margin-bottom: 15px;}
+.settlement_announcement_view .section_1 .preViewBox > div{margin-bottom: 40px;}
+.settlement_announcement_view .section_1 .preViewBox > div:last-child{margin-bottom: 30px;}
+.settlement_announcement_view .section_1 .preViewBox > div img{max-width: 724px; width: 100%; display: block; margin: 0 auto;}
+.settlement_announcement_view .section_1 .backBtn{float: right; padding: 5px 25px; font-size: 17px; font-weight: 400; color: #999999; border: 1px solid #CCCCCC; border-radius: 5px;}
+/* 투자정보 / 전자공고 view Fin */
+/* 전자공고 Fin */
+
+/* 제품소개 */
+/* 제품소개 / 고객지원 */
+/* 제품소개 / 고객지원 / FAQ */
+.faq .section_1 ul{margin-bottom: 30px; border-top: 1px solid #999999;}
+.faq .section_1 ul li{border-bottom: 1px solid #EEEEEE;}
+.faq .section_1 ul li .closeBtn{background-color: transparent; border: none;}
+.faq .section_1 ul li .closeBtn i{transition: transform 0.3s ease-out; color: #CCCCCC;}
+.faq .section_1 ul li > div{padding: 25px 30px; box-sizing: border-box;}
+.faq .section_1 ul li > div p{font-size: 18px; font-weight: 400; line-height: 28px; color: #555555; padding-left: 30px; box-sizing: border-box; position: relative;}
+.faq .section_1 ul li > div p:before{position: absolute; left: 0; top: 0; font-size: 18px; font-weight: 600;}
+.faq .section_1 ul li .questionBox{cursor: pointer; display: flex; justify-content: space-between;}
+.faq .section_1 ul li .questionBox p:before{content: 'Q'; color: #999999;}
+.faq .section_1 ul li .answerBox{display: none;}
+.faq .section_1 ul li .answerBox p:before{content: 'A'; color: #0E56A7;}
+.faq .section_1 ul li .questionBox.active{background-color: #FBFBFB;}
+.faq .section_1 ul li .questionBox.active p:before{color: #E01E25;}
+.faq .section_1 ul li .questionBox.active .closeBtn i{transform: rotate(45deg); color: #999999;}
+/* 제품소개 / 고객지원 / FAQ Fin */
+
+/* 제품소개 / 고객지원 / 문의하기 */
+.contactUs form fieldset{min-width: 0;}
+.contactUs form fieldset > div h4{font-size: 48px; font-weight: 800; color: #333333; line-height: 60px;}
+.contactUs form fieldset > div:not(:nth-child(3)) h4{margin-bottom: 60px;}
+.contactUs form fieldset h4 span{font-size: 48px; font-weight: 800; color: #C4000E; line-height: 60px;}
+.contactUs form fieldset > .box1{margin-bottom: 95px;}
+.contactUs form fieldset > .box1 ul{display: flex; flex-wrap: wrap;}
+.contactUs form fieldset > .box1 ul li{margin-bottom: 55px;}
+.contactUs form fieldset > .box1 ul li:not(:nth-child(5)){width: 24%;}
+.contactUs form fieldset > .box1 ul li:nth-child(5){width: 49.33%;}
+.contactUs form fieldset > .box1 ul li:not(:nth-child(4n)){margin-right: 1.33%;}
+.contactUs form fieldset > .box1 ul li label{display: block; font-size: 25px; font-weight: 700; color: #555555; margin-bottom: 15px;}
+.contactUs form fieldset > .box1 ul li input{font-size: 18px; color: #555555; font-weight: 400; outline: none; border: none; border-bottom: 2px solid #DDDDDD; padding: 12px 0; width: 100%;}
+.contactUs form fieldset > .box1 ul li input:focus,
+.contactUs form fieldset > .box1 ul li input:valid,
+.contactUs form fieldset > .box1 ul li input.active{border-color: #E01E25;}
+.contactUs form fieldset > .box1 ul li input::placeholder{font-size: 18px; color: #DDDDDD;}
+.contactUs form fieldset > .box1 ul li > div{position: relative;}
+.contactUs form fieldset > .box1 ul li > div:after{content: '*'; display: block; position: absolute; right: 0; top: 50%; transform: translateY(-50%); font-size: 18px; font-weight: 400; color: #E01E25;}
+.contactUs form fieldset > .box2{margin-bottom: 100px;}
+.contactUs form fieldset > .box2 ul{display: flex; flex-wrap: wrap;}
+.contactUs form fieldset > .box2 > ul li{padding-right: 85px; margin-bottom: 50px;}
+.contactUs form fieldset > .box2 ul li input[type='radio']{display: none;}
+.contactUs form fieldset > .box2 ul li label{cursor: pointer; position: relative; padding-left: 38px; font-size: 25px; font-weight: 700; color: #999999;}
+.contactUs form fieldset > .box2 ul li label:before{content: ''; position: absolute; left: 0; top: 50%; transform: translateY(-50%); background: url('/assets/images/contactUs_radio.png') center / contain no-repeat; width: 26px; height: 26px;}
+.contactUs form fieldset > .box2 ul li input[type='radio']:checked + label:before{background-image: url('/assets/images/contactUs_radio_checked.png');}
+.contactUs form fieldset > .box3 h4{margin-bottom: 50px;}
+.contactUs form fieldset > .box3 > input{font-size: 20px; font-weight: 500; color: #555555; line-height: 34px; margin-bottom: 15px; outline: none; padding: 0 30px; box-sizing: border-box; width: 100%; border: 1px solid #DDDDDD; height: 74px; border-radius: 5px;}
+.contactUs form fieldset > .box3 > input::placeholder{font-size: 20px; line-height: 34px; font-weight: 500; color: #999999;}
+.contactUs form fieldset > .box3 > input:focus{border-color: #E01E25;}
+.contactUs form fieldset > .box3 textarea.notes{
+  margin-bottom: 50px;
+  outline: none;
+  resize: none;
+  width: 100%;
+  border: none;
+  background-attachment: local;
+  background-image:
+    linear-gradient(to right, white 0px, transparent 10px),
+    linear-gradient(to left, white 0px, transparent 10px),
+    repeating-linear-gradient(white, white 50px, #ccc 50px, #ccc 51px, white 51px);
+  line-height: 51px;
+  /* padding: 8px 10px; */
+  height: 310px;
+}
+.contactUs form fieldset > .box3 textarea{font-size: 20px; font-weight: 500; color: #555555; margin-bottom: 50px; border: 1px solid #DDDDDD; height: 325px; width: 100%; border-radius: 5px; resize: none; padding: 25px 30px; box-sizing: border-box;}
+.contactUs form fieldset > .box3 textarea::placeholder{font-size: 20px; font-weight: 500; line-height: 34px; color: #999999;}
+.contactUs form fieldset > .box3 textarea:focus{outline: 1px solid #E01E25;}
+.contactUs form fieldset > .box3 > span{margin-bottom: 15px; font-size: 25px; font-weight: 700; color: #555555; display: block;}
+.contactUs form fieldset > .box3 .fileBox{margin-bottom: 90px; position: relative; border-bottom: 1px solid #DDDDDD;}
+.contactUs form fieldset > .box3 .fileBox .uploadName{
+  vertical-align: middle;
+  border: none;
+  width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #999999;
+  outline: none;
+  padding: 13px 0;
+  font-size: 18px; font-weight: 400; color: #555555;
+  position: absolute; left: 0; bottom: 0;
+}
+.contactUs form fieldset > .box3 .fileBox .uploadName.active{z-index: 1;}
+.contactUs form fieldset > .box3 .fileBox .uploadName + button{display: none; position: absolute; z-index: 1; right: 0; top: 50%; transform: translateY(-50%); color: #C4000E; border: none; background-color: transparent;}
+.contactUs form fieldset > .box3 .fileBox .uploadName + button i{font-size: 14px; color: #C4000E;}
+.contactUs form fieldset > .box3 .fileBox .uploadName.active + button{display: block;}
+.contactUs form fieldset > .box3 .fileBox .uploadName::placeholder{font-size: 18px; font-weight: 400; color: #DDDDDD;}
+.contactUs form fieldset > .box3 .fileBox .uploadNameBox{width: 325px; height: 47px; position: relative;}
+.contactUs form fieldset > .box3 .fileBox label {
+  position: absolute; width: 100%; left: 0; bottom: 0;
+  font-size: 16px; font-weight: 400; color: #999999;
+  height: 47px; line-height: 47px;
+  text-align: right;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.contactUs form fieldset > .box3 .fileBox input[type="file"] {
+  position: absolute;
+  width: 0;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+}
+.contactUs form fieldset > .box4{padding-left: 40px; box-sizing: border-box;}
+.contactUs form fieldset > .box4 > div:not(:last-child){margin-bottom: 55px;}
+.contactUs form fieldset > .box4 > div:last-child{margin-bottom: 60px;}
+.contactUs form fieldset > .box4 input[type='checkbox']{display: none;}
+.contactUs form fieldset > .box4 label{position: relative; font-size: 20px; line-height: 28px; font-weight: 500; color: #444444; display: block; margin-bottom: 20px;}
+.contactUs form fieldset > .box4 label:before{content: ''; position: absolute; left: -40px; top: 50%; transform: translateY(-50%); background: url('/assets/images/contactUs_checkBox.png') center / contain no-repeat; width: 20px; height: 20px;}
+.contactUs form fieldset > .box4 input[type='checkbox']:checked + label:before{background-image: url('/assets/images/contactUs_checkBox_checked.png');}
+.contactUs form fieldset > .box4 p{font-size: 16px; font-weight: 400; line-height: 28px; color: #666666;}
+.contactUs form fieldset .submit{transition: all 0.3s ease-out; position: relative; line-height: 73px; padding: 0 75px 0 0; font-size: 62px; color: #CCCCCC; font-weight: 700; background-color: transparent; border: none;}
+.contactUs form fieldset .submit:after{transition: all 0.3s ease-out; content: '→'; display: block; position: absolute; right: 0; top: 50%; transform: translateY(-50%); font-size: 62px; color: #CCCCCC; font-weight: 700;}
+.contactUs form fieldset .submit:hover{text-decoration: underline; color: #333333;}
+.contactUs form fieldset .submit:hover:after{color: #333333;}
+
+.contactUs .addOptionBox{padding: 50px 0; border-top: 2px solid #EEEEEE; display: none;}
+.contactUs .addOptionBox.active{display: block;}
+.contactUs .addOptionBox > p{margin-bottom: 25px; font-size: 28px; font-weight: 700; line-height: 60px; color: #444444;}
+.contactUs .addOptionBox > p span{font-size: 28px; font-weight: 800; color: #C4000E; line-height: 60px;}
+.contactUs .addOptionBox ul{justify-content: space-between; padding: 40px 65px; box-sizing: border-box; background-color: #F9F9F9; border-radius: 20px;}
+.contactUs .addOptionBox ul li{margin: 10px 0;}
+.contactUs .addOptionBox ul li:not(:nth-child(1)){margin-left: 0;}
+/* 제품소개 / 고객지원 / 문의하기 Fin */
+/* 제품소개 Fin */
+
+/* 홍보센터 */
+.public_relationsCenter.newsRoom .section_1 .searchWrap{display: flex; justify-content: center; margin-bottom: 55px;}
+
+/* select custom */
+select::-ms-expand { 
+	display: none;
+}
+.select {
+  -o-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 110px; height: 40px; box-sizing: border-box; border: 1px solid #EEEEEE; border-radius: 5px; font-size: 16px; font-weight: 400; color: #666666; padding: 10px 15px;
+}
+.select{
+    width: 110px;
+    background: url('/assets/images/select_arrow.png') calc(100% - 10px) center / contain no-repeat;
+    background-size: 8px;
+    outline: none;
+    cursor: pointer;
+}
+.select option {
+  background: #FFFFFF;
+  color: #666666;
+  font-size: 14px; font-weight: 400;
+}
+/* select custom */
+
+.public_relationsCenter .search_box {margin-left: 5px; height:40px; width:350px; display: flex; justify-content: space-between; align-items: center;}
+.public_relationsCenter .search_box input[type="text"] {border: 1px solid #EEEEEE; height: 40px;px; border-radius: 5px 0 0 5px; outline:none; background:none; width: calc(100% - 40px);}
+.public_relationsCenter .search_box input[type="text"]::placeholder {color:#CCCCCC; font-size: 14px; font-weight: 400;}
+.public_relationsCenter .search_box button {background-color: #E01E25; border-radius: 0 5px 5px 0; outline: none; border: none; height:40px; width:43px;}
+.public_relationsCenter .search_box button img{width:12px; height:12px;}
+
+.paging{display: flex; justify-content: center;}
+.paging.right{justify-content: right;}
+.paging .page{display: flex; align-items: center;}
+.paging span span{cursor: pointer; font-size: 14px; font-weight: 400; color: #666666; line-height: 30px; text-align: center; position: relative; display: block; width: 30px; height: 30px; border-radius: 5px; background-color: #fff;}
+.paging span span i{position: absolute; left: 50%; top: 50%; font-size: 11px; transform: translate(-50%, -50%); color: #CCCCCC;}
+.paging span span.active{color: #fff; background-color: #E01E25;}
+.paging span span.active i{color: #fff;}
+
+/* 홍보센터 / 뉴스룸 */
+.public_relationsCenter.newsRoom .section_1{padding: 80px 0 100px 0;}
+.public_relationsCenter.newsRoom .section_1 h3{font-size: 24px; font-weight: 800; color: #E01E25; text-align: center; margin-bottom: 30px;}
+.public_relationsCenter.newsRoom .section_1 ul{display: flex; flex-wrap: wrap;}
+.public_relationsCenter.newsRoom .section_1 ul li{cursor: pointer; position: relative; width: 24%; margin-bottom: 2%; border-radius: 5px; overflow: hidden; border: 1px solid #EEEEEE;}
+.public_relationsCenter.newsRoom .section_1 ul li > a{position: absolute; width: 100%; height: 100%; left: 0; top: 0; z-index: 1;}
+.public_relationsCenter.newsRoom .section_1 ul li:not(:nth-child(4n)){margin-right: 1.33%;}
+.public_relationsCenter.newsRoom .section_1 ul li img{height: 225px; object-fit: cover; width: 100%; display: block;}
+.public_relationsCenter.newsRoom .section_1 ul li > div{padding: 15px 25px; box-sizing: border-box;}
+.public_relationsCenter.newsRoom .section_1 ul li > div h4{font-size: 18px; line-height: 24px; font-weight: 500; color: #3D3D3D; margin-bottom: 50px;}
+.public_relationsCenter.newsRoom .section_1 ul li > div span{font-size: 16px; font-weight: 400; color: #999999;}
+
+.public_relationsCenter.newsRoom .section_1 table{margin-bottom: 30px; width: 100%; border-top: 1px solid #999999;}
+.public_relationsCenter.newsRoom .section_1 table thead tr th{border-bottom: 1px solid #EEEEEE; background-color: #FBFBFB; padding: 25px 0;}
+.public_relationsCenter.newsRoom .section_1 table tbody tr td{cursor: pointer; padding: 0; text-align: left; border-bottom: 1px solid #EEEEEE;}
+.public_relationsCenter.newsRoom .section_1 table tbody tr td span{text-decoration: none; padding: 25px 0; display: block;}
+.public_relationsCenter.newsRoom .section_1 table thead tr th:nth-child(1){text-align: left;}
+.public_relationsCenter.newsRoom .section_1 table thead tr th:nth-child(1),
+.public_relationsCenter.newsRoom .section_1 table tbody tr td:nth-child(1){width: 8%;}
+.public_relationsCenter.newsRoom .section_1 table thead tr th:nth-child(1),
+.public_relationsCenter.newsRoom .section_1 table thead tr th:nth-child(1) span,
+.public_relationsCenter.newsRoom .section_1 table tbody tr td:nth-child(1) span{padding-left: 38px; box-sizing: border-box;}
+.public_relationsCenter.newsRoom .section_1 table thead tr th:nth-child(3),
+.public_relationsCenter.newsRoom .section_1 table thead tr th:nth-child(4){width: 12%;}
+.public_relationsCenter.newsRoom .section_1 table tbody tr td:nth-child(3),
+.public_relationsCenter.newsRoom .section_1 table tbody tr td:nth-child(4){text-align: center;}
+.public_relationsCenter.newsRoom .section_1 table tbody tr:hover td:nth-child(2) span{color: #0E56A7; text-decoration: underline;}
+
+/* 홍보센터 / 뉴스룸 / 보도자료 view */
+.newsRoom_view .section_1{width: 1000px; margin: 0 auto; padding: 80px 0 100px 0; box-sizing: border-box;}
+.newsRoom_view .section_1 h3{font-size: 24px; font-weight: 800; color: #E01E25; margin-bottom: 40px;}
+.newsRoom_view .section_1 h4{font-size: 48px; font-weight: 800; color: #333333; line-height: 60px; margin-bottom: 15px;}
+.newsRoom_view .section_1 > div:nth-of-type(1){padding-bottom: 65px;}
+.newsRoom_view .section_1 > div > span{font-size: 16px; line-height: 24px; color: #999999; font-weight: 400; display: block; margin-bottom: 25px;}
+.newsRoom_view .section_1 .imgWrap{display: flex; justify-content: center;}
+.newsRoom_view .section_1 .imgBox{padding-top: 18px; border-top: 1px solid #EEEEEE;}
+.newsRoom_view .section_1 .imgBox img{width: 100%; display: block; margin-bottom: 30px;}
+.newsRoom_view .section_1 .txtBox p{font-size: 18px; font-weight: 400; line-height: 24px; color: #666666;}
+.newsRoom_view .section_1 .exhibition_txtBox li:not(:last-child){margin-bottom: 45px;}
+.newsRoom_view .section_1 .exhibition_txtBox li span{display: block;}
+.newsRoom_view .section_1 .exhibition_txtBox li span:nth-child(1){margin-bottom: 15px; font-size: 18px; font-weight: 600; color: #999999; line-height: 30px;}
+.newsRoom_view .section_1 .exhibition_txtBox li span:nth-child(2){font-size: 20px; font-weight: 500; line-height: 30px; color: #333333;}
+/* 홍보센터 / 뉴스룸 / 보도자료 view Fin */
+/* 홍보센터 / 뉴스룸 Fin */
+
+/* 홍보센터 / 미디어센터 */
+.public_relationsCenter.promotinal_video .section_1{padding: 80px 0 100px 0; width: 1000px; margin: 0 auto; box-sizing: border-box;}
+.public_relationsCenter.mediaCenter .section_1 h3{font-size: 24px; font-weight: 800; color: #E01E25; margin-bottom: 40px;}
+.promotinal_video .section_1 h3{text-align: center;}
+.public_relationsCenter.mediaCenter .videoBox{display: block; width: 100%;}
+.public_relationsCenter.mediaCenter .videoBox > div{position: relative; padding-bottom: 56.25%;}
+.public_relationsCenter.mediaCenter .videoBox > div iframe{position: absolute; width: 100%; height: 100%;}
+.public_relationsCenter.mediaCenter .mainVideoBox{margin-bottom: 85px;}
+.public_relationsCenter.mediaCenter .mainVideoBox span{display: block; font-size: 48px; font-weight: 800; margin-bottom: 30px; color: #333333; display: block; text-align: center;}
+.public_relationsCenter.mediaCenter .mainVideoBox .videoBox{border-radius: 10px; overflow: hidden;}
+.public_relationsCenter.mediaCenter .tabListBox ul{display: flex; flex-wrap: wrap;}
+.public_relationsCenter.mediaCenter .tabListBox ul li{width: 48%; margin-bottom: 4%; border-radius: 10px; overflow: hidden;}
+.public_relationsCenter.mediaCenter .tabListBox ul li:not(:nth-child(2n)){margin-right: 4%;}
+/* 홍보센터 / 미디어센터 Fin */
+
+/* 홍보센터 / 디케이락 스토리 */
+.public_relationsCenter.dklokStory .section_1{padding: 80px 0 100px 0;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList{display: none; flex-wrap: wrap;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList.active{display: flex;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li{cursor: pointer; width: 24%; margin-bottom: 2%; position: relative;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li:not(:nth-child(4n)){margin-right: 1.33%;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li{line-height: 0; overflow: hidden; border: 1px solid #EEEEEE; border-radius: 10px;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li > a{z-index: 1; position: absolute; left: 0; top: 0; width: 100%; height: 100%;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox{padding: 15px 25px; box-sizing: border-box;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox p{margin-bottom: 25px; font-size: 18px; font-weight: 500; line-height: 26px; color: #3D3D3D;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div{display: flex; align-items: flex-end; justify-content: space-between;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div > span{font-size: 16px; font-weight: 400; color: #999999;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div > div{position: sticky; z-index: 99; display: flex;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div > div a{position: relative; display: block; width: 30px; height: 30px; border-radius: 5px;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div > div a:not(:first-child){margin-left: 8px;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div > div .facebook{background-color: #1877F2;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div > div .linkedin{background-color: #0A66C2;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div > div .twitter{background-color: #0f1419;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div > div .blog{background-color: #2EB34A;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div > div .instagram{
+  background: rgb(252,176,69);
+  background: linear-gradient(32deg, rgba(252,176,69,1) 0%, rgba(252,166,66,1) 9%, rgba(252,117,53,1) 26%, rgba(253,29,29,1) 49%, rgba(131,58,180,1) 85%, rgba(131,58,180,1) 100%);
+}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div > div .youtube{background-color: #FF0000;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div a:after{content: ''; background-repeat: no-repeat; background-size: contain; background-position: center; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div .facebook:after{background-image: url('/assets/images/facebook_hover.png'); width: 8px; height: 14px;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div .linkedin:after{background-image: url('/assets/images/linkedin_hover.png'); width: 14px; height: 14px;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div .twitter:after{background-image: url('/assets/images/twitter-x_hover.png'); width: 17px; height: 14px;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div .blog:after{background-image: url('/assets/images/blog_hover.png'); width: 16px; height: 14px;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div .instagram:after{background-image: url('/assets/images/instagram_hover.png'); width: 14px; height: 14px;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div .youtube:after{background-image: url('/assets/images/youtube_hover.png'); width: 14px; height: 14px;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .imgBox{overflow: hidden; line-height: 0;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .imgBox img{line-height: 0; transition: all 0.2s linear; width: 100%; object-fit: cover;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li:hover .imgBox img{transform: scale(1.1);}
+/* 홍보센터 / 디케이락 스토리 Fin */
+/* 홍보센터 Fin */
+
+/* 이용안내 */
+/* 이용안내 / 내부정보관리규정 */
+.inside_information .section_1{padding: 70px 0 100px 0;}
+.inside_information .section_1 h3{font-size: 22px; color: #444444; font-weight: 800; padding-bottom: 25px; border-bottom: 1px solid #999999;}
+.inside_information .section_1 h4{font-size: 18px; font-weight: 600; color: #0054A7; margin-bottom: 20px;}
+.inside_information .section_1 p{font-size: 18px; line-height: 26px; color: #444444; font-weight: 400;}
+.inside_information .section_1 > div:not(:last-of-type){margin-bottom: 100px;}
+.inside_information .section_1 > div:nth-child(1) > div{padding: 40px 0; border-bottom: 1px solid #EEEEEE; padding-top: 40px;}
+.inside_information .section_1 > div:nth-child(2) > div:last-of-type{padding-top: 40px;}
+.inside_information .section_1 > div:nth-child(2) > div:not(:last-of-type){padding: 40px 0; border-bottom: 1px solid #EEEEEE;}
+.inside_information .section_1 > div > div > div{position: relative; padding-left: 20px;}
+.inside_information .section_1 > div > div > div:not(:last-child){margin-bottom: 15px;}
+.inside_information .section_1 > div > div > div > span{position: absolute; left: 0; top: 4px; font-size: 18px; font-weight: 400; color: #444444;}
+.inside_information .section_1 > div > div > div > div{margin-top: 15px;}
+.inside_information .section_1 > div > div > div > div > span{padding-left: 23px; position: relative; display: block; font-size: 16px; font-weight: 400; color: #444444; line-height: 24px;}
+.inside_information .section_1 > div > div > div > div > span:not(:last-child){margin-bottom: 10px;}
+.inside_information .section_1 > div > div > div > div > span span{position: absolute; left: 0; top: 0; width: 23px; display: inline-block; font-size: 16px; font-weight: 400; color: #444444; line-height: 24px;}
+
+.inside_information .section_1 > div:nth-child(3) > div,
+.inside_information .section_1 > div:nth-child(4) > div,
+.inside_information .section_1 > div:nth-child(5) > div{padding: 40px 0;}
+.inside_information .section_1 > div:nth-child(3) > div:nth-of-type(1) > p{margin-bottom: 20px;}
+.inside_information .section_1 > div:nth-child(3) > div:not(:last-of-type),
+.inside_information .section_1 > div:nth-child(4) > div:not(:last-of-type),
+.inside_information .section_1 > div:nth-child(5) > div:not(:last-of-type){border-bottom: 1px solid #EEEEEE;}
+
+/* 이용안내 / 내부정보관리규정 Fin */
+
+/* 이용안내 / 사이트맵 */
+.informationUse .grayBox{padding-top: 220px; background-color: #FBFBFB;}
+.siteMap .section_1{padding: 90px 0 120px 0;}
+.siteMap .section_1 > div{display: flex;}
+.siteMap .section_1 > div > span{display: block; font-size: 20px; font-weight: 700; color: #333333; width: 170px;}
+.siteMap .section_1 > div > div{width: calc(100% - 170px);}
+.siteMap .section_1 .type_a,
+.siteMap .section_1 .type_b:not(:last-of-type){margin-bottom: 125px;}
+.siteMap .section_1 .type_a > div > div > span{font-size: 18px; font-weight: 600; width: 100px; color: #C4000E; padding-bottom: 15px; border-bottom: 1px solid #C4000E;}
+.siteMap .section_1 .type_a > div > div{display: flex;}
+.siteMap .section_1 .type_a > div > div:not(:last-child){margin-bottom: 20px;}
+.siteMap .section_1 .type_a > div > div > div{border-bottom: 1px solid #EEEEEE; display: flex; width: calc(100% - 100px);}
+.siteMap .section_1 .type_a > div > div > div a{text-decoration: none; display: block; font-size: 17px; font-weight: 500; color: #777777; padding: 0 20px 15px 20px;}
+.siteMap .section_1 .type_a > div > div > div a:hover{text-decoration: underline;}
+.siteMap .section_1 .type_b > div{border-bottom: 1px solid #EEEEEE; display: flex;}
+.siteMap .section_1 .type_b > div a{text-decoration: none; cursor: pointer; display: block; font-size: 17px; font-weight: 500; color: #777777;}
+.siteMap .section_1 .type_b > div a:not(:first-child){padding: 0 20px 15px 20px;}
+.siteMap .section_1 .type_b > div a:first-child{padding: 0 20px 15px 0;}
+.siteMap .section_1 .type_b > div a:hover{text-decoration: underline;}
+/* 이용안내 / 사이트맵 Fin */
+/* 이용안내 Fin */
+
+/* 사업분야 */
+.businessAreas .tabBtnBox{margin-bottom: 45px;}
+.businessAreas .section_1{padding-top: 100px;}
+.businessAreas .section_1 .bgBox{position: relative; background-repeat: no-repeat; background-size: cover; background-position: center; height: 380px;}
+.businessAreas .section_1 .bgBox > div{position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); text-align: center; width: 100%;}
+.businessAreas .section_1 .bgBox > div > span{display: block;}
+.businessAreas .section_1 .bgBox > div > span:nth-child(1){margin-bottom: 20px; font-size: 24px; font-weight: 800; color: #E01E25;}
+.businessAreas .section_1 .bgBox > div > span:nth-child(2){font-size: 48px; font-weight: 800; color: #FFFFFF;}
+.businessAreas .section_1 .bgBox > div p{font-weight: 400; font-size: 32px; color: #666666; line-height: 50px;}
+.businessAreas .section_1 .bgBox > div p strong{display: block; font-weight: 700; line-height: 50px;}
+
+.businessAreas .tabContentBox > div{display: none;}
+.businessAreas .tabContentBox > div.active{display: block;}
+
+.businessAreas:not(.shipbuilding_marine, .cng_rng_ngv, .hydrogen_tram, .semiconductor_display, .space_air) .tabContentBox .introduction > div:nth-child(1){padding-bottom: 50px; border-bottom: 1px solid #EEEEEE;}
+
+/* 또 다른 사업분야 확인하기 */
+.otherBusiness h3{margin-bottom: 25px;}
+.otherBusiness h3 span{position: relative; padding-right: 18px; font-size: 18px; font-weight: 500; line-height: 30px; color: #666666;}
+.otherBusiness h3 span:after{content: ''; position: absolute; right: 0; top: 50%; transform: translateY(-50%); background: url('/assets/images/otherBusiness_titleArrow.png') center / contain no-repeat; width: 6px; height: 11px;}
+.otherBusiness ul{margin-bottom: 80px; display: flex; flex-wrap: wrap;}
+.otherBusiness ul li{position: relative; cursor: pointer; box-sizing: border-box; transition: background 0.2s ease-out; background-color: rgba(51,51,51,0); position: relative; margin-bottom: 2%; padding: 30px 0; border: 1px solid #EEEEEE; border-radius: 5px; width: 23%;}
+.otherBusiness ul li > a{position: absolute; width: 100%; height: 100%; left: 0; top: 0; z-index: 9;}
+.otherBusiness ul li:hover{background-color: rgba(51,51,51,1);}
+.otherBusiness ul li:not(:nth-child(4n)){margin-right: 2.66%;}
+/* .otherBusiness ul li .link{position: absolute; width: 100%; height: 100%; left: 0; top: 0; z-index: 1;} */
+.otherBusiness ul li > span:not(.link){text-align: center; display: block; margin: 0 auto;}
+.otherBusiness ul li > span:not(.link):nth-of-type(1):after{content: ''; margin: 0 auto 15px; display: block; background-repeat: no-repeat; background-position: center; background-size: contain; transition: background 0.3s ease-out;}
+.otherBusiness ul li.oil_gas > span:nth-of-type(1):after{background-image: url('/assets/images/oil_gas_gray.png'); width: 60px; height: 70px;}
+.otherBusiness ul li.oilRefining_chemistry > span:nth-of-type(1):after{background-image: url('/assets/images/oilRefining_chemistry_gray.png'); width: 60px; height: 70px;}
+.otherBusiness ul li.epc > span:nth-of-type(1):after{background-image: url('/assets/images/epc_gray.png'); width: 60px; height: 70px;}
+.otherBusiness ul li.shipbuilding_marine > span:nth-of-type(1):after{background-image: url('/assets/images/shipbuilding_marine_gray.png'); width: 60px; height: 70px;}
+.otherBusiness ul li.machine_equipment > span:nth-of-type(1):after{background-image: url('/assets/images/machine_equipment_gray.png'); width: 60px; height: 70px;}
+.otherBusiness ul li.cng_rng_ngv > span:nth-of-type(1):after{background-image: url('/assets/images/cng_rng_ngv_gray.png'); width: 60px; height: 70px;}
+.otherBusiness ul li.hydrogen_tram > span:nth-of-type(1):after{background-image: url('/assets/images/hydrogen_tram_gray.png'); width: 60px; height: 70px;}
+.otherBusiness ul li.semiconductor_display > span:nth-of-type(1):after{background-image: url('/assets/images/semiconduct_display_gray.png'); width: 60px; height: 70px;}
+.otherBusiness ul li.space_air > span:nth-of-type(1):after{background-image: url('/assets/images/space_air_gray.png'); width: 60px; height: 70px;}
+.otherBusiness ul li > span:nth-of-type(2){font-size: 16px; font-weight: 500; color: #999999;}
+.otherBusiness ul li:hover > span:nth-of-type(2){color: #fff;}
+.otherBusiness ul li.oil_gas:hover > span:nth-of-type(1):after{background-image: url('/assets/images/oil_gas_white.png');}
+.otherBusiness ul li.oilRefining_chemistry:hover > span:nth-of-type(1):after{background-image: url('/assets/images/oilRefining_chemistry_white.png');}
+.otherBusiness ul li.epc:hover > span:nth-of-type(1):after{background-image: url('/assets/images/epc_white.png');}
+.otherBusiness ul li.shipbuilding_marine:hover > span:nth-of-type(1):after{background-image: url('/assets/images/shipbuilding_marine_white.png');}
+.otherBusiness ul li.machine_equipment:hover > span:nth-of-type(1):after{background-image: url('/assets/images/machine_equipment_white.png');}
+.otherBusiness ul li.cng_rng_ngv:hover > span:nth-of-type(1):after{background-image: url('/assets/images/cng_rng_ngv_white.png');}
+.otherBusiness ul li.hydrogen_tram:hover > span:nth-of-type(1):after{background-image: url('/assets/images/hydrogen_tram_white.png');}
+.otherBusiness ul li.semiconductor_display:hover > span:nth-of-type(1):after{background-image: url('/assets/images/semiconduct_display_white.png');}
+.otherBusiness ul li.space_air:hover > span:nth-of-type(1):after{background-image: url('/assets/images/space_air_white.png');}
+/* 또 다른 사업분야 확인하기 Fin */
+
+/* 탭 - 분야소개 */
+.businessAreas .tabContentBox .introduction h3,
+.businessAreas .tabContentBox .introduction h3 span{font-size: 22px;}
+.businessAreas .tabContentBox .introduction h3{font-weight: 600; margin-bottom: 30px;}
+.businessAreas .tabContentBox .introduction h3 span{color: #E01E25; margin-right: 10px;}
+
+.businessAreas .tabContentBox .introduction p,
+.businessAreas .tabContentBox .introduction p > mark,
+.businessAreas .tabContentBox .introduction p strong,
+.businessAreas .tabContentBox .introduction p strong > mark,
+.businessAreas .tabContentBox .introduction .link,
+.businessAreas .tabContentBox .introduction .red,
+.businessAreas .tabContentBox .introduction .light_red,
+.businessAreas .tabContentBox .introduction .blue,
+.businessAreas .tabContentBox .introduction .grayBox dl dt,
+.businessAreas .tabContentBox .introduction .grayBox dl dd,
+.businessAreas .tabContentBox .introduction .grayBox > ul li p{font-size: 20px; line-height: 36px;}
+.businessAreas .tabContentBox .introduction h3 span,
+.businessAreas .tabContentBox .introduction p,
+.businessAreas .tabContentBox .introduction p > mark,
+.businessAreas .tabContentBox .introduction .link,
+.businessAreas .tabContentBox .introduction .grayBox dl dd,
+.businessAreas .tabContentBox .introduction .grayBox > ul li p{font-weight: 400;}
+.businessAreas .tabContentBox .introduction p strong,
+.businessAreas .tabContentBox .introduction p strong > mark,
+.businessAreas .tabContentBox .introduction .red,
+.businessAreas .tabContentBox .introduction .light_red,
+.businessAreas .tabContentBox .introduction .blue,
+.businessAreas .tabContentBox .introduction .grayBox dl dt{font-weight: 500;}
+.businessAreas .tabContentBox .introduction h3,
+.businessAreas .tabContentBox .introduction p,
+.businessAreas .tabContentBox .introduction p strong,
+.businessAreas .tabContentBox .introduction p strong > mark,
+.businessAreas .tabContentBox .introduction .grayBox dl dt{color: #444444;}
+.businessAreas .tabContentBox .introduction p > mark{background-color: transparent; text-decoration: underline; color: #666666;}
+.businessAreas .tabContentBox .introduction p strong > mark{background-color: transparent; text-decoration: underline;}
+.businessAreas .tabContentBox .introduction .link{color: #0E56A7; text-decoration: underline;}
+.businessAreas .tabContentBox .introduction .red{color: #C4000E;}
+.businessAreas .tabContentBox .introduction .light_red{color: #E01E25;}
+.businessAreas .tabContentBox .introduction .blue{color: #0E56A7;}
+.businessAreas .tabContentBox .introduction .grayBox{background-color: #F9F9F9; border-radius: 5px; padding: 30px 35px; box-sizing: border-box;}
+.businessAreas .tabContentBox .introduction .grayBox dl dt,
+.businessAreas .tabContentBox .introduction .grayBox dl dd,
+.businessAreas .tabContentBox .introduction .grayBox > ul li p{padding-left: 18px;}
+.businessAreas .tabContentBox .introduction .grayBox dl dt{position: relative;}
+.businessAreas .tabContentBox .introduction .grayBox dl dt:before,
+.businessAreas .tabContentBox .introduction .grayBox > ul li p:before{content: ''; display: block; position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 6px; height: 6px; background-color: #666666; border-radius: 100%;}
+.businessAreas .tabContentBox .introduction .grayBox dl dd{color: #666666;}
+.businessAreas .tabContentBox .introduction .grayBox > ul li p{color: #555555; position: relative;}
+.businessAreas .tabContentBox .introduction > div > p:not(:last-child){margin-bottom: 40px;}
+.businessAreas .tabContentBox .introduction p mark{font-style: normal;}
+/* 탭 - 분야소개 Fin */
+
+/* 탭 - 관련제품 */
+.businessAreas .productList{margin-bottom: 80px; display: flex; flex-wrap: wrap;}
+.businessAreas .productList li{box-sizing: border-box; cursor: pointer; position: relative; margin-bottom: 2%; border: 1px solid #EEEEEE; border-radius: 10px; width: 24%;}
+.businessAreas .productList li:not(:nth-child(4n)){margin-right: 1.33%;}
+.businessAreas .productList li a{position: absolute; z-index: 1; width: 100%; height: 100%; left: 0; top: 0;}
+.businessAreas .productList li .thumbBox{overflow: hidden; border-bottom: 1px solid #EEEEEE; height: 180px;}
+.businessAreas .productList li .thumbBox img{height: 180px; width: 100%; object-fit: contain;}
+.businessAreas .productList li .titleBox{height: 85px; padding: 15px 25px; box-sizing: border-box; background-color: #FBFBFB;}
+.businessAreas .productList li .titleBox span{font-size: 18px; font-weight: 500; color: #3D3D3D;}
+/* 탭 - 관련제품 Fin */
+
+/* 탭 - 관련 인증서 */
+.businessAreas .related_certificates > div > span{font-size: 18px; font-weight: 500; display: block; color: #666666; margin-bottom: 25px;}
+.businessAreas .related_certificates > div:not(:last-child){margin-bottom: 60px;}
+.businessAreas .related_certificates > div:last-child{margin-bottom: 140px;}
+.businessAreas .related_certificates table{width: 100%; border-top: 1px solid #999999;}
+.businessAreas .related_certificates table thead tr th{font-size: 18px; color: #444444; font-weight: 600; background-color: #FBFBFB;}
+.businessAreas .related_certificates table thead tr th:nth-child(1),
+.businessAreas .related_certificates table tbody tr td:nth-child(1){text-align: left;}
+.businessAreas .related_certificates table thead tr th:nth-child(2){width: 115px;}
+.businessAreas .related_certificates table thead tr th,
+.businessAreas .related_certificates table tbody tr td{padding: 25px 30px; box-sizing: border-box;}
+.businessAreas .related_certificates table tbody tr td{font-size: 16px; font-weight: 400; color: #555555;}
+/* 탭 - 관련 인증서 Fin */
+/* 사업분야 Fin */
+
+
+/* 사업분야 / 에너지 / 오일/가스 */
+.oilAndGas .tabContentBox .introduction > div:nth-child(2){padding: 50px 0 140px 0;}
+.oilAndGas .tabContentBox .introduction > div:nth-child(4){padding-top: 140px;}
+/* 사업분야 / 에너지 / 오일/가스 Fin */
+
+/* 사업분야 / 에너지 / 정유/화학 */
+.oilRefining_chemistry .tabContentBox .grayBox ul li:not(:last-child){margin-bottom: 25px;}
+.oilRefining_chemistry .introduction > div:nth-child(2){padding-top: 50px;}
+.oilRefining_chemistry .introduction > div:nth-child(2),
+.oilRefining_chemistry .introduction > div:nth-child(3),
+.oilRefining_chemistry .introduction > div:nth-child(4){margin-bottom: 70px;}
+.oilRefining_chemistry .introduction > div:nth-child(4){padding-bottom: 50px; border-bottom: 1px solid #EEEEEE;}
+/* 사업분야 / 에너지 / 정유/화학 Fin */
+
+/* 사업분야 / 에너지 / 기계/장비 */
+.machine_equipment .tabContentBox .introduction > div:nth-child(2) strong{display: block;}
+/* 사업분야 / 에너지 / 기계/장비 Fin */
+
+/* 마진값 공통 */
+.businessAreas:not(.oilRefining_chemistry) .tabContentBox .grayBox ul li:not(:last-child){margin-bottom: 30px;}
+
+.oilAndGas .tabContentBox .grayBox,
+.epc .introduction > div:nth-child(2) .grayBox,
+.machine_equipment .tabContentBox .introduction .grayBox,
+.cng_rng_ngv .tabContentBox .grayBox,
+.hydrogen_tram .tabContentBox .grayBox{margin-bottom: 40px;}
+/* 마진값 공통 Fin */
+
+/* 패딩값 공통 */
+.epc .introduction > div:nth-child(2),
+.machine_equipment .tabContentBox .introduction > div:nth-child(2){padding-top: 50px;}
+
+.oilAndGas .tabContentBox .introduction > div:nth-child(4),
+.oilRefining_chemistry .introduction > div:nth-child(5),
+.epc .introduction > div:nth-child(2),
+.shipbuilding_marine .tabContentBox .introduction > div:nth-child(1),
+.machine_equipment .tabContentBox .introduction > div:nth-child(2),
+.cng_rng_ngv .tabContentBox .introduction > div:nth-child(1),
+.hydrogen_tram .tabContentBox .introduction > div:nth-child(1),
+.semiconductor_display .tabContentBox .introduction > div:nth-child(1),
+.space_air .tabContentBox .introduction > div:nth-child(1){padding-bottom: 140px;}
+/* 패딩값 공통 Fin */
+
+/* bgBox */
+.oilAndGas .section_1 .bgBox{background-image: url('/assets/images/oilAndGas_bgBox.png');}
+.oilRefining_chemistry .section_1 .bgBox{background-image: url('/assets/images/oilRefining_chemistry_bgBox.png');}
+.epc .section_1 .bgBox{background-image: url('/assets/images/epc_bgBox.png');}
+.shipbuilding_marine .section_1 .bgBox{background-image: url('/assets/images/shipbuilding_marine_bgBox.png');}
+.machine_equipment .section_1 .bgBox{background-image: url('/assets/images/machine_equipment_bgBox.png');}
+.cng_rng_ngv .section_1 .bgBox{background-image: url('/assets/images/cng_rng_ngv_bgBox.png');}
+.hydrogen_tram .section_1 .bgBox{background-image: url('/assets/images/hydrogen_tram_bgBox.png');}
+.semiconductor_display .section_1 .bgBox{background-image: url('/assets/images/semiconductor_display_bgBox.png');}
+.space_air .section_1 .bgBox{background-image: url('/assets/images/space_air_bgBox.jpg');}
+/* bgBox Fin */
+
+/* 컨텐츠 내 이미지 공통 */
+.shipbuilding_marine .tabContentBox .introduction > div:nth-child(1) img,
+.semiconductor_display .tabContentBox .introduction > div:nth-child(1) img,
+.space_air .tabContentBox .introduction > div:nth-child(1) img{width: 100%; display: block; padding: 20px 0 50px 0;}
+/* 컨텐츠 내 이미지 공통 Fin */
+
+/* 탭버튼 3칸 공통 */
+.businessAreas .tabBtnBox{display: flex;}
+.businessAreas:not(.hydrogen_tram, .space_air) .tabBtnBox button{width: 33.33%;}
+.hydrogen_tram .tabBtnBox button,
+.space_air .tabBtnBox button{width: 50%;}
+.businessAreas .tabBtnBox button{position: relative; padding: 24px 0; font-size: 19px; font-weight: 500; color: #444444; border: none; background-color: #FBFBFB;}
+.businessAreas .tabBtnBox button.active{background-color: #0054A7; color: #fff;}
+.businessAreas .tabBtnBox button:not(:last-child):after{content: ''; display: block; width: 1px; height: 20px; background-color: #DDDDDD; z-index: 1; right: 0; top: 50%; transform: translateY(-50%); position: absolute;}
+.businessAreas .tabBtnBox button:not(:last-child).active:after{display: none;}
+/* 탭버튼 3칸 공통 Fin */
+/* 사업분야 Fin */
+
+
+/* 리스트 제목 말줄임 공통 */
+.dotdot{display: block; height: 50px;}
+/* 리스트 제목 말줄임 공통 Fin */
+
+/* viewPage 공통 - 투자정보/전자공고 , 홍보센터/뉴스룸/보도자료 */
+.view .section_1 .pdfListBox{margin-top: 25px;}
+.view .section_1 .pdfListBox > span{font-size: 16px; font-weight: 400; color: #666666; display: block; margin-bottom: 15px;}
+.view .section_1 .pdfListBox > div{padding: 15px 20px; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center;}
+.view .section_1 .pdfListBox > div{border-top: 1px solid #EEEEEE; cursor: pointer;}
+.view .section_1 .pdfListBox > div span:nth-child(1){display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 16px; font-weight: 400; color: #666666; padding-left: 33px; position: relative;}
+.view .section_1 .pdfListBox > div span:nth-child(1):before{content: ''; display: block; position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 22px; height: 25px; background: url('/assets/images/pdf_icon.png') center / contain no-repeat;}
+.view .section_1 .pdfListBox > div span:nth-child(2){display: block; font-size: 14px; font-weight: 400; color: #0A77FF;}
+.view .section_1 .pdfListBox button{background-color: transparent; border: none; font-size: 14px; font-weight: 400; color: #0A77FF;}
+
+.view .titleList{margin-bottom: 25px;}
+.view .titleList > div{padding: 35px 50px; box-sizing: border-box;}
+.view .titleList > div:nth-child(1){display: flex; border-top: 1px solid #DDDDDD; border-bottom: 1px solid #DDDDDD;}
+.view .titleList > div:nth-child(2){display: flex; border-bottom: 1px solid #666666;}
+.view .titleList > div span{line-height: 20px; text-decoration: none; font-size: 16px;}
+.view .titleList > div span:nth-child(1){font-weight: 600; color: #444444; padding-left: 20px; position: relative;}
+.view .titleList > div span:nth-child(1):before{content: ''; position: absolute; background-repeat: no-repeat; background-position: center; background-size: contain; width: 8px; height: 5px; left: 0; top: 50%; transform: translateY(-50%);}
+.view .titleList > div:nth-child(1) span:nth-child(1):before{background-image: url('/assets/images/blog_view_arrow_up.png');}
+.view .titleList > div:nth-child(2) span:nth-child(1):before{background-image: url('/assets/images/blog_view_arrow_down.png');}
+.view .titleList > div span:nth-child(2){width: calc(100% - 120px); display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-left: 50px; color: #666666; font-weight: 400;}
+.view .section_1 .btnBox{display: flex; justify-content: center;}
+.view .section_1 .btnBox a{text-decoration: none; padding: 10px 25px; font-size: 17px; color: #fff; font-weight: 400; background-color: #444444; border-radius: 5px;}
+/* viewPage 공통 Fin */
+
+
+.landingPage{padding: 65px 0; background-color: #F9F9F9;}
+.landingPage p{text-align: center;}
+.landingPage > p:nth-child(1){margin-bottom: 10px; padding-top: 50px; position: relative;}
+.landingPage > p:nth-child(1):before{content: ''; display: block; position: absolute; left: 50%; top: 0; transform: translateX(-50%); background: url('/assets/images/message-dots.png') center / contain no-repeat; width: 28px; height: 28px;}
+.landingPage > p:last-of-type{margin-bottom: 45px;}
+.landingPage p{font-size: 16px; font-weight: 500; line-height: 24px; color: #666666;}
+.landingPage p strong{font-size: 18px; font-weight: 700; color: #444444; line-height: 24px;}
+.landingPage button{transition: color 0.2s ease-out; width: 160px; display: block; margin: 0 auto; border: 1px solid #666666; color: #666666; font-size: 16px; font-weight: 600; padding: 14px 0; border-radius: 10px; background-color: #F9F9F9;}
+.landingPage button:hover{color: #444444; border-color: #444444;}
+.whistle_blow .landingPage{margin-top: 40px;}
+/* landingPage Fin */
+
+.mainPopUp{height: 600px; overflow-y: auto; z-index: 9999; display: none; filter: drop-shadow(0px 3px 20px rgba(0, 0, 0, 0.08)); border-radius: 15px; position: fixed; bottom: 40px; right: 120px; width: 500px;}
+.mainPopUp.active{display: block;}
+.mainPopUp > div:nth-child(1){line-height: 0;}
+.mainPopUp > div img{width: 100%;}
+.mainPopUp > div:nth-child(2){position: sticky; left: 0; bottom: 0; width: 100%; border-radius: 0 0 15px 15px; padding: 0 25px; box-sizing: border-box; display: flex; justify-content: space-between; background-color: #333333; height: 45px; align-items: center;}
+.mainPopUp > div:nth-child(2) button{padding: 0; color: #EEEEEE; background-color: transparent; border: none; font-size: 14px; font-weight: 500;}
+
+
+
+@media screen and (max-width:1600px){
+  .mainPopUp{width: auto;}
+  .mainPopUp{height: 90%; overflow: auto;}
+  .mainPopUp > div:nth-child(1){background-color: #fff; height: calc(100% - 45px);}
+  .mainPopUp > div img{height: 100%; object-fit: contain;}
+  .mainPopUp > div:nth-child(2){position: absolute; left: 0; bottom: 0; width: 100%;}
+
+  h2,
+  .mainPage .section_2,
+  .mainPage .section_3,
+  .mainPage .section_4 > div,
+  .subNavBox,
+  .stickyNavBox > div,
+  .company_introduction .section_1 .bgBox,
+  .managementPhilosophy .section_1 > div:nth-child(2),
+  .managementPhilosophy .section_2 > div,
+  .managementPhilosophy .section_3 > div,
+  .ceo_greetings .section_2,
+  .growth_process .section_2,
+  .ci_bi .section_2,
+  .quality_assurance .section_1,
+  .investment_information .section_1,
+  .service_network .section_1,
+  .sustainable_management .section_1 > ul,
+  .sustainable_management.anti_bribery_policy .section_1 .grayBox,
+  .sustainable_management.whistle_blow .section_1,
+  .product_classification.all_product .section_1,
+  .product_classification .section_1,
+  .customer_support .section_1,
+  .public_relationsCenter.newsRoom .section_1,
+  .public_relationsCenter.mediaCenter .section_1,
+  .esg .section_1 > div,
+  .esg .section_2,
+  .esg .section_3,
+  .informationUse .section_1,
+  .newsRoom_view .section_1,
+  .businessAreas .section_1 .bgBox,
+  .businessAreas .section_1 .bgBox > div,
+  .businessAreas .section_2,
+  .environment_safety_health .section_1 .hseBox .left,
+  .environment_safety_health .section_1 .isoBox{width: 90%;}
+
+  .newsRoom_view img{width: 100%;}
+  /* 메인페이지 */
+  .mainPage .section_1 h2{text-align: center;}
+  .mainPage .section_2 > ul{padding: 0;}
+  .mainPage .section_3 h2{width: 100%;}
+  .mainPage .section_3 .left > div{padding: 30px;}
+  .mainPage .section_3 .left p,
+  .mainPage .section_3 .left p strong{word-break: keep-all;}
+  .mainPage .section_3 .left .tabMenuBox{width: 90%; left: 50%; transform: translateX(-50%);}
+  .mainPage .section_3 .left .tabMenuBox button{padding: 30px 50px;}
+  /* 메인페이지 Fin */
+
+  .stickyNavBox > div{width: 100%;}
+
+  /* 홍보센터 / 미디어센터 / 디케이락 스토리 */
+  .public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div{flex-wrap: wrap;}
+  .public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div > span{margin-bottom: 10px; width: 100%; display: block;}
+  /* 홍보센터 / 미디어센터 / 디케이락 스토리 Fin */
+
+  /* 투자정보 / 전자공시 */
+  .public_announcement .section_1 > div:nth-child(1),
+  .public_announcement .section_1 > div:nth-child(2){width: 100%; float: none;}
+  /* 투자정보 / 전자공시 Fin */
+
+  /* 지속가능경영 / ESG 소개 */
+  .esg .section_1 .wrap .right > div{justify-content: space-between;}
+  .esg .section_1 .wrap .right > div > ul{margin-left: 80px; width: calc(100% - 80px);}
+  .esg .section_1 .wrap .right > div > ul li{width: 49%;}
+  .esg .section_1 .wrap .right > div > ul li:not(:nth-child(2n)){margin-right: 2%;}
+  /* 지속가능경영 / ESG 소개 Fin */
+
+  /* 지속가능경영 / 환경안전보건 */
+  .environment_safety_health .section_1 .hseBox .left{align-content: flex-start;}
+  .environment_safety_health .section_1 .hseBox .left > div:nth-child(1){margin-bottom: 80px;}
+  .environment_safety_health .section_1 .hseBox .right{width: 55%; right: 5%;}
+  .environment_safety_health .section_1 .hseSlider .slick-slide{padding-right: 0;}
+  .environment_safety_health .section_1 .hseSlider .contentBox span{width: 200px; padding: 20px;}
+  .environment_safety_health .section_1 .hseSlider .contentBox dl{width: calc(100% - 200px); padding: 20px;}
+  /* 지속가능경영 / 환경안전보건 Fin */
+
+  /* 지속가능경영 / 클린신고 */
+  .whistle_blow .section_1 .history-part .tit-tbl-box:nth-of-type(3) .radioBox{flex-wrap: wrap;}
+  .whistle_blow .section_1 .history-part .tit-tbl-box:nth-of-type(3) .radioBox > div{width: 33.33%;}
+  .whistle_blow .section_1 .history-part .tit-tbl-box:nth-of-type(3) .radioBox > div:not(:last-child){margin-bottom: 10px;}
+  .whistle_blow .section_1 .history-part .tit-tbl-box:nth-of-type(3) .radioBox div:not(:first-child){margin-left: 0;}
+  /* 지속가능경영 / 클린신고 Fin */
+  
+  /* 제품 */
+  .product_classification_view .prod-view .modeling-box{overflow: visible; padding-right: 0;}
+  .product_classification_view #modelFrame,
+  .product_classification_view p{padding-right: 0;}
+  .product_classification_view .modeling-box .model-2d{top: 700px; width: 100%;}
+  .product_classification_view .modeling-info{margin-top: 700px;}
+
+  /* 회사소개 / 품질보증 공통 */
+  .data-table {width:100%; overflow-x: auto;}
+	.data-table table {width:1480px;}
+	.data-table table thead td {font-size:16px;}
+	.data-table table tbody td {font-size:16px;}
+  /* 회사소개 / 품질보증 공통 Fin */
+
+  .contactUs .addOptionBox ul{justify-content: left;}
+  .contactUs .addOptionBox ul li{width: 33.33%;}
+  .contactUs .addOptionBox ul li:not(:nth-child(1)){margin-left: 0;}
+  .contactUs .addOptionBox ul li:not(:nth-child(1), :nth-child(2), :nth-child(3)){margin-top: 50px;}
+}
+
+@media (hover: hover) and (min-width: 1024px){
+  .stickyNavBox > div > div > span + ul li:hover{background-color: #F9F9F9;}
+  .stickyNavBox > div > div > span + ul li a:hover{color: #555555;}
+  .stickyNavBox > div > div:hover > span + ul,
+  .stickyNavBox > div > div > span:hover + ul{visibility: visible; opacity: 1;}
+}
+
+@media screen and (max-width:1023px){
+  .mainPopUp{left: 50%; top: 50%; transform: translate(-50%, -50%);}
+
+  /* 메인페이지 */
+  .mainPage .center p{text-align: center; left: 50%; bottom: auto; top: 50%; transform: translate(-50%, -50%); width: 100%;}
+  .mainPage .section_2{padding: 100px 0 65px 0;}
+  .mainPage .section_3{padding-bottom: 70px;}
+  .mainPage .section_4{padding: 60px 0;}
+  .mainPage .section_3 > div{flex-wrap: wrap;}
+  .mainPage .section_3 .left,
+  .mainPage .section_3 .right{width: 100%;}
+  .mainPage .section_3 .right > div{padding: 55px 0 20px 0;}
+  .mainPage .section_3 .left > div{padding: 50px 50px 80px 50px;}
+  .mainPage .section_3 .left .tabMenuBox{display: flex; top: 250px;}
+  .mainPage .section_3 .left .tabMenuBox button{width: 33.33%; padding: 20px;}
+  .mainPage .section_3 .left .tabMenuBox button:not(:last-child){margin-bottom: 0;}
+  /* 메인페이지 Fin */
+
+  .stickyNavBox > div > div > span + ul.active{visibility: visible; opacity: 1;}
+
+  .subNavBox{flex-wrap: wrap; flex-direction: column-reverse;}
+  .subNavBox ul{width: 100%;}
+  .subNavBox ul:nth-child(1){overflow-x: auto; flex-wrap: nowrap;}
+  .subNavBox ul:nth-child(1) li.active{order: -1;}
+  .subNavBox ul:nth-child(1) li:not(:first-child){margin-left: 0;}
+  .subNavBox ul:nth-child(1) li:not(.active){margin-left: 45px;}
+  .subNavBox ul:nth-child(1) li a{text-align: center; width: 130px; font-size: 18px;}
+  .subNavBox ul:nth-child(2){margin-bottom: 80px;}
+
+  .banner_area{height: 450px;}
+
+  /* 회사소개 / 기업소개 공통 */
+  .company_introduction .section_1 .bgBox > div p{word-break: keep-all; width: 90%; margin: 0 auto; font-size: 24px; line-height: 34px;}
+  .company_introduction .section_1 .bgBox > div p strong{line-height: 34px;}
+  /* 회사소개 / 기업소개 공통 Fin */
+
+  /* 회사소개 / 기업소개 / 경영이념 */
+  .managementPhilosophy h3.sticky span:not(:first-child){font-size: 38px; line-height: 48px;}
+  .managementPhilosophy h3.sticky span br{display: none;}
+  /* 회사소개 / 기업소개 / 경영이념 Fin */
+
+  /* 회사소개 / 기업소개 / CEO 인사말 */
+  .ceo_greetings .section_2 > div > div{float: none;}
+  .ceo_greetings .section_2 > div > div:nth-child(1),
+  .ceo_greetings .section_2 > div > div:nth-child(2){width: 100%;}
+  .ceo_greetings .section_2 h3,
+  .ceo_greetings .section_2 > div > div:nth-child(1) > p:nth-child(1),
+  .ceo_greetings .section_2 > div > div:nth-child(1) > p:nth-child(2){word-break: keep-all; text-align: center;}
+  .ceo_greetings .section_2 > div > div:nth-child(1){padding-right: 0;}
+  .ceo_greetings .section_2 > div > div:nth-child(1) > p:nth-child(1),
+  .ceo_greetings .section_2 > div > div:nth-child(1) > p:nth-child(1) span{font-size: 32px; line-height: 45px;}
+  .ceo_greetings .section_2 > div > div:nth-child(1) img{margin-bottom: 30px;}
+  .ceo_greetings .section_2 > div > div:nth-child(2):after{height: 100px; width: 200px;}
+  /* 회사소개 / 기업소개 / CEO 인사말 Fin */
+
+  /* 사업분야 */
+  .businessAreas .section_1 .bgBox > div > span:nth-child(2){font-size: 38px;}
+  .businessAreas .subNavBox{flex-wrap: wrap; flex-direction: column-reverse;}
+  .businessAreas .subNavBox ul{width: 100%;}
+  .businessAreas .subNavBox ul:nth-child(1){overflow-x: auto; flex-wrap: nowrap;}
+  .businessAreas .subNavBox ul:nth-child(1) li.active{order: -1;}
+  .businessAreas .subNavBox ul:nth-child(1) li:not(:first-child){margin-left: 0;}
+  .businessAreas .subNavBox ul:nth-child(1) li:not(.active){margin-left: 45px;}
+  .businessAreas .subNavBox ul:nth-child(1) li a{text-align: center; width: 130px; font-size: 16px;}
+  .businessAreas .subNavBox ul:nth-child(2){margin-bottom: 80px;}
+
+  .businessAreas .productList li{width: 32.33%;}
+  .businessAreas .productList li:not(:nth-child(4n)){margin-right: 0;}
+  .businessAreas .productList li:not(:nth-child(3n)){margin-right: 1.5%;}
+  /* 사업분야 Fin */
+
+  /* 제품소개 / 제품분류 / 전체제품 */
+  .product_classification.all_product .section_1{height: 900px; flex-wrap: wrap;}
+  .product_classification.all_product .section_1 > div{padding-left: 0; background-repeat: no-repeat; background-size: cover; background-position: center; width: 100%; height: 300px; box-sizing: border-box;}
+  .product_classification.all_product .section_1 > div:nth-child(1){background-image: url('/assets/images/instrumentation_thumb.png');}
+  .product_classification.all_product .section_1 > div:nth-child(2){background-image: url('/assets/images/semiconductor_thumb.png');}
+  .product_classification.all_product .section_1 > div:nth-child(3){background-image: url('/assets/images/processValves_thumb.png');}
+  .product_classification.all_product .section_1 > div > div{left: 50%; transform: translateX(-50%);}
+  .product_classification.all_product .section_1 > div h3,
+  .product_classification.all_product .section_1 > div p{color: rgba(255,255,255,1);}
+  /* 제품소개 / 제품분류 / 전체제품 Fin */
+
+  /* 제품소개 / 제품분류 */
+  .productSideBar{box-sizing: border-box; padding: 80px 20px 30px 20px !important; background-color: #fff; transition: left 0.6s; top: 0; overflow-y: auto; position: fixed; left: -100%; height: 100%; z-index: 9999;}
+  .productSideBar.active{left: 0;}
+
+  .product_classification .section_1 > .right{width: 100%; padding-left: 0;}
+  .product_classification .section_1 .productList li{ width: 49%;}
+  .product_classification .section_1 .productList li:not(:nth-child(3n)){margin-right: 0;}
+  .product_classification .section_1 .productList li:not(:nth-child(2n)){margin-right: 2%;}
+  /* 제품소개 / 제품분류 Fin */
+  
+  /* 제품소개 / 고객지원 / 카탈로그 */
+  .customer_support.catalogue .tabMenuBox{width: 100%; overflow-x: auto;}
+  .customer_support.catalogue .tabMenuBox li.active{order: -1;}
+  .customer_support.catalogue .tabMenuBox li:not(:first-child){margin-left: 0;}
+  .customer_support.catalogue .tabMenuBox li:not(:first-child){margin-left: 0;}
+  .customer_support.catalogue .tabMenuBox li span{width: 200px; text-align: center;}
+
+  .customer_support.catalogue .prod-list ul li{width: 49%;}
+  .customer_support.catalogue .prod-list ul li:not(:nth-child(4n)){margin-right: 0;}
+  .customer_support.catalogue .prod-list ul li:not(:nth-child(2n)){margin-right: 2%;}
+  /* 제품소개 / 고객지원 / 카탈로그 Fin */
+
+  /* 제품소개 / 고객지원 / 문의하기 */
+  .contactUs form fieldset > div:nth-child(1) ul li:not(:nth-child(5)),
+  .contactUs form fieldset > div:nth-child(1) ul li:nth-child(5){width: 49%;}
+  .contactUs form fieldset > div:nth-child(1) ul li:not(:nth-child(4n)){margin-right: 0;}
+  .contactUs form fieldset > div:nth-child(1) ul li:not(:nth-child(2n)){margin-right: 2%;}
+  
+  .contactUs .addOptionBox ul{padding: 30px 35px;}
+  /* 제품소개 / 고객지원 / 문의하기 Fin */
+
+  /* 홍보센터 / 뉴스룸 / 보도자료 */
+  .newsRoom_view .section_1 h4{font-size: 38px; line-height: 48px;}
+  .newsRoom_view .section_1{padding: 80px 0 100px 0;}
+  .public_relationsCenter.newsRoom .section_1 ul li{width: 49%;}
+  .public_relationsCenter.newsRoom .section_1 ul li:not(:nth-child(4n)){margin-right: 0;}
+  .public_relationsCenter.newsRoom .section_1 ul li:not(:nth-child(2n)){margin-right: 2%;}
+  /* 홍보센터 / 뉴스룸 / 보도자료 Fin */
+
+  /* 홍보센터 / 미디어센터 / 디케이락 스토리 */
+  .public_relationsCenter.dklokStory .section_1 .dklokStoryList li{width: 49%;}
+  .public_relationsCenter.dklokStory .section_1 .dklokStoryList li:not(:nth-child(4n)){margin-right: 0;}
+  .public_relationsCenter.dklokStory .section_1 .dklokStoryList li:not(:nth-child(2n)){margin-right: 2%;}
+  /* 홍보센터 / 미디어센터 / 디케이락 스토리 Fin */
+
+  /* 홍보센터 / 미디어센터 / 홍보영상 */
+  .public_relationsCenter.promotinal_video .section_1{padding: 80px 0 100px 0;}
+  /* 홍보센터 / 미디어센터 / 홍보영상 Fin */
+
+  /* 투자정보 / 전자공고 */
+  .investment_information .section_1{padding: 80px 0 85px 0;}
+  /* 투자정보 / 전자공고 Fin */
+
+  /* 투자정보 / 전자공시 */
+  .dart_wrapper iframe {width: 100%; height: 1000px; padding: 30px 0;}
+  /* 투자정보 / 전자공시 Fin */
+
+  
+  /* 지속가능경영 / ESG 소개 */
+  .esg .section_1 .wrap > div{flex-wrap: wrap;}
+  .esg .section_1 .wrap .left,
+  .esg .section_1 .wrap .right{width: 100%;}
+  .esg .section_1 .wrap .right{padding: 20px 0 0 0;}
+  .esg .section_1 .wrap .right > div{flex-wrap: wrap;}
+  .esg .section_1 .wrap .right > div > span,
+  .esg .section_1 .wrap .right > div > ul{width: 100%;}
+  .esg .section_1 .wrap .right > div > span{margin-bottom: 30px;}
+  .esg .section_1 .wrap .right > div > ul{margin-left: 0;}
+  .esg .section_1 .wrap .right > div > ul li{width: 100%; text-align: center;}
+  .esg .section_1 .wrap .right > div > ul li:not(:nth-child(2n)){margin-right: 0;}
+  .esg .section_3 .wrap ul li{width: 100%;}
+  .esg .section_3 .wrap ul li:not(:nth-child(2n)){margin-right: 0;}
+  /* 지속가능경영 / ESG 소개 Fin */
+
+  /* 지속가능경영 / 환경안전보건 */
+  .environment_safety_health .section_1 .centerBox img{width: 90%;}
+  .environment_safety_health .section_1 .left p br{display: none;}
+  .environment_safety_health .section_1 .left p{margin-bottom: 30px;}
+  .environment_safety_health .section_1 .hseBox .left > div:nth-child(1){margin-bottom: 0;}
+  .environment_safety_health .section_1 .hseBox .left > div:nth-child(2){margin-bottom: 30px;}
+  .environment_safety_health .section_1 .hseBox,
+  .environment_safety_health .section_1 .hseBox .left{height: auto;}
+  .environment_safety_health .section_1 .hseBox .right{position: static; width: 90%; margin: 0 auto;}
+  .environment_safety_health .section_1 .hseSlider .contentBox{flex-wrap: wrap;}
+  .environment_safety_health .section_1 .hseSlider .contentBox span,
+  .environment_safety_health .section_1 .hseSlider .contentBox dl{width: 100%;}
+  .environment_safety_health .section_1 .isoBox{flex-wrap: wrap;}
+  .environment_safety_health .section_1 .isoBox .left,
+  .environment_safety_health .section_1 .isoBox .right{width: 100%;}
+  /* 지속가능경영 / 환경안전보건 Fin */
+
+  /* 지속가능경영 / 클린신고 */
+  .whistle_blow .section_1 .history-part .tit-tbl-box:nth-of-type(2) .radioBox{flex-wrap: wrap;}
+  .whistle_blow .section_1 .history-part .tit-tbl-box:nth-of-type(2) .radioBox > div{width: 100%;}
+  .whistle_blow .section_1 .history-part .tit-tbl-box:nth-of-type(2) .radioBox div:first-child{margin-bottom: 20px;}
+  .whistle_blow .section_1 .history-part .tit-tbl-box:nth-of-type(2) .radioBox div:not(:first-child){margin-left: 0;}
+  .whistle_blow .section_1 .history-part .tit-tbl-box:nth-of-type(3) .radioBox > div{width: 49%;}
+  .whistle_blow .section_1 .history-part .tit-tbl-box:nth-of-type(3) .radioBox > div:not(:nth-child(2n)){margin-right: 2%;}
+  .whistle_blow .section_1 .history-part .tit-tbl-box:nth-of-type(3) .radioBox div:not(:first-child){margin-left: 0;}
+  /* 지속가능경영 / 클린신고 Fin */
+
+  /* 이용안내 / 사이트맵 */
+  .siteMap .section_1 > div,
+  .siteMap .section_1 .type_a > div > div,
+  .siteMap .section_1 .type_a > div > div > div,
+  .siteMap .section_1 .type_b > div{flex-wrap: wrap;}
+  .siteMap .section_1 > div > div,
+  .siteMap .section_1 > div > span,
+  .siteMap .section_1 .type_a > div > div > div,
+  .siteMap .section_1 .type_a > div > div > div a,
+  .siteMap .section_1 .type_b > div span{width: 100%;}
+  .siteMap .section_1 .type_a > div > div > div,
+  .siteMap .section_1 .type_b > div{border-bottom: none;}
+  .siteMap .section_1 > div > span{margin-bottom: 30px;}
+  .siteMap .section_1 .type_a > div > div > span{width: auto; margin-bottom: 20px;}
+  .siteMap .section_1 .type_a > div > div > div a{padding: 10px 0;}
+  .siteMap .section_1 .type_b > div span:not(:first-child),
+  .siteMap .section_1 .type_b > div span:first-child{padding: 10px 0;}
+  /* 이용안내 / 사이트맵 Fin */
+}
+@media screen and (max-width:767px){
+  .mainPopUp{width: 90%;}
+
+  .shareBox{right: 0; width: 90%; left: 50%; transform: translateX(-50%); padding: 20px 10px;}
+  .shareBox.active{bottom: 180px;}
+  .shareBox > div > div{width: 100%;}
+  .shareBox > div:nth-child(2) ul li a{width: 40px; height: 40px;}
+
+  .mainPage .section_1,
+  .company_introduction,
+  .quality_assurance,
+  .investment_information,
+  .service_network,
+  .sustainable_management,
+  .product_classification,
+  .customer_support,
+  .public_relationsCenter{padding-top: 170px;}
+
+
+  .mainPage .section_1,
+  .company_introduction,
+  .quality_assurance,
+  .investment_information,
+  .service_network,
+  .sustainable_management,
+  .product_classification,
+  .customer_support,
+  .public_relationsCenter,
+  .businessAreas,
+  .informationUse .grayBox{padding-top: 120px;}
+
+  /* 메인페이지 */
+  .mainPage .center img{height: 200px; object-fit: cover;}
+  .mainPage .center .slider:after,
+  .mainPage .center .slider,
+  .mainPage .center .slick-track{height: 200px;}
+  .mainPage .center p,
+  .mainPage .center p strong{font-size: 22px; line-height: 36px;}
+  .mainPage .section_1 h2,
+  .mainPage .section_1 h2 span{text-align: center; word-break: keep-all; font-size: 34px; line-height: 54px;}
+  .mainPage .section_1 h2 br{display: block;}
+  .mainPage .section_2 > p,
+  .mainPage .section_2 > p strong{font-size: 28px; line-height: 43px;}
+  .mainPage .section_2 > ul{justify-content: left;}
+  .mainPage .section_2 > ul li{width: 50%;}
+  .mainPage .section_3 h2{margin-bottom: 20px;}
+  .mainPage .section_3 .left > div{padding: 50px 20px 180px 20px;}
+  .mainPage .section_3 .left p{font-size: 24px; margin-bottom: 30px;}
+  .mainPage .section_3 .left .tabMenuBox{flex-wrap: wrap; top: 200px;}
+  .mainPage .section_3 .left .tabMenuBox button{width: 100%;}
+  .mainPage .section_3 .right > div > div{width: 100%;}
+  .mainPage .section_3 .right > div > div:not(:nth-child(2n)){margin-right: 0;}
+  .mainPage .section_4 p,
+  .mainPage .section_4 p strong{font-size: 28px; line-height: 43px;}
+  /* 메인페이지 Fin */
+
+  .subNavBox ul:nth-child(2) li a{font-size: 12px;}
+
+  .stickyNavBox > div > div:not(:last-of-type){display: none;}
+
+  .banner_area{height: 300px;}
+
+  .company_introduction h2,
+  .quality_assurance h2,
+  .investment_information h2,
+  .service_network h2,
+  .sustainable_management h2,
+  .product_classification h2,
+  .customer_support h2,
+  .public_relationsCenter h2,
+  .informationUse h2,
+  .businessAreas h2{font-size: 34px; line-height: 44px;}
+
+  /* viewPage 공통 */
+  .view .titleList > div{display: flex; justify-content: space-between; padding: 35px 10px;}
+  .view .titleList > div a:nth-child(1){display: block; text-indent: -9999px;}
+  .view .titleList > div a:nth-child(2){margin-left: 10px;}
+  /* viewPage 공통 Fin */
+
+  /* 회사소개 / 기업소개 / 경영이념 */
+  .managementPhilosophy .wrap > *{float: none;}
+  .managementPhilosophy h3.sticky{position: static; width: 100%; margin-bottom: 30px;}
+  .managementPhilosophy h3.sticky span:not(:first-child){font-size: 32px; line-height: 42px;}
+  .managementPhilosophy h3.sticky span.center{padding-right: 0;}
+  .managementPhilosophy .wrap > div{width: 100%;}
+  .company_introduction .section_1{padding-bottom: 30px;}
+  .managementPhilosophy .section_2{padding: 70px 0;}
+  .managementPhilosophy .section_3{padding: 70px 0 60px 0;}
+  .managementPhilosophy .section_2 .wrap > div > div:not(:last-child){margin-bottom: 70px;}
+  .managementPhilosophy .section_3 .wrap > div > div:nth-child(1) h4{font-size: 14px;}
+  .managementPhilosophy .section_3 .wrap ul{flex-wrap: wrap;}
+  .managementPhilosophy .section_3 .wrap ul li{width: 50%;}
+  .managementPhilosophy .section_3 .wrap ul li span{font-size: 12px;}
+  /* 회사소개 / 기업소개 / 경영이념 Fin */
+
+  /* 회사소개 / 기업소개 / 성장과정 */
+  .growth_process .section_2 .tabBtnBox button{font-size: 14px;}
+  .growth_process .section_2 .tabContentBox ul li > span{width: 100%; margin-bottom: 20px;}
+  /* 회사소개 / 기업소개 / 성장과정 Fin */
+
+  /* 회사소개 / 기업소개 / CI/BI */
+  .ci_bi .section_2 > div{margin-bottom: 50px;}
+  .ci_bi .section_2 > div:nth-child(2) > div{float: none; width: 100%;}
+  .ci_bi .section_2 > div:nth-child(2) > div:nth-child(1){margin-bottom: 30px;}
+  .ci_bi .section_2 > div:nth-child(2) > div:nth-child(2){margin-left: 0;}
+  .ci_bi .section_2 > div:nth-child(4) .colorBox{flex-wrap: wrap;}
+  .ci_bi .section_2 > div:nth-child(4) .colorBox > div{width: 100%;}
+  /* 회사소개 / 기업소개 / CI/BI Fin */
+
+  /* 회사소개 / 대리점 공통 */
+  .service_network .section_1 .tabMenuBox{width: 100%; overflow-x: auto;}
+  .service_network .section_1 .tabMenuBox li.active{order: -1;}
+  .service_network .section_1 .tabMenuBox li:not(:first-child){margin-left: 0;}
+  .service_network .section_1 .tabMenuBox li:not(:first-child){margin-left: 0;}
+  .service_network .section_1 .tabMenuBox li span{width: 100px; text-align: center;}
+  .service_network .section_1 .tabListBox > div > div{flex-wrap: wrap;}
+  .service_network .section_1 .tabListBox > div > div > div:nth-child(1){width: 100%; padding: 10px 20px;}
+  .service_network .section_1 .tabListBox > div > div > div:nth-child(2){padding: 20px; width: 100%;}
+  .service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li > *{font-size: 14px;}
+  .service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.address:before{top: 10px;}
+  /* 회사소개 / 대리점 공통 */
+
+
+  /* 사업분야 */
+  .businessAreas .tabBtnBox button{font-size: 14px;}
+  .businessAreas .tabContentBox .introduction .grayBox{padding: 25px 15px;}
+  .otherBusiness ul li{width: 49%;}
+  .otherBusiness ul li:not(:nth-child(4n)){margin-right: 0;}
+  .otherBusiness ul li:not(:nth-child(2n)){margin-right: 2%;}
+  .otherBusiness ul li > span:nth-of-type(2){font-size: 14px;}
+
+  .businessAreas .productList li{width: 100%;}
+  .businessAreas .productList li:not(:nth-child(3n)){margin-right: 0;}
+  /* 사업분야 Fin */
+
+  /* 제품소개 / 제품분류 */
+  .productSideBar.active .closeBtn{visibility: visible; opacity: 1; transition: left 0.6s; left: calc(100% - 60px); display: block;}
+  .productSideBar{margin-top: 0; width: 100%; z-index: 999;}
+
+  .product_classification .section_1 .productList li{width: 100%;}
+  .product_classification .section_1 .productList li:not(:nth-child(2n)){margin-right: 0;}
+
+  .product_classification.product_view .titleBox{flex-wrap: wrap;}
+  .product_classification.product_view .titleBox .name{width: 100%; margin-bottom: 20px;}
+
+  /* 제품소개 / 제품분류 */
+
+  /* 제품소개 / 고객지원 / 카탈로그 */
+  .customer_support.catalogue .prod-list ul li{width: 100%;}
+  .customer_support.catalogue .prod-list ul li:not(:nth-child(2n)){margin-right: 0;}
+  /* 제품소개 / 고객지원 / 카탈로그 Fin */
+
+  /* 제품소개 / 고객지원 / FAQ */
+  .faq .section_1 ul li > div{padding: 20px 10px;}
+  /* 제품소개 / 고객지원 / FAQ Fin */
+
+  /* 제품소개 / 고객지원 / 문의하기 */
+  .contactUs form fieldset > div h4,
+  .contactUs form fieldset h4 span{font-size: 34px; line-height: 44px;}
+  .contactUs form fieldset > div:nth-child(1) ul li:not(:nth-child(5)),
+  .contactUs form fieldset > div:nth-child(1) ul li:nth-child(5){width: 100%;}
+  .contactUs form fieldset > div:nth-child(1) ul li:not(:nth-child(2n)){margin-right: 0;}
+  .contactUs form fieldset > div:nth-child(2) ul{padding-right: 0;}
+  .contactUs form fieldset > div:nth-child(2) ul li{width: 100%; padding-right: 0;}
+  .contactUs form fieldset > div:nth-child(3) .fileBox .uploadNameBox{width: 100%;}
+  .contactUs form fieldset > div:nth-child(3) .fileBox .uploadName{width: 220px;}
+  .contactUs form fieldset > div:nth-child(3) textarea{padding: 20px 10px;}
+  .contactUs form fieldset > div:nth-child(3) .fileBox label{color: transparent;}
+  .contactUs form fieldset > div:nth-child(4) label:before{top: 15px;}
+  .contactUs form fieldset .submit{font-size: 45px; line-height: 60px;}
+  
+  .contactUs .addOptionBox ul li:not(:nth-child(1), :nth-child(2)){margin-bottom: 0;}
+  .contactUs .addOptionBox ul li:not(:nth-child(1), :nth-child(2), :nth-child(3)){margin-top: 0;}
+  .contactUs .addOptionBox ul li:not(:last-child){margin-bottom: 50px;}
+  /* 제품소개 / 고객지원 / 문의하기 Fin */
+  
+  /* 홍보센터 / 뉴스룸 / 보도자료 */
+  .public_relationsCenter.newsRoom .section_1 ul li{width: 100%; margin-bottom: 30px;}
+  .public_relationsCenter.newsRoom .section_1 ul li:not(:nth-child(2n)){margin-right: 0;}
+  /* 홍보센터 / 뉴스룸 / 보도자료 Fin */
+
+  /* 홍보센터 / 뉴스룸 / 언론보도 */
+  .public_relationsCenter.newsRoom .section_1 table{width: 1000px; overflow-x: auto;}
+  
+  .newsRoom_view .section_1 h4{font-size: 32px; line-height: 42px;}
+  /* 홍보센터 / 뉴스룸 / 언론보도 Fin */
+
+  /* 홍보센터 / 미디어센터 / 디케이락 스토리 */
+  .public_relationsCenter.dklokStory .section_1 .tabMenuBox{width: 100%; overflow-x: auto;}
+  .public_relationsCenter.dklokStory .section_1 .tabMenuBox li.active{order: -1;}
+  .public_relationsCenter.dklokStory .section_1 .tabMenuBox li:not(:first-child){margin-left: 0;}
+  .public_relationsCenter.dklokStory .section_1 .tabMenuBox li:not(:first-child){margin-left: 0;}
+  .public_relationsCenter.dklokStory .section_1 .tabMenuBox li span{width: 130px; text-align: center;}
+  .public_relationsCenter.dklokStory .section_1 .dklokStoryList li{width: 100%; margin-bottom: 30px;}
+  .public_relationsCenter.dklokStory .section_1 .dklokStoryList li:not(:nth-child(2n)){margin-right: 0;}
+  /* 홍보센터 / 미디어센터 / 디케이락 스토리 Fin */
+
+  /* 홍보센터 / 미디어센터 / 홍보영상 */
+  .public_relationsCenter.mediaCenter .mainVideoBox span{font-size: 32px;}
+  .public_relationsCenter.mediaCenter .tabListBox ul li{width: 100%;}
+  .public_relationsCenter.mediaCenter .tabListBox ul li:not(:nth-child(2n)){margin-right: 0;}
+  /* 홍보센터 / 미디어센터 / 홍보영상 Fin */
+
+  /* 투자정보 / 전자공고 view */
+  .settlement_announcement_view .section_1 > p{font-size: 38px; line-height: 48px;}
+  /* 투자정보 / 전자공고 view Fin */
+    
+  /* 투자정보 / 전자공시 */
+  .financial_table caption span{left: 0; right: auto;}
+  .financial_table thead tr th:nth-child(1){width: 740px;}
+  .financial_table thead tr th:nth-child(2),
+  .financial_table thead tr th:nth-child(3),
+  .financial_table thead tr th:nth-child(4){width: 245px;}
+  
+  .public_announcement .section_1 h3{font-size: 38px; line-height: 48px;}
+  .settlement_announcement_view .section_1 .pdfListBox > div{padding: 15px 10px;}
+  .settlement_announcement_view .section_1 .pdfListBox a:nth-child(1){width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+  /* 투자정보 / 전자공시 Fin */
+
+  /* 지속가능경영 공통 */
+  .sustainable_management .section_1 h3{font-size: 38px; line-height: 48px;}
+  /* 지속가능경영 공통 Fin */
+
+  /* 지속가능경영 / ESG 소개 */
+  .esg .section_1 .wrap > p{margin-bottom: 60px;}
+  .esg .section_2{padding-top: 80px;}
+  .esg .section_2 .wrap > *,
+  .esg .section_3 .wrap > *{float: none;}
+  .esg h3.sticky,
+  .esg .section_2 .wrap > div,
+  .esg .section_3 .wrap > ul{width: 100%;}
+  .esg h3.sticky{margin-bottom: 50px; position: static;}
+  .esg h3.sticky span:not(:first-child){font-size: 32px; line-height: 42px;}
+  .esg .section_2 .wrap .contentBox > div{flex-wrap: wrap;}
+  .esg .section_2 .wrap .contentBox > div > span{margin-bottom: 10px;}
+  .esg .section_2 .wrap .contentBox > div > div{width: 100%; margin-left: 0;}
+  .esg .section_3{padding: 0 0 75px 0;}
+  .esg .section_3 .wrap ul li{width: 100%; margin-bottom: 50px;}
+  .esg .section_3 .wrap ul li:not(:nth-child(2n)){margin-right: 0;}
+  /* 지속가능경영 / ESG 소개 Fin */
+
+  /* 지속가능경영 / 환경안전보건 */
+  .environment_safety_health .section_1 h4{font-size: 32px; line-height: 32px;}
+  .environment_safety_health .section_1 > p{width: 90%; margin-bottom: 60px;}
+  .environment_safety_health .section_1 .centerBox:after{height: calc(100% - 200px);}
+  .environment_safety_health .section_1 .hseBox{margin-bottom: 100px;}
+  .environment_safety_health .section_1 .isoBox .right{flex-wrap: wrap;}
+  .environment_safety_health .section_1 .isoBox .right > div{width: 100%;}
+  .environment_safety_health .section_1 .isoBox .right > div:not(:last-child){margin-bottom: 20px;}
+  /* 지속가능경영 / 환경안전보건 fin */
+
+  /* 지속가능경영 / 윤리경영 */
+  .ethical_management .section_1 > p{width: 90%; margin-bottom: 60px;}
+  .ethical_management .section_1 .centerBox p{width: 90%; margin: 0 auto;}
+  .ethical_management .section_1 .centerBox img{max-width: 90%;}
+  /* 지속가능경영 / 윤리경영 Fin */
+
+  /* 지속가능경영 / 부패방지 */
+  .anti_bribery_policy .section_1 > p{width: 90%; margin: 0 auto 80px;}
+  .anti_bribery_policy .section_1 .grayBox{padding: 30px 20px;}
+  /* 지속가능경영 / 부패방지 Fin */
+
+  /* 지속가능경영 / 클린신고 */
+  .whistle_blow .section_1 .tabBtnBox button{font-size: 14px;}
+  .tit-tbl-box .tbl.first table tbody td > div{flex-wrap: wrap;}
+  .tit-tbl-box .tbl.first table tbody td > div > div{width: 100%;}
+  .tit-tbl-box .tbl.first table tbody td > div > div:nth-child(1){margin-bottom: 20px;}
+  .tit-tbl-box .tbl.first table tbody th{font-size: 16px;}
+  .whistle_blow .section_1 .history-part .tit-tbl-box:nth-of-type(2) .radioBox div:first-child{flex-wrap: wrap;}
+  .whistle_blow .section_1 .history-part .tit-tbl-box:nth-of-type(2) .radioBox div:first-child > *{width: 100%;}
+  .whistle_blow .section_1 .history-part .tit-tbl-box:nth-of-type(2) .radioBox div:first-child label{margin-bottom: 20px;}
+  .tit-tbl-box:nth-of-type(2) input[type="text"]{margin-left: 0;}
+  .whistle_blow .section_1 .history-part .tit-tbl-box:nth-of-type(3) .radioBox > div{width: 100%;}
+  .whistle_blow .section_1 .history-part .tit-tbl-box:nth-of-type(3) .radioBox > div:not(:nth-child(2n)){margin-right: 0;}
+  /* 지속가능경영 / 클린신고 Fin */
+
+  /* 이용안내 / 사이트맵 */
+  .siteMap .section_1 .type_a,
+  .siteMap .section_1 .type_b:not(:last-of-type){margin-bottom: 70px;}
+  /* 이용안내 / 사이트맵 Fin */
+}
+
+
+
+/* 영문 전용 css */
+
+
+.lang-eng .mainPage .section_3 .left .tabMenuBox button{padding: 30px 50px;}
+.lang-eng .mainPage .section_3 .left > div{padding: 50px 65px 150px 65px;}
+.lang-eng .mainPage .section_2 > p strong{display: inline;}
+.lang-eng .stickyNavBox > div > div > span{margin: 0 auto; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 220px;  padding: 22px 10px; font-size: 16px;}
+.lang-eng .stickyNavBox > div > div > .investment_information:not(.stockPrice_information, .settlement_announcement_view):after{right: 0;}
+.lang-eng .whistle_blow .section_1 .tabContentBox > div:nth-child(1) > div > p span{width: 120px; display: inline-block;}
+.lang-eng .environment_safety_health .section_1 > p{width: 1480px; margin: 0 auto 120px;}
+.lang-eng .ethical_management .section_1 > p,
+.lang-eng .anti_bribery_policy .section_1 > p,
+.lang-eng .ethical_management .section_1 .centerBox p{width: 1480px; margin: 0 auto 120px;}
+.lang-eng .environment_safety_health .section_1 .hseBox .left{box-sizing: border-box;}
+.lang-eng .siteMap .section_1 .type_a > div span{width: 200px;}
+.lang-eng .ceo_greetings .section_2 > div > div:nth-child(1) > p:nth-child(2) br{display: none;}
+.lang-eng .environment_safety_health .section_1 .hseBox .left > div:not(.arrowBox){width: 40%; padding-right: 30px; box-sizing: border-box;}
+.lang-eng .environment_safety_health .section_1 .isoBox .left > div:not(.arrowBox){padding-right: 30px; box-sizing: border-box;}
+.lang-eng .environment_safety_health .section_1 .hseBox .right{width: 55%;}
+
+
+@media screen and (max-width:1600px){
+  /* .lang-eng footer > div > div > div:nth-child(1) > div{flex-wrap: wrap;}
+  .lang-eng footer > div > div > div:nth-child(1) > div > span{width: 100%;}
+  .lang-eng footer > div > div > div:nth-child(1) > div > span:not(:last-child),
+  .lang-eng footer > div > div > div:nth-child(1) a{margin-bottom: 10px;}
+  .lang-eng footer > div > div > div:nth-child(1) > div > *:not(:last-child):after{display: none;}
+  .lang-eng footer > div > div > div:nth-of-type(1){width: 70%;}
+  .lang-eng footer > div > div > div:nth-of-type(2){width: 30%;} */
+  .lang-eng footer > div > div{flex-wrap: wrap;}
+  .lang-eng footer > div > div > div{width: 100%;}
+  .lang-eng footer > div > div > div:nth-child(1) > div > *:not(:last-child){padding-right: 15px; margin-right: 15px;}
+
+
+  .lang-eng .mainPage .section_3 h2{margin-bottom: 20px;}
+  .lang-eng .mainPage .section_3 .left > div{padding: 30px;}
+  .lang-eng .mainPage .section_3 .left .tabMenuBox{flex-wrap: wrap;}
+  .lang-eng .mainPage .section_3 .left .tabMenuBox button{width: 100%; padding: 30px 20px;}
+  .lang-eng .mainPage .section_3 .left p{margin-bottom: 30px;}
+
+  .lang-eng .header_pc nav > ul > li:not(:first-child){margin-left: 3.88%;}
+
+  .lang-eng .siteMap .section_1 .type_a > div span{width: 200px;}
+
+  .lang-eng .environment_safety_health .section_1 > p,
+  .lang-eng .ethical_management .section_1 > p,
+  .lang-eng .anti_bribery_policy .section_1 > p,
+  .lang-eng .ethical_management .section_1 .centerBox p{width: 90%;}
+}
+
+@media screen and (max-width:1280px){
+  .lang-eng .whistle_blow .section_1 .tabContentBox > div:nth-child(1) > div > p span{margin-bottom: 20px; display: block;}
+
+  .lang-eng .contactUs .addOptionBox ul li{width: 100%;}
+  .lang-eng .contactUs .addOptionBox ul li:not(:nth-child(1), :nth-child(2)){margin-bottom: 0;}
+  .lang-eng .contactUs .addOptionBox ul li:not(:nth-child(1), :nth-child(2), :nth-child(3)){margin-top: 0;}
+  .lang-eng .contactUs .addOptionBox ul li:not(:last-child){margin-bottom: 50px;}
+}
+
+@media screen and (max-width:1023px){
+  .lang-eng footer > div > div > div:nth-of-type(1),
+  .lang-eng footer > div > div > div:nth-of-type(2){width: 100%;}
+  .lang-eng footer > div > div > div:nth-child(1) > div{flex-wrap: wrap;}
+  .lang-eng footer > div > div > div:nth-child(1) > div > *:not(:last-child){width: 100%; margin-bottom: 10px;}
+  .lang-eng footer > div > div > div:nth-child(1) > div > *:not(:last-child):after{display: none;}
+
+  .lang-eng .mainPage .section_2 > ul li{width: 32.33%;}
+  .lang-eng .mainPage .section_2 > ul li:not(:nth-child(3n)){margin-right: 1.5%;}
+  .lang-eng .mainPage .section_3 .left .tabMenuBox{bottom: 30px; top: auto;}
+  .lang-eng .mainPage .section_3 .left > div{padding: 50px 30px 270px 30px;}
+
+  .lang-eng .subNavBox ul:nth-child(1) li a{width: 200px;}
+
+  .lang-eng .environment_safety_health .section_1 .hseBox .left{padding-right: 0;}
+
+  .lang-eng .environment_safety_health .section_1 .hseBox .left > div:not(.arrowBox){width: 100%; padding-right: 0;}
+  .lang-eng .environment_safety_health .section_1 .isoBox .left > div:not(.arrowBox){padding-right: 0;}
+  .lang-eng .environment_safety_health .section_1 .hseBox .right{width: 90%;}
+}
+
+@media screen and (max-width:767px){
+  .lang-eng .mainPage .section_2 > ul li{width: 100%;}
+  .lang-eng .mainPage .section_2 > ul li:not(:nth-child(3n)){margin-right: 0;}
+  .lang-eng .mainPage .section_3 .left .tabMenuBox button{padding: 20px;}
+  .lang-eng .company_introduction .section_1 .bgBox > div p{font-size: 20px;}
+  .lang-eng .company_introduction .section_1 .bgBox > div p strong{line-height: 30px;}
+
+  .lang-eng .mainPage .section_3 .left .tabMenuBox{top: auto; bottom: 30px;}
+}
+/* 영문 전용 css Fin */
+
+
+
+#productView_wrap{width: 100%;}
+#productView_wrap .con{padding: 0;}
