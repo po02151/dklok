@@ -81,18 +81,18 @@ h2,
 .subNavBox ul:nth-child(2) li:not(:last-child) a{margin-right: 10px;}
 .subNavBox ul:nth-child(2) li:nth-child(1) a{padding-right: 50px;}
 .subNavBox ul:nth-child(2) li:not(:nth-child(1), :last-child) a{padding-right: 20px;}
-.subNavBox ul:nth-child(2) li:nth-child(1) a{background: url('/assets/images/home_icon.png') center / contain no-repeat; width: 18px; height: 16px;}
+.subNavBox ul:nth-child(2) li:nth-child(1) a{background: url('../../assets/images/home_icon.png') center / contain no-repeat; width: 18px; height: 16px;}
 .subNavBox ul:nth-child(2) li:not(:last-child) a:after{content: '>'; position: absolute; right: 0; top: 50%; transform: translateY(-50%); font-size: 14px; font-weight: 200; color: #DDDDDD;}
 .subNavBox ul:nth-child(2) li:last-child a{text-decoration: underline;}
 
 .stickyNavBox{z-index: 99; position: sticky; top: 0; background-color: #fff; width: 100%; border-bottom: 1px solid #EEEEEE;}
 .stickyNavBox > div{display: flex;}
 .stickyNavBox > div > a{display: block; position: relative; width: 60px; height: 60px; background-color: #E01E25;}
-.stickyNavBox > div > a:after{content: ''; position: absolute; display: block; background: url('/assets/images/suv_navi_home.png') center / contain no-repeat; width: 18px; height: 18px; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+.stickyNavBox > div > a:after{content: ''; position: absolute; display: block; background: url('../../assets/images/suv_navi_home.png') center / contain no-repeat; width: 18px; height: 18px; left: 50%; top: 50%; transform: translate(-50%, -50%);}
 .stickyNavBox > div > div{position: relative; width: 260px; box-sizing: border-box;}
 .stickyNavBox > div > div:after{content: ''; position: absolute; right: 0; top: 50%; transform: translateY(-50%); width: 1px; height: 60px; background-color: #EEEEEE;}
 .stickyNavBox > div > div > span{cursor: pointer; position: relative; text-decoration: none; padding: 21px 30px; box-sizing: border-box; display: block; font-size: 18px; font-weight: 500; color: #777777; position: relative;}
-.stickyNavBox > div > div > span:after{content: ''; position: absolute; right: 30px; top: 50%; transform: translateY(-50%); display: block; background: url('/assets/images/stickyNavBox_arrow.png') center / contain no-repeat; width: 10px; height: 5px;}
+.stickyNavBox > div > div > span:after{content: ''; position: absolute; right: 30px; top: 50%; transform: translateY(-50%); display: block; background: url('../../assets/images/stickyNavBox_arrow.png') center / contain no-repeat; width: 10px; height: 5px;}
 .stickyNavBox > div > div > span + ul{visibility: hidden; opacity: 0; transition: all 0.3s ease-out; border-left: 1px solid #EEEEEE; border-right: 1px solid #EEEEEE; border-bottom: 1px solid #EEEEEE; position: absolute; border-top: 1px solid #E01E25; width: 100%; box-sizing: border-box; background-color: #fff; padding: 10px 0;}
 .stickyNavBox > div > div > span + ul li a{cursor: pointer; display: block; padding: 15px 30px; box-sizing: border-box; text-decoration: none; font-size: 17px; font-weight: 500; color: #777777;}
 /* .stickyNavBox > div > div > a + ul li:hover{background-color: #F9F9F9;}
@@ -114,8 +114,8 @@ h2,
 .mainPage .mainSliderBox{position: relative;}
 .mainPage .slick-arrow{text-indent: -9999px; border: none; background-color: transparent; z-index: 9; position: absolute; top: 50%; transform: translateY(-50%);}
 .mainPage .slick-arrow:after{content: ''; position: absolute; top: 50%; transform: translateY(-50%); background-repeat: no-repeat; background-size: contain; background-position: center; width: 49px; height: 64px;}
-.mainPage .slick-prev:after{left: 0%; background-image: url('/assets/images/mainSlider_arrowLeft.png');}
-.mainPage .slick-next:after{right: 0%; background-image: url('/assets/images/mainSlider_arrowRight.png');}
+.mainPage .slick-prev:after{left: 0%; background-image: url('../../assets/images/mainSlider_arrowLeft.png');}
+.mainPage .slick-next:after{right: 0%; background-image: url('../../assets/images/mainSlider_arrowRight.png');}
 .mainPage .slick-prev{left: 11%;}
 .mainPage .slick-next{right: 11%;}
 .mainPage .center{overflow: hidden;}
@@ -137,27 +137,27 @@ h2,
 .mainPage .section_2 > ul li > span{display: block; margin: 0 auto; transform: translateY(0px); transition: transform 0.1s ease-out;}
 .mainPage .section_2 > ul li:not(:nth-child(10)):hover > span:nth-of-type(1){transform: translateY(-5px);}
 .mainPage .section_2 > ul li > span:nth-of-type(1):after{content: ''; margin: 0 auto 15px; display: block; background-repeat: no-repeat; background-position: center; background-size: contain; transition: background 0.3s ease-out;}
-.mainPage .section_2 > ul li:nth-child(1) > span:nth-of-type(1):after{background-image: url('/assets/images/oil_gas.png'); width: 65px; height: 65px;}
-.mainPage .section_2 > ul li:nth-child(3) > span:nth-of-type(1):after{background-image: url('/assets/images/epc.png'); width: 65px; height: 65px;}
-.mainPage .section_2 > ul li:nth-child(9) > span:nth-of-type(1):after{background-image: url('/assets/images/space_air.png'); width: 65px; height: 65px;}
-.mainPage .section_2 > ul li:nth-child(2) > span:nth-of-type(1):after{background-image: url('/assets/images/oilRefining_chemistry.png'); width: 65px; height: 65px;}
-.mainPage .section_2 > ul li:nth-child(4) > span:nth-of-type(1):after{background-image: url('/assets/images/shipbuilding_marine.png'); width: 65px; height: 65px;}
-.mainPage .section_2 > ul li:nth-child(6) > span:nth-of-type(1):after{background-image: url('/assets/images/cng_rng_ngv.png'); width: 65px; height: 65px;}
-.mainPage .section_2 > ul li:nth-child(5) > span:nth-of-type(1):after{background-image: url('/assets/images/machine_equipment.png'); width: 65px; height: 65px;}
-.mainPage .section_2 > ul li:nth-child(8) > span:nth-of-type(1):after{background-image: url('/assets/images/semiconduct_display.png'); width: 65px; height: 65px;}
-.mainPage .section_2 > ul li:nth-child(7) > span:nth-of-type(1):after{background-image: url('/assets/images/hydrogen_tram.png'); width: 61px; height: 65px;}
-.mainPage .section_2 > ul li:nth-child(1):hover > span:nth-of-type(1):after{background-image: url('/assets/images/oil_gas_hover.png');}
-.mainPage .section_2 > ul li:nth-child(3):hover > span:nth-of-type(1):after{background-image: url('/assets/images/epc_hover.png')}
-.mainPage .section_2 > ul li:nth-child(9):hover > span:nth-of-type(1):after{background-image: url('/assets/images/space_air_hover.png');}
-.mainPage .section_2 > ul li:nth-child(2):hover > span:nth-of-type(1):after{background-image: url('/assets/images/oilRefining_chemistry_hover.png');}
-.mainPage .section_2 > ul li:nth-child(4):hover > span:nth-of-type(1):after{background-image: url('/assets/images/shipbuilding_marine_hover.png');}
-.mainPage .section_2 > ul li:nth-child(6):hover > span:nth-of-type(1):after{background-image: url('/assets/images/cng_rng_ngv_hover.png');}
-.mainPage .section_2 > ul li:nth-child(5):hover > span:nth-of-type(1):after{background-image: url('/assets/images/machine_equipment_hover.png');}
-.mainPage .section_2 > ul li:nth-child(8):hover > span:nth-of-type(1):after{background-image: url('/assets/images/semiconduct_display_hover.png');}
-.mainPage .section_2 > ul li:nth-child(7):hover > span:nth-of-type(1):after{background-image: url('/assets/images/hydrogen_tram_hover.png');}
+.mainPage .section_2 > ul li:nth-child(1) > span:nth-of-type(1):after{background-image: url('../../assets/images/oil_gas.png'); width: 65px; height: 65px;}
+.mainPage .section_2 > ul li:nth-child(3) > span:nth-of-type(1):after{background-image: url('../../assets/images/epc.png'); width: 65px; height: 65px;}
+.mainPage .section_2 > ul li:nth-child(9) > span:nth-of-type(1):after{background-image: url('../../assets/images/space_air.png'); width: 65px; height: 65px;}
+.mainPage .section_2 > ul li:nth-child(2) > span:nth-of-type(1):after{background-image: url('../../assets/images/oilRefining_chemistry.png'); width: 65px; height: 65px;}
+.mainPage .section_2 > ul li:nth-child(4) > span:nth-of-type(1):after{background-image: url('../../assets/images/shipbuilding_marine.png'); width: 65px; height: 65px;}
+.mainPage .section_2 > ul li:nth-child(6) > span:nth-of-type(1):after{background-image: url('../../assets/images/cng_rng_ngv.png'); width: 65px; height: 65px;}
+.mainPage .section_2 > ul li:nth-child(5) > span:nth-of-type(1):after{background-image: url('../../assets/images/machine_equipment.png'); width: 65px; height: 65px;}
+.mainPage .section_2 > ul li:nth-child(8) > span:nth-of-type(1):after{background-image: url('../../assets/images/semiconduct_display.png'); width: 65px; height: 65px;}
+.mainPage .section_2 > ul li:nth-child(7) > span:nth-of-type(1):after{background-image: url('../../assets/images/hydrogen_tram.png'); width: 61px; height: 65px;}
+.mainPage .section_2 > ul li:nth-child(1):hover > span:nth-of-type(1):after{background-image: url('../../assets/images/oil_gas_hover.png');}
+.mainPage .section_2 > ul li:nth-child(3):hover > span:nth-of-type(1):after{background-image: url('../../assets/images/epc_hover.png')}
+.mainPage .section_2 > ul li:nth-child(9):hover > span:nth-of-type(1):after{background-image: url('../../assets/images/space_air_hover.png');}
+.mainPage .section_2 > ul li:nth-child(2):hover > span:nth-of-type(1):after{background-image: url('../../assets/images/oilRefining_chemistry_hover.png');}
+.mainPage .section_2 > ul li:nth-child(4):hover > span:nth-of-type(1):after{background-image: url('../../assets/images/shipbuilding_marine_hover.png');}
+.mainPage .section_2 > ul li:nth-child(6):hover > span:nth-of-type(1):after{background-image: url('../../assets/images/cng_rng_ngv_hover.png');}
+.mainPage .section_2 > ul li:nth-child(5):hover > span:nth-of-type(1):after{background-image: url('../../assets/images/machine_equipment_hover.png');}
+.mainPage .section_2 > ul li:nth-child(8):hover > span:nth-of-type(1):after{background-image: url('../../assets/images/semiconduct_display_hover.png');}
+.mainPage .section_2 > ul li:nth-child(7):hover > span:nth-of-type(1):after{background-image: url('../../assets/images/hydrogen_tram_hover.png');}
 .mainPage .section_2 > ul li:nth-child(10) > span:nth-of-type(1){display: block; margin: 0 auto; position: relative; width: 100px; height: 100px; border: 1px solid #EEEEEE; border-radius: 10px;}
-.mainPage .section_2 > ul li:nth-child(10) > span:nth-of-type(1):after{content: ''; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background-image: url('/assets/images/aboutUs_addBtn.png'); width: 12px; height: 12px;}
-.mainPage .section_2 > ul li:nth-child(10):hover > span:nth-of-type(1):after{background-image: url('/assets/images/aboutUs_addBtn_hover.png');}
+.mainPage .section_2 > ul li:nth-child(10) > span:nth-of-type(1):after{content: ''; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background-image: url('../../assets/images/aboutUs_addBtn.png'); width: 12px; height: 12px;}
+.mainPage .section_2 > ul li:nth-child(10):hover > span:nth-of-type(1):after{background-image: url('../../assets/images/aboutUs_addBtn_hover.png');}
 .mainPage .section_3{padding-bottom: 140px;}
 .mainPage .section_3 > div{display: flex;}
 .mainPage .section_3 h2{font-size: 20px; font-weight: 800; color: #E01E25; margin-bottom: 40px;}
@@ -196,16 +196,16 @@ h2,
 
 /* 서브페이지 배너영역 */
 .banner_area{background-repeat: no-repeat; background-position: center; background-size: cover; width: 100%; height: 620px;}
-.company_introduction .banner_area{background-image: url('/assets/images/company_introduction_banner.png');}
-.quality_assurance .banner_area{background-image: url('/assets/images/quality_assurance_banner.jpg');}
-.investment_information .banner_area{background-image: url('/assets/images/investment_information_banner.jpg');}
-.service_network .banner_area{background-image: url('/assets/images/service_network_banner.jpg');}
-.sustainable_management .banner_area{background-image: url('/assets/images/sustainable_management_banner.jpg');}
-.customer_support .banner_area{background-image: url('/assets/images/customer_support_banner.png');}
-.public_relationsCenter .banner_area{background-image: url('/assets/images/publicRelationsCenter_banner.jpg');}
-.businessAreas .banner_area{background-image: url('/assets/images/businessAreas_banner.jpg');}
+.company_introduction .banner_area{background-image: url('../../assets/images/company_introduction_banner.png');}
+.quality_assurance .banner_area{background-image: url('../../assets/images/quality_assurance_banner.jpg');}
+.investment_information .banner_area{background-image: url('../../assets/images/investment_information_banner.jpg');}
+.service_network .banner_area{background-image: url('../../assets/images/service_network_banner.jpg');}
+.sustainable_management .banner_area{background-image: url('../../assets/images/sustainable_management_banner.jpg');}
+.customer_support .banner_area{background-image: url('../../assets/images/customer_support_banner.png');}
+.public_relationsCenter .banner_area{background-image: url('../../assets/images/publicRelationsCenter_banner.jpg');}
+.businessAreas .banner_area{background-image: url('../../assets/images/businessAreas_banner.jpg');}
 
-.managementPhilosophy .banner_area{background-image: url('/assets/images/managementPhilosophy_banner.jpg');}
+.managementPhilosophy .banner_area{background-image: url('../../assets/images/managementPhilosophy_banner.jpg');}
 /* 서브페이지 배너영역 Fin */
 
 /* table title */
@@ -224,7 +224,7 @@ h2,
 
 /* 회사소개 / 기업소개 / 경영이념 */
 .managementPhilosophy .section_1{padding-bottom: 105px;}
-.managementPhilosophy .section_1 .bgBox{margin-bottom: 50px; background-image: url('/assets/images/company_Philosophy.jpg');}
+.managementPhilosophy .section_1 .bgBox{margin-bottom: 50px; background-image: url('../../assets/images/company_Philosophy.jpg');}
 .managementPhilosophy .section_1 > div:nth-child(2) > p:nth-child(1){font-size: 26px; font-weight: 700; color: #444444; line-height: 32px; margin-bottom: 25px;}
 .managementPhilosophy .section_1 > div:nth-child(2) > p:nth-child(2){font-size: 21px; line-height: 35px; color: #444444; font-weight: 400;}
 .managementPhilosophy h3.sticky{position: sticky; top: 205px; width: 40%;}
@@ -266,7 +266,7 @@ h2,
 /* 회사소개 / 기업소개 / 경영이념 Fin */
 
 /* 회사소개 / 기업소개 / CEO 인사말 */
-.ceo_greetings .section_1 .bgBox{margin-bottom: 55px; background-image: url('/assets/images/building.png');}
+.ceo_greetings .section_1 .bgBox{margin-bottom: 55px; background-image: url('../../assets/images/building.png');}
 .ceo_greetings .section_2{padding-bottom: 100px;}
 .ceo_greetings .section_2 h3{margin-bottom: 45px; color: #E01E25; font-size: 24px; font-weight: 800; display: block;}
 .ceo_greetings .section_2 > div:after{content: ''; display: block; clear: both;}
@@ -277,7 +277,7 @@ h2,
 .ceo_greetings .section_2 > div > div:nth-child(1) > p:nth-child(1) span{word-break: keep-all; line-height: 64px; display: block; color: #0E56A7;}
 .ceo_greetings .section_2 > div > div:nth-child(1) > p:nth-child(2){margin-bottom: 55px; font-size: 24px; font-weight: 600; line-height: 40px; color: #444444;}
 .ceo_greetings .section_2 > div > div:nth-child(1) img{width: 100%; display: block;}
-.ceo_greetings .section_2 > div > div:nth-child(2):after{content: ''; position: absolute; display: block; background: url('/assets/images/signature.png') center / contain no-repeat; width: 209px; height: 200px; right: 150px; bottom: 0; z-index: -1;}
+.ceo_greetings .section_2 > div > div:nth-child(2):after{content: ''; position: absolute; display: block; background: url('../../assets/images/signature.png') center / contain no-repeat; width: 209px; height: 200px; right: 150px; bottom: 0; z-index: -1;}
 .ceo_greetings .section_2 > div > div:nth-child(2) > p{font-size: 21px; font-weight: 400; color: #444444; line-height: 36px;}
 .ceo_greetings .section_2 > div > div:nth-child(2) > p:not(:last-child){margin-bottom: 37px;}
 .ceo_greetings .section_2 > div > div:nth-child(2) > p:last-child{margin-bottom: 50px;}
@@ -287,7 +287,7 @@ h2,
 /* 회사소개 / 기업소개 / CEO 인사말 Fin */
 
 /* 회사소개 / 기업소개 / 성장과정 */
-.growth_process .section_1 .bgBox{background-image: url('/assets/images/company_history.png');}
+.growth_process .section_1 .bgBox{background-image: url('../../assets/images/company_history.png');}
 .growth_process .section_2 .tabBtnBox{display: flex;}
 .growth_process .section_2 .tabBtnBox button{position: relative; padding: 24px 0; font-size: 19px; font-weight: 500; color: #444444; width: 33.33%; border: none; background-color: #FBFBFB;}
 .growth_process .section_2 .tabBtnBox button.active{background-color: #0054A7; color: #fff;}
@@ -310,7 +310,7 @@ h2,
 /* 회사소개 / 기업소개 / 성장과정 Fin */
 
 /* 회사소개 / 기업소개 / CI.BI */
-.ci_bi .section_1 .bgBox{margin-bottom: 50px; /* background-image: url('/assets/images/stairs.png'); */}
+.ci_bi .section_1 .bgBox{margin-bottom: 50px; /* background-image: url('../../assets/images/stairs.png'); */}
 .ci_bi .section_2 > div{margin-bottom: 100px;}
 .ci_bi .section_2 > div:nth-child(1){margin-bottom: 100px;}
 .ci_bi .section_2 > div:nth-child(1) p:nth-child(1){margin-bottom: 35px;}
@@ -395,18 +395,18 @@ h2,
 .service_network .section_1 .tabListBox > div > div > div:nth-child(2){width: calc(100% - 310px); padding: 30px 40px; box-sizing: border-box;}
 .service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li{padding-left: 32px; position: relative;}
 .service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li:before{content: ''; position: absolute; left: 0; top: 50%; transform: translateY(-50%); background-repeat: no-repeat; background-size: contain; background-position: center;}
-.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.address:before{background-image: url('/assets/images/address_icon.png'); width: 12px; height: 16px;}
-.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.address:hover:before{background-image: url('/assets/images/address_icon_hover.png');}
-.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.tel:before{background-image: url('/assets/images/tel_icon.png'); width: 16px; height: 16px;}
-.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.tel:hover:before{background-image: url('/assets/images/tel_icon_hover.png');}
-.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.fax:before{background-image: url('/assets/images/fax_icon.png'); width: 16px; height: 16px;}
-.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.fax:hover:before{background-image: url('/assets/images/fax_icon_hover.png');}
-.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.mail:before{background-image: url('/assets/images/mail_icon.png'); width: 16px; height: 12px;}
-.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.mail:hover:before{background-image: url('/assets/images/mail_icon_hover.png');}
-.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.webSite:before{background-image: url('/assets/images/webSite_icon.png'); width: 16px; height: 16px;}
-.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.webSite:hover:before{background-image: url('/assets/images/webSite_icon_hover.png');}
-.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.country:before{background-image: url('/assets/images/buildings.png'); width: 16px; height: 16px;}
-.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.country:hover:before{background-image: url('/assets/images/buildings_hover.png'); width: 16px; height: 16px;}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.address:before{background-image: url('../../assets/images/address_icon.png'); width: 12px; height: 16px;}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.address:hover:before{background-image: url('../../assets/images/address_icon_hover.png');}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.tel:before{background-image: url('../../assets/images/tel_icon.png'); width: 16px; height: 16px;}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.tel:hover:before{background-image: url('../../assets/images/tel_icon_hover.png');}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.fax:before{background-image: url('../../assets/images/fax_icon.png'); width: 16px; height: 16px;}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.fax:hover:before{background-image: url('../../assets/images/fax_icon_hover.png');}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.mail:before{background-image: url('../../assets/images/mail_icon.png'); width: 16px; height: 12px;}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.mail:hover:before{background-image: url('../../assets/images/mail_icon_hover.png');}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.webSite:before{background-image: url('../../assets/images/webSite_icon.png'); width: 16px; height: 16px;}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.webSite:hover:before{background-image: url('../../assets/images/webSite_icon_hover.png');}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.country:before{background-image: url('../../assets/images/buildings.png'); width: 16px; height: 16px;}
+.service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li.country:hover:before{background-image: url('../../assets/images/buildings_hover.png'); width: 16px; height: 16px;}
 .service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li:not(:last-child){margin-bottom: 20px;}
 .service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li:hover > *{text-decoration: underline;}
 .service_network .section_1 .tabListBox > div > div > div:nth-child(2) ul li > *{line-height: 22px; font-size: 18px; font-weight: 400; color: #666666;}
@@ -431,9 +431,9 @@ h2,
 .esg .section_1 .wrap .right > div{display: flex; padding: 35px 0; box-sizing: border-box;}
 .esg .section_1 .wrap .right > div > span{width: 65px; text-align: center; position: relative; display: block; font-size: 18px; font-weight: 600; color: #444444; padding-top: 77px; line-height: 24px;}
 .esg .section_1 .wrap .right > div > span:before{content: ''; position: absolute; top: 0; left: 50%; transform: translateX(-50%); background-repeat: no-repeat; background-size: contain; background-position: center;}
-.esg .section_1 .wrap .right > div:nth-child(1) > span:before{background-image: url('/assets/images/esg_environment.png'); width: 65px; height: 65px;}
-.esg .section_1 .wrap .right > div:nth-child(2) > span:before{background-image: url('/assets/images/esg_society.png'); width: 57px; height: 65px;}
-.esg .section_1 .wrap .right > div:nth-child(3) > span:before{background-image: url('/assets/images/esg_governance.png'); width: 65px; height: 65px;}
+.esg .section_1 .wrap .right > div:nth-child(1) > span:before{background-image: url('../../assets/images/esg_environment.png'); width: 65px; height: 65px;}
+.esg .section_1 .wrap .right > div:nth-child(2) > span:before{background-image: url('../../assets/images/esg_society.png'); width: 57px; height: 65px;}
+.esg .section_1 .wrap .right > div:nth-child(3) > span:before{background-image: url('../../assets/images/esg_governance.png'); width: 65px; height: 65px;}
 .esg .section_1 .wrap .right > div > ul{margin-left: 110px; display: flex; flex-wrap: wrap; align-items: center; width: calc(100% - 175px);}
 .esg .section_1 .wrap .right > div > ul li{position: relative; padding-left: 18px; box-sizing: border-box; width: 50%; font-size: 18px; font-weight: 400; color: #666666; line-height: 28px;}
 .esg .section_1 .wrap .right > div > ul li:before{content: '-'; font-size: 18px; font-weight: 400; color: #444444; position: absolute; left: 0; top: 0;}
@@ -484,10 +484,10 @@ h2,
 .environment_safety_health .section_1 .hseBox .left .arrowBox .slick-arrow:after{content: ''; position: absolute; background-repeat: no-repeat; background-position: center; background-size: contain; display: block; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 14px; height: 14px;}
 .environment_safety_health .section_1 .hseBox .left .arrowBox .slick-arrow:hover{background-color: #E01E25;}
 .environment_safety_health .section_1 .hseBox .left .arrowBox .slick-next{margin-left: 10px;}
-.environment_safety_health .section_1 .hseBox .left .arrowBox .slick-prev:after{background-image: url('/assets/images/hse_left.png');}
-.environment_safety_health .section_1 .hseBox .left .arrowBox .slick-next:after{background-image: url('/assets/images/hse_right.png');}
-.environment_safety_health .section_1 .hseBox .left .arrowBox .slick-prev:hover:after{background-image: url('/assets/images/hse_left_hover.png');}
-.environment_safety_health .section_1 .hseBox .left .arrowBox .slick-next:hover:after{background-image: url('/assets/images/hse_right_hover.png');}
+.environment_safety_health .section_1 .hseBox .left .arrowBox .slick-prev:after{background-image: url('../../assets/images/hse_left.png');}
+.environment_safety_health .section_1 .hseBox .left .arrowBox .slick-next:after{background-image: url('../../assets/images/hse_right.png');}
+.environment_safety_health .section_1 .hseBox .left .arrowBox .slick-prev:hover:after{background-image: url('../../assets/images/hse_left_hover.png');}
+.environment_safety_health .section_1 .hseBox .left .arrowBox .slick-next:hover:after{background-image: url('../../assets/images/hse_right_hover.png');}
 .environment_safety_health .section_1 .hseBox .right{position: absolute; right: 0; top: 0; width: 1100px;}
 .environment_safety_health .section_1 .hseSlider .slick-slide{border-radius: 10px; overflow: hidden; padding-right: 100px;}
 .environment_safety_health .section_1 .hseSlider .slick-slide img{width: 100%;}
@@ -583,8 +583,8 @@ h2,
 .whistle_blow .section_1 .radioBox div:not(:first-child){margin-left: 33px;}
 .whistle_blow .section_1 .radioBox input[type='radio']{display: none;}
 .whistle_blow .section_1 .radioBox label{cursor: pointer; position: relative; padding-left: 20px; font-size: 18px; font-weight: 600; color: #666666;}
-.whistle_blow .section_1 .radioBox label:before{content: ''; background: url('/assets/images/radio.png') center / contain no-repeat; width: 10px; height: 10px; position: absolute; left: 0; top: 50%; transform: translateY(-50%);}
-.whistle_blow .section_1 .radioBox input[type='radio']:checked + label:before{background-image: url('/assets/images/radio_checked.png');}
+.whistle_blow .section_1 .radioBox label:before{content: ''; background: url('../../assets/images/radio.png') center / contain no-repeat; width: 10px; height: 10px; position: absolute; left: 0; top: 50%; transform: translateY(-50%);}
+.whistle_blow .section_1 .radioBox input[type='radio']:checked + label:before{background-image: url('../../assets/images/radio_checked.png');}
 .whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset > div:nth-of-type(2) .radioBox input[type='text']{margin-left: 18px;}
 .whistle_blow .section_1 .tabContentBox > div:nth-child(2) form fieldset > div:nth-of-type(2) table tbody tr:not(:first-of-type) td input{width: 100%;}
 .whistle_blow .inputType_text{border: 1px solid #EEEEEE; border-radius: 3px; line-height: 45px;}
@@ -595,13 +595,13 @@ h2,
 /* 제품소개 / 제품분류 / 전체제품 */
 .product_classification.all_product{padding-bottom: 75px;}
 .product_classification.all_product .section_1{transition: all 0.2s ease-out; display: flex; border-radius: 10px; overflow: hidden; background-repeat: no-repeat; background-position: center; background-size: cover; height: 590px;}
-.product_classification.all_product .section_1.instrumentationWrap{background-image: url('/assets/images/instrumentation_thumb.png');}
-.product_classification.all_product .section_1.semiconductorWrap{background-image: url('/assets/images/semiconductor_thumb.png');}
-.product_classification.all_product .section_1.processValvesWrap{background-image: url('/assets/images/processValves_thumb.png');}
+.product_classification.all_product .section_1.instrumentationWrap{background-image: url('../../assets/images/instrumentation_thumb.png');}
+.product_classification.all_product .section_1.semiconductorWrap{background-image: url('../../assets/images/semiconductor_thumb.png');}
+.product_classification.all_product .section_1.processValvesWrap{background-image: url('../../assets/images/processValves_thumb.png');}
 .product_classification.all_product .section_1 > div{cursor: pointer; position: relative; width: 33.33%; padding: 55px 60px;}
 .product_classification.all_product .section_1 > div > a{position: absolute; width: 100%; height: 100%; left: 0; top: 0; z-index: 1;}
 .product_classification.all_product .section_1 > div.active > span{display: none;}
-.product_classification.all_product .section_1 > div.active > span{display: block; position: absolute; background: url('/assets/images/red_ribbon.png') center / contain no-repeat; width: 28px; height: 38px; right: 30px; top: 0;}
+.product_classification.all_product .section_1 > div.active > span{display: block; position: absolute; background: url('../../assets/images/red_ribbon.png') center / contain no-repeat; width: 28px; height: 38px; right: 30px; top: 0;}
 .product_classification.all_product .section_1 > div:not(:last-child){border-right: 1px solid rgba(255,255,255,0.3);}
 .product_classification.all_product .section_1 > div > div{position: absolute; width: calc(100% - 55px); left: 55px; bottom: 60px;}
 .product_classification.all_product .section_1 > div h3{color: rgba(255,255,255,0.5); font-size: 28px; line-height: 33px; display: block; margin-bottom: 25px;}
@@ -615,7 +615,7 @@ h2,
 .productSideBar .depth1{width: 100%;}
 .productSideBar ul li span{cursor: pointer; display: block;}
 .productSideBar .closeBtn{border: none; background-color: #0E56A7; border-radius: 5px; text-indent: -9999px; visibility: hidden; opacity: 0; position: fixed; top: 20px; left: -100%; z-index: 9999; width: 30px; height: 30px;}
-.productSideBar .closeBtn:after{content: ''; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 16px; height: 16px; background: url('/assets/images/product_hamburger_close.png') center / contain no-repeat;}
+.productSideBar .closeBtn:after{content: ''; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 16px; height: 16px; background: url('../../assets/images/product_hamburger_close.png') center / contain no-repeat;}
 .productSideBar{width: 320px; margin-top: -10px;}
 .productSideBar .depth1 > li > span + ul,
 .productSideBar .depth3,
@@ -812,51 +812,51 @@ h2,
 .customer_support.catalogue .section_2 .catalog_downloadBtn span:after{content: ''; position: absolute; width: 12px; height: 14px; background: url('../images/pdfDownload_btn.png') center / contain no-repeat; right: 25px; top: 20px;} */
 .customer_support.catalogue .section_2 .catalog_downloadBtn span:after{content: ''; position: absolute; width: 12px; height: 14px; background: url('../images/pdfDownload_btn.png') center / contain no-repeat; right: 25px; top: 20px;} */
 
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(1) .thumb{background-image: url('/assets/images/1-1 Condensed Catalog.jpg');}
-/* .customer_support.catalogue .prod-list.instrumentation ul li:nth-child(2) .top .thumb{background-image: url('/assets/images/1-2 Condensed Catalog-UHP.jpg');} */
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(2) .top .thumb{background-image: url('/assets/images/2-1 DK-Lok VR Series Tube Fittings.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(3) .top .thumb{background-image: url('/assets/images/2-2 DK-Lok Tube Fittings.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(4) .top .thumb{background-image: url('/assets/images/2-3 Hose Adapter Fittings.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(5) .top .thumb{background-image: url('/assets/images/2-4 Push-On Hose Fittings.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(6) .top .thumb{background-image: url('/assets/images/2-5 JIS Bite Type Tube Fitting.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(7) .top .thumb{background-image: url('/assets/images/2-6 DK DIN Bite Type Fittings.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(8) .top .thumb{background-image: url('/assets/images/2-7 Hydraulic Pipe Fittings.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(9) .top .thumb{background-image: url('/assets/images/2-8 Instrumentation Pipe Weld Fittings.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(10) .top .thumb{background-image: url('/assets/images/2-9 Metal Flexible Hose.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(11) .top .thumb{background-image: url('/assets/images/2-10 K Series JIC Tube Fittings.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(12) .top .thumb{background-image: url('/assets/images/2-11 High pressure Fitting & Valve.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(13) .top .thumb{background-image: url('/assets/images/2-12 HD Series O Ring Fittings.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(14) .top .thumb{background-image: url('/assets/images/2-13 Z seires DK-Lok.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(15) .top .thumb{background-image: url('/assets/images/2-14 DO Series O-Ring Face Seal Fittings.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(16) .top .thumb{background-image: url('/assets/images/2-15 Ultra-Torr Vacuum Fittings.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(17) .top .thumb{background-image: url('/assets/images/3-1-Ball-&-Plug-Valves.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(18) .top .thumb{background-image: url('/assets/images/3-2-Check-&-Relief-Valves.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(19) .top .thumb{background-image: url('/assets/images/3-3-Needle-Valves.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(20) .top .thumb{background-image: url('/assets/images/3-4-Regulator-&-Metering-Valves.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(21) .top .thumb{background-image: url('/assets/images/3-5-Bleed-&-Purge-Valves.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(22) .top .thumb{background-image: url('/assets/images/3-6-Manifolds-&-Gauge-Root.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(23) .top .thumb{background-image: url('/assets/images/3-7-Diaphragm-Valves.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(24) .top .thumb{background-image: url('/assets/images/3-8-Bellows-Valves.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(25) .top .thumb{background-image: url('/assets/images/3-9-Cryogenic-Valves.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(26) .top .thumb{background-image: url('/assets/images/3-10-Rising-Plug-&-Toggle-Valves.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(27) .top .thumb{background-image: url('/assets/images/3-11-Block-&-Bleed-Valves-Monoflange.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(28) .top .thumb{background-image: url('/assets/images/3-12-Filter.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(29) .top .thumb{background-image: url('/assets/images/3-13-ETC.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(30) .top .thumb{background-image: url('/assets/images/4. Quick Connecter.jpg');}
-.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(31) .top .thumb{background-image: url('/assets/images/5Tube-&-Hose.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(1) .thumb{background-image: url('../../assets/images/1-1 Condensed Catalog.jpg');}
+/* .customer_support.catalogue .prod-list.instrumentation ul li:nth-child(2) .top .thumb{background-image: url('../../assets/images/1-2 Condensed Catalog-UHP.jpg');} */
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(2) .top .thumb{background-image: url('../../assets/images/2-1 DK-Lok VR Series Tube Fittings.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(3) .top .thumb{background-image: url('../../assets/images/2-2 DK-Lok Tube Fittings.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(4) .top .thumb{background-image: url('../../assets/images/2-3 Hose Adapter Fittings.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(5) .top .thumb{background-image: url('../../assets/images/2-4 Push-On Hose Fittings.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(6) .top .thumb{background-image: url('../../assets/images/2-5 JIS Bite Type Tube Fitting.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(7) .top .thumb{background-image: url('../../assets/images/2-6 DK DIN Bite Type Fittings.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(8) .top .thumb{background-image: url('../../assets/images/2-7 Hydraulic Pipe Fittings.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(9) .top .thumb{background-image: url('../../assets/images/2-8 Instrumentation Pipe Weld Fittings.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(10) .top .thumb{background-image: url('../../assets/images/2-9 Metal Flexible Hose.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(11) .top .thumb{background-image: url('../../assets/images/2-10 K Series JIC Tube Fittings.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(12) .top .thumb{background-image: url('../../assets/images/2-11 High pressure Fitting & Valve.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(13) .top .thumb{background-image: url('../../assets/images/2-12 HD Series O Ring Fittings.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(14) .top .thumb{background-image: url('../../assets/images/2-13 Z seires DK-Lok.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(15) .top .thumb{background-image: url('../../assets/images/2-14 DO Series O-Ring Face Seal Fittings.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(16) .top .thumb{background-image: url('../../assets/images/2-15 Ultra-Torr Vacuum Fittings.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(17) .top .thumb{background-image: url('../../assets/images/3-1-Ball-&-Plug-Valves.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(18) .top .thumb{background-image: url('../../assets/images/3-2-Check-&-Relief-Valves.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(19) .top .thumb{background-image: url('../../assets/images/3-3-Needle-Valves.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(20) .top .thumb{background-image: url('../../assets/images/3-4-Regulator-&-Metering-Valves.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(21) .top .thumb{background-image: url('../../assets/images/3-5-Bleed-&-Purge-Valves.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(22) .top .thumb{background-image: url('../../assets/images/3-6-Manifolds-&-Gauge-Root.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(23) .top .thumb{background-image: url('../../assets/images/3-7-Diaphragm-Valves.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(24) .top .thumb{background-image: url('../../assets/images/3-8-Bellows-Valves.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(25) .top .thumb{background-image: url('../../assets/images/3-9-Cryogenic-Valves.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(26) .top .thumb{background-image: url('../../assets/images/3-10-Rising-Plug-&-Toggle-Valves.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(27) .top .thumb{background-image: url('../../assets/images/3-11-Block-&-Bleed-Valves-Monoflange.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(28) .top .thumb{background-image: url('../../assets/images/3-12-Filter.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(29) .top .thumb{background-image: url('../../assets/images/3-13-ETC.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(30) .top .thumb{background-image: url('../../assets/images/4. Quick Connecter.jpg');}
+.customer_support.catalogue .prod-list.instrumentation ul li:nth-child(31) .top .thumb{background-image: url('../../assets/images/5Tube-&-Hose.jpg');}
 /* 계측장비 제품 카탈로그 썸네일 */
 
 
-.customer_support.catalogue .prod-list.semiconductor ul li:nth-child(1) .top .thumb{background-image: url('/assets/images/1-2 Condensed Catalog-UHP.jpg');}
-.customer_support.catalogue .prod-list.semiconductor ul li:nth-child(2) .top .thumb{background-image: url('/assets/images/1-UHP-Fitting.jpg');}
-.customer_support.catalogue .prod-list.semiconductor ul li:nth-child(3) .top .thumb{background-image: url('/assets/images/2-1 Diaphgragm Valve.jpg');}
-.customer_support.catalogue .prod-list.semiconductor ul li:nth-child(4) .top .thumb{background-image: url('/assets/images/2-2-Bellows-Valve.jpg');}
-.customer_support.catalogue .prod-list.semiconductor ul li:nth-child(5) .top .thumb{background-image: url('/assets/images/2-3-Check-Valve.jpg');}
-.customer_support.catalogue .prod-list.semiconductor ul li:nth-child(6) .top .thumb{background-image: url('/assets/images/3-Regulator.jpg');}
-.customer_support.catalogue .prod-list.semiconductor ul li:nth-child(7) .top .thumb{background-image: url('/assets/images/4-IGS.jpg');}
+.customer_support.catalogue .prod-list.semiconductor ul li:nth-child(1) .top .thumb{background-image: url('../../assets/images/1-2 Condensed Catalog-UHP.jpg');}
+.customer_support.catalogue .prod-list.semiconductor ul li:nth-child(2) .top .thumb{background-image: url('../../assets/images/1-UHP-Fitting.jpg');}
+.customer_support.catalogue .prod-list.semiconductor ul li:nth-child(3) .top .thumb{background-image: url('../../assets/images/2-1 Diaphgragm Valve.jpg');}
+.customer_support.catalogue .prod-list.semiconductor ul li:nth-child(4) .top .thumb{background-image: url('../../assets/images/2-2-Bellows-Valve.jpg');}
+.customer_support.catalogue .prod-list.semiconductor ul li:nth-child(5) .top .thumb{background-image: url('../../assets/images/2-3-Check-Valve.jpg');}
+.customer_support.catalogue .prod-list.semiconductor ul li:nth-child(6) .top .thumb{background-image: url('../../assets/images/3-Regulator.jpg');}
+.customer_support.catalogue .prod-list.semiconductor ul li:nth-child(7) .top .thumb{background-image: url('../../assets/images/4-IGS.jpg');}
 /* 반도체장비 제품 카탈로그 썸네일 */
 
-.customer_support.catalogue .prod-list.process ul li:nth-child(1) .top .thumb{background-image: url('/assets/images/Process-Valves-Brochure.jpg');}
+.customer_support.catalogue .prod-list.process ul li:nth-child(1) .top .thumb{background-image: url('../../assets/images/Process-Valves-Brochure.jpg');}
 /* 프로세스 장비 제품 카탈로그 썸네일 */
 /* 카달로그 */
 
@@ -948,8 +948,8 @@ h2,
 .contactUs form fieldset > .box2 > ul li{padding-right: 85px; margin-bottom: 50px;}
 .contactUs form fieldset > .box2 ul li input[type='radio']{display: none;}
 .contactUs form fieldset > .box2 ul li label{cursor: pointer; position: relative; padding-left: 38px; font-size: 25px; font-weight: 700; color: #999999;}
-.contactUs form fieldset > .box2 ul li label:before{content: ''; position: absolute; left: 0; top: 50%; transform: translateY(-50%); background: url('/assets/images/contactUs_radio.png') center / contain no-repeat; width: 26px; height: 26px;}
-.contactUs form fieldset > .box2 ul li input[type='radio']:checked + label:before{background-image: url('/assets/images/contactUs_radio_checked.png');}
+.contactUs form fieldset > .box2 ul li label:before{content: ''; position: absolute; left: 0; top: 50%; transform: translateY(-50%); background: url('../../assets/images/contactUs_radio.png') center / contain no-repeat; width: 26px; height: 26px;}
+.contactUs form fieldset > .box2 ul li input[type='radio']:checked + label:before{background-image: url('../../assets/images/contactUs_radio_checked.png');}
 .contactUs form fieldset > .box3 h4{margin-bottom: 50px;}
 .contactUs form fieldset > .box3 > input{font-size: 20px; font-weight: 500; color: #555555; line-height: 34px; margin-bottom: 15px; outline: none; padding: 0 30px; box-sizing: border-box; width: 100%; border: 1px solid #DDDDDD; height: 74px; border-radius: 5px;}
 .contactUs form fieldset > .box3 > input::placeholder{font-size: 20px; line-height: 34px; font-weight: 500; color: #999999;}
@@ -1014,8 +1014,8 @@ h2,
 .contactUs form fieldset > .box4 > div:last-child{margin-bottom: 60px;}
 .contactUs form fieldset > .box4 input[type='checkbox']{display: none;}
 .contactUs form fieldset > .box4 label{position: relative; font-size: 20px; line-height: 28px; font-weight: 500; color: #444444; display: block; margin-bottom: 20px;}
-.contactUs form fieldset > .box4 label:before{content: ''; position: absolute; left: -40px; top: 50%; transform: translateY(-50%); background: url('/assets/images/contactUs_checkBox.png') center / contain no-repeat; width: 20px; height: 20px;}
-.contactUs form fieldset > .box4 input[type='checkbox']:checked + label:before{background-image: url('/assets/images/contactUs_checkBox_checked.png');}
+.contactUs form fieldset > .box4 label:before{content: ''; position: absolute; left: -40px; top: 50%; transform: translateY(-50%); background: url('../../assets/images/contactUs_checkBox.png') center / contain no-repeat; width: 20px; height: 20px;}
+.contactUs form fieldset > .box4 input[type='checkbox']:checked + label:before{background-image: url('../../assets/images/contactUs_checkBox_checked.png');}
 .contactUs form fieldset > .box4 p{font-size: 16px; font-weight: 400; line-height: 28px; color: #666666;}
 .contactUs form fieldset .submit{transition: all 0.3s ease-out; position: relative; line-height: 73px; padding: 0 75px 0 0; font-size: 62px; color: #CCCCCC; font-weight: 700; background-color: transparent; border: none;}
 .contactUs form fieldset .submit:after{transition: all 0.3s ease-out; content: '→'; display: block; position: absolute; right: 0; top: 50%; transform: translateY(-50%); font-size: 62px; color: #CCCCCC; font-weight: 700;}
@@ -1048,7 +1048,7 @@ select::-ms-expand {
 }
 .select{
     width: 110px;
-    background: url('/assets/images/select_arrow.png') calc(100% - 10px) center / contain no-repeat;
+    background: url('../../assets/images/select_arrow.png') calc(100% - 10px) center / contain no-repeat;
     background-size: 8px;
     outline: none;
     cursor: pointer;
@@ -1159,12 +1159,12 @@ select::-ms-expand {
 }
 .public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div > div .youtube{background-color: #FF0000;}
 .public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div a:after{content: ''; background-repeat: no-repeat; background-size: contain; background-position: center; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
-.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div .facebook:after{background-image: url('/assets/images/facebook_hover.png'); width: 8px; height: 14px;}
-.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div .linkedin:after{background-image: url('/assets/images/linkedin_hover.png'); width: 14px; height: 14px;}
-.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div .twitter:after{background-image: url('/assets/images/twitter-x_hover.png'); width: 17px; height: 14px;}
-.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div .blog:after{background-image: url('/assets/images/blog_hover.png'); width: 16px; height: 14px;}
-.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div .instagram:after{background-image: url('/assets/images/instagram_hover.png'); width: 14px; height: 14px;}
-.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div .youtube:after{background-image: url('/assets/images/youtube_hover.png'); width: 14px; height: 14px;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div .facebook:after{background-image: url('../../assets/images/facebook_hover.png'); width: 8px; height: 14px;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div .linkedin:after{background-image: url('../../assets/images/linkedin_hover.png'); width: 14px; height: 14px;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div .twitter:after{background-image: url('../../assets/images/twitter-x_hover.png'); width: 17px; height: 14px;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div .blog:after{background-image: url('../../assets/images/blog_hover.png'); width: 16px; height: 14px;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div .instagram:after{background-image: url('../../assets/images/instagram_hover.png'); width: 14px; height: 14px;}
+.public_relationsCenter.dklokStory .section_1 .dklokStoryList li .contentBox > div .youtube:after{background-image: url('../../assets/images/youtube_hover.png'); width: 14px; height: 14px;}
 .public_relationsCenter.dklokStory .section_1 .dklokStoryList li .imgBox{overflow: hidden; line-height: 0;}
 .public_relationsCenter.dklokStory .section_1 .dklokStoryList li .imgBox img{line-height: 0; transition: all 0.2s linear; width: 100%; object-fit: cover;}
 .public_relationsCenter.dklokStory .section_1 .dklokStoryList li:hover .imgBox img{transform: scale(1.1);}
@@ -1240,7 +1240,7 @@ select::-ms-expand {
 /* 또 다른 사업분야 확인하기 */
 .otherBusiness h3{margin-bottom: 25px;}
 .otherBusiness h3 span{position: relative; padding-right: 18px; font-size: 18px; font-weight: 500; line-height: 30px; color: #666666;}
-.otherBusiness h3 span:after{content: ''; position: absolute; right: 0; top: 50%; transform: translateY(-50%); background: url('/assets/images/otherBusiness_titleArrow.png') center / contain no-repeat; width: 6px; height: 11px;}
+.otherBusiness h3 span:after{content: ''; position: absolute; right: 0; top: 50%; transform: translateY(-50%); background: url('../../assets/images/otherBusiness_titleArrow.png') center / contain no-repeat; width: 6px; height: 11px;}
 .otherBusiness ul{margin-bottom: 80px; display: flex; flex-wrap: wrap;}
 .otherBusiness ul li{position: relative; cursor: pointer; box-sizing: border-box; transition: background 0.2s ease-out; background-color: rgba(51,51,51,0); position: relative; margin-bottom: 2%; padding: 30px 0; border: 1px solid #EEEEEE; border-radius: 5px; width: 23%;}
 .otherBusiness ul li > a{position: absolute; width: 100%; height: 100%; left: 0; top: 0; z-index: 9;}
@@ -1249,26 +1249,26 @@ select::-ms-expand {
 /* .otherBusiness ul li .link{position: absolute; width: 100%; height: 100%; left: 0; top: 0; z-index: 1;} */
 .otherBusiness ul li > span:not(.link){text-align: center; display: block; margin: 0 auto;}
 .otherBusiness ul li > span:not(.link):nth-of-type(1):after{content: ''; margin: 0 auto 15px; display: block; background-repeat: no-repeat; background-position: center; background-size: contain; transition: background 0.3s ease-out;}
-.otherBusiness ul li.oil_gas > span:nth-of-type(1):after{background-image: url('/assets/images/oil_gas_gray.png'); width: 60px; height: 70px;}
-.otherBusiness ul li.oilRefining_chemistry > span:nth-of-type(1):after{background-image: url('/assets/images/oilRefining_chemistry_gray.png'); width: 60px; height: 70px;}
-.otherBusiness ul li.epc > span:nth-of-type(1):after{background-image: url('/assets/images/epc_gray.png'); width: 60px; height: 70px;}
-.otherBusiness ul li.shipbuilding_marine > span:nth-of-type(1):after{background-image: url('/assets/images/shipbuilding_marine_gray.png'); width: 60px; height: 70px;}
-.otherBusiness ul li.machine_equipment > span:nth-of-type(1):after{background-image: url('/assets/images/machine_equipment_gray.png'); width: 60px; height: 70px;}
-.otherBusiness ul li.cng_rng_ngv > span:nth-of-type(1):after{background-image: url('/assets/images/cng_rng_ngv_gray.png'); width: 60px; height: 70px;}
-.otherBusiness ul li.hydrogen_tram > span:nth-of-type(1):after{background-image: url('/assets/images/hydrogen_tram_gray.png'); width: 60px; height: 70px;}
-.otherBusiness ul li.semiconductor_display > span:nth-of-type(1):after{background-image: url('/assets/images/semiconduct_display_gray.png'); width: 60px; height: 70px;}
-.otherBusiness ul li.space_air > span:nth-of-type(1):after{background-image: url('/assets/images/space_air_gray.png'); width: 60px; height: 70px;}
+.otherBusiness ul li.oil_gas > span:nth-of-type(1):after{background-image: url('../../assets/images/oil_gas_gray.png'); width: 60px; height: 70px;}
+.otherBusiness ul li.oilRefining_chemistry > span:nth-of-type(1):after{background-image: url('../../assets/images/oilRefining_chemistry_gray.png'); width: 60px; height: 70px;}
+.otherBusiness ul li.epc > span:nth-of-type(1):after{background-image: url('../../assets/images/epc_gray.png'); width: 60px; height: 70px;}
+.otherBusiness ul li.shipbuilding_marine > span:nth-of-type(1):after{background-image: url('../../assets/images/shipbuilding_marine_gray.png'); width: 60px; height: 70px;}
+.otherBusiness ul li.machine_equipment > span:nth-of-type(1):after{background-image: url('../../assets/images/machine_equipment_gray.png'); width: 60px; height: 70px;}
+.otherBusiness ul li.cng_rng_ngv > span:nth-of-type(1):after{background-image: url('../../assets/images/cng_rng_ngv_gray.png'); width: 60px; height: 70px;}
+.otherBusiness ul li.hydrogen_tram > span:nth-of-type(1):after{background-image: url('../../assets/images/hydrogen_tram_gray.png'); width: 60px; height: 70px;}
+.otherBusiness ul li.semiconductor_display > span:nth-of-type(1):after{background-image: url('../../assets/images/semiconduct_display_gray.png'); width: 60px; height: 70px;}
+.otherBusiness ul li.space_air > span:nth-of-type(1):after{background-image: url('../../assets/images/space_air_gray.png'); width: 60px; height: 70px;}
 .otherBusiness ul li > span:nth-of-type(2){font-size: 16px; font-weight: 500; color: #999999;}
 .otherBusiness ul li:hover > span:nth-of-type(2){color: #fff;}
-.otherBusiness ul li.oil_gas:hover > span:nth-of-type(1):after{background-image: url('/assets/images/oil_gas_white.png');}
-.otherBusiness ul li.oilRefining_chemistry:hover > span:nth-of-type(1):after{background-image: url('/assets/images/oilRefining_chemistry_white.png');}
-.otherBusiness ul li.epc:hover > span:nth-of-type(1):after{background-image: url('/assets/images/epc_white.png');}
-.otherBusiness ul li.shipbuilding_marine:hover > span:nth-of-type(1):after{background-image: url('/assets/images/shipbuilding_marine_white.png');}
-.otherBusiness ul li.machine_equipment:hover > span:nth-of-type(1):after{background-image: url('/assets/images/machine_equipment_white.png');}
-.otherBusiness ul li.cng_rng_ngv:hover > span:nth-of-type(1):after{background-image: url('/assets/images/cng_rng_ngv_white.png');}
-.otherBusiness ul li.hydrogen_tram:hover > span:nth-of-type(1):after{background-image: url('/assets/images/hydrogen_tram_white.png');}
-.otherBusiness ul li.semiconductor_display:hover > span:nth-of-type(1):after{background-image: url('/assets/images/semiconduct_display_white.png');}
-.otherBusiness ul li.space_air:hover > span:nth-of-type(1):after{background-image: url('/assets/images/space_air_white.png');}
+.otherBusiness ul li.oil_gas:hover > span:nth-of-type(1):after{background-image: url('../../assets/images/oil_gas_white.png');}
+.otherBusiness ul li.oilRefining_chemistry:hover > span:nth-of-type(1):after{background-image: url('../../assets/images/oilRefining_chemistry_white.png');}
+.otherBusiness ul li.epc:hover > span:nth-of-type(1):after{background-image: url('../../assets/images/epc_white.png');}
+.otherBusiness ul li.shipbuilding_marine:hover > span:nth-of-type(1):after{background-image: url('../../assets/images/shipbuilding_marine_white.png');}
+.otherBusiness ul li.machine_equipment:hover > span:nth-of-type(1):after{background-image: url('../../assets/images/machine_equipment_white.png');}
+.otherBusiness ul li.cng_rng_ngv:hover > span:nth-of-type(1):after{background-image: url('../../assets/images/cng_rng_ngv_white.png');}
+.otherBusiness ul li.hydrogen_tram:hover > span:nth-of-type(1):after{background-image: url('../../assets/images/hydrogen_tram_white.png');}
+.otherBusiness ul li.semiconductor_display:hover > span:nth-of-type(1):after{background-image: url('../../assets/images/semiconduct_display_white.png');}
+.otherBusiness ul li.space_air:hover > span:nth-of-type(1):after{background-image: url('../../assets/images/space_air_white.png');}
 /* 또 다른 사업분야 확인하기 Fin */
 
 /* 탭 - 분야소개 */
@@ -1395,15 +1395,15 @@ select::-ms-expand {
 /* 패딩값 공통 Fin */
 
 /* bgBox */
-.oilAndGas .section_1 .bgBox{background-image: url('/assets/images/oilAndGas_bgBox.png');}
-.oilRefining_chemistry .section_1 .bgBox{background-image: url('/assets/images/oilRefining_chemistry_bgBox.png');}
-.epc .section_1 .bgBox{background-image: url('/assets/images/epc_bgBox.png');}
-.shipbuilding_marine .section_1 .bgBox{background-image: url('/assets/images/shipbuilding_marine_bgBox.png');}
-.machine_equipment .section_1 .bgBox{background-image: url('/assets/images/machine_equipment_bgBox.png');}
-.cng_rng_ngv .section_1 .bgBox{background-image: url('/assets/images/cng_rng_ngv_bgBox.png');}
-.hydrogen_tram .section_1 .bgBox{background-image: url('/assets/images/hydrogen_tram_bgBox.png');}
-.semiconductor_display .section_1 .bgBox{background-image: url('/assets/images/semiconductor_display_bgBox.png');}
-.space_air .section_1 .bgBox{background-image: url('/assets/images/space_air_bgBox.jpg');}
+.oilAndGas .section_1 .bgBox{background-image: url('../../assets/images/oilAndGas_bgBox.png');}
+.oilRefining_chemistry .section_1 .bgBox{background-image: url('../../assets/images/oilRefining_chemistry_bgBox.png');}
+.epc .section_1 .bgBox{background-image: url('../../assets/images/epc_bgBox.png');}
+.shipbuilding_marine .section_1 .bgBox{background-image: url('../../assets/images/shipbuilding_marine_bgBox.png');}
+.machine_equipment .section_1 .bgBox{background-image: url('../../assets/images/machine_equipment_bgBox.png');}
+.cng_rng_ngv .section_1 .bgBox{background-image: url('../../assets/images/cng_rng_ngv_bgBox.png');}
+.hydrogen_tram .section_1 .bgBox{background-image: url('../../assets/images/hydrogen_tram_bgBox.png');}
+.semiconductor_display .section_1 .bgBox{background-image: url('../../assets/images/semiconductor_display_bgBox.png');}
+.space_air .section_1 .bgBox{background-image: url('../../assets/images/space_air_bgBox.jpg');}
 /* bgBox Fin */
 
 /* 컨텐츠 내 이미지 공통 */
@@ -1435,7 +1435,7 @@ select::-ms-expand {
 .view .section_1 .pdfListBox > div{padding: 15px 20px; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center;}
 .view .section_1 .pdfListBox > div{border-top: 1px solid #EEEEEE; cursor: pointer;}
 .view .section_1 .pdfListBox > div span:nth-child(1){display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 16px; font-weight: 400; color: #666666; padding-left: 33px; position: relative;}
-.view .section_1 .pdfListBox > div span:nth-child(1):before{content: ''; display: block; position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 22px; height: 25px; background: url('/assets/images/pdf_icon.png') center / contain no-repeat;}
+.view .section_1 .pdfListBox > div span:nth-child(1):before{content: ''; display: block; position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 22px; height: 25px; background: url('../../assets/images/pdf_icon.png') center / contain no-repeat;}
 .view .section_1 .pdfListBox > div span:nth-child(2){display: block; font-size: 14px; font-weight: 400; color: #0A77FF;}
 .view .section_1 .pdfListBox button{background-color: transparent; border: none; font-size: 14px; font-weight: 400; color: #0A77FF;}
 
@@ -1446,8 +1446,8 @@ select::-ms-expand {
 .view .titleList > div span{line-height: 20px; text-decoration: none; font-size: 16px;}
 .view .titleList > div span:nth-child(1){font-weight: 600; color: #444444; padding-left: 20px; position: relative;}
 .view .titleList > div span:nth-child(1):before{content: ''; position: absolute; background-repeat: no-repeat; background-position: center; background-size: contain; width: 8px; height: 5px; left: 0; top: 50%; transform: translateY(-50%);}
-.view .titleList > div:nth-child(1) span:nth-child(1):before{background-image: url('/assets/images/blog_view_arrow_up.png');}
-.view .titleList > div:nth-child(2) span:nth-child(1):before{background-image: url('/assets/images/blog_view_arrow_down.png');}
+.view .titleList > div:nth-child(1) span:nth-child(1):before{background-image: url('../../assets/images/blog_view_arrow_up.png');}
+.view .titleList > div:nth-child(2) span:nth-child(1):before{background-image: url('../../assets/images/blog_view_arrow_down.png');}
 .view .titleList > div span:nth-child(2){width: calc(100% - 120px); display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-left: 50px; color: #666666; font-weight: 400;}
 .view .section_1 .btnBox{display: flex; justify-content: center;}
 .view .section_1 .btnBox a{text-decoration: none; padding: 10px 25px; font-size: 17px; color: #fff; font-weight: 400; background-color: #444444; border-radius: 5px;}
@@ -1457,7 +1457,7 @@ select::-ms-expand {
 .landingPage{padding: 65px 0; background-color: #F9F9F9;}
 .landingPage p{text-align: center;}
 .landingPage > p:nth-child(1){margin-bottom: 10px; padding-top: 50px; position: relative;}
-.landingPage > p:nth-child(1):before{content: ''; display: block; position: absolute; left: 50%; top: 0; transform: translateX(-50%); background: url('/assets/images/message-dots.png') center / contain no-repeat; width: 28px; height: 28px;}
+.landingPage > p:nth-child(1):before{content: ''; display: block; position: absolute; left: 50%; top: 0; transform: translateX(-50%); background: url('../../assets/images/message-dots.png') center / contain no-repeat; width: 28px; height: 28px;}
 .landingPage > p:last-of-type{margin-bottom: 45px;}
 .landingPage p{font-size: 16px; font-weight: 500; line-height: 24px; color: #666666;}
 .landingPage p strong{font-size: 18px; font-weight: 700; color: #444444; line-height: 24px;}
@@ -1665,9 +1665,9 @@ select::-ms-expand {
   /* 제품소개 / 제품분류 / 전체제품 */
   .product_classification.all_product .section_1{height: 900px; flex-wrap: wrap;}
   .product_classification.all_product .section_1 > div{padding-left: 0; background-repeat: no-repeat; background-size: cover; background-position: center; width: 100%; height: 300px; box-sizing: border-box;}
-  .product_classification.all_product .section_1 > div:nth-child(1){background-image: url('/assets/images/instrumentation_thumb.png');}
-  .product_classification.all_product .section_1 > div:nth-child(2){background-image: url('/assets/images/semiconductor_thumb.png');}
-  .product_classification.all_product .section_1 > div:nth-child(3){background-image: url('/assets/images/processValves_thumb.png');}
+  .product_classification.all_product .section_1 > div:nth-child(1){background-image: url('../../assets/images/instrumentation_thumb.png');}
+  .product_classification.all_product .section_1 > div:nth-child(2){background-image: url('../../assets/images/semiconductor_thumb.png');}
+  .product_classification.all_product .section_1 > div:nth-child(3){background-image: url('../../assets/images/processValves_thumb.png');}
   .product_classification.all_product .section_1 > div > div{left: 50%; transform: translateX(-50%);}
   .product_classification.all_product .section_1 > div h3,
   .product_classification.all_product .section_1 > div p{color: rgba(255,255,255,1);}

@@ -20,11 +20,11 @@ button{cursor: pointer;}
 .topBtn{bottom: 30px;}
 .shareBtn{bottom: 105px; transition: background 0.3s ease-out;}
 .product_hamburger{cursor: pointer; visibility: hidden; opacity: 0; bottom: 180px; transition: all 0.3s ease-out;}
-.topBtn:after{content: ''; background: url('/assets/images/topBtn.png') center / contain no-repeat; width: 14px; height: 20px;}
-.shareBtn:after{content: ''; background: url('/assets/images/shareBtn.png') center / contain no-repeat; width: 19px; height: 19px;}
-.product_hamburger:after{content: ''; background: url('/assets/images/product_hamburger.png') center / contain no-repeat; width: 19px; height: 19px;}
+.topBtn:after{content: ''; background: url('../../assets/images/topBtn.png') center / contain no-repeat; width: 14px; height: 20px;}
+.shareBtn:after{content: ''; background: url('../../assets/images/shareBtn.png') center / contain no-repeat; width: 19px; height: 19px;}
+.product_hamburger:after{content: ''; background: url('../../assets/images/product_hamburger.png') center / contain no-repeat; width: 19px; height: 19px;}
 .product_hamburger.active{background-color: #0E56A7;}
-.product_hamburger.active:after{background-image: url('/assets/images/product_hamburger_close.png'); width: 16px; height: 16px;}
+.product_hamburger.active:after{background-image: url('../../assets/images/product_hamburger_close.png'); width: 16px; height: 16px;}
 .product_hamburger_BG{display: none; position: fixed; width: 100%; height: 100%; left: 0; top: 0; background-color: rgba(0,0,0,0.5); z-index: 99;}
 .product_hamburger_BG.active{display: block;}
 .shareBtn:hover{background-color: #555555;}
@@ -35,9 +35,9 @@ button{cursor: pointer;}
 .shareBox > div > div{display: flex; width: 290px; box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); border-radius: 5px;} 
 .shareBox > div > div input{outline: none; font-size: 13px; font-weight: 300; color: #666666; width: calc(100% - 30px); border: none;}
 .shareBox > div > div .url_copyBtn{width: 30px; height: 30px; border: none; position: relative; background-color: #F6F6F6; border-radius: 0 5px 5px 0;}
-.shareBox > div > div .url_copyBtn:after{content: ''; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background: url('/assets/images/copyBtn.png') center / contain no-repeat; width: 14px; height: 14px;}
+.shareBox > div > div .url_copyBtn:after{content: ''; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background: url('../../assets/images/copyBtn.png') center / contain no-repeat; width: 14px; height: 14px;}
 .shareBox > div > div .url_copyBtn.active{background-color: #0E56A7;}
-.shareBox > div > div .url_copyBtn.active:after{background-image: url('/assets/images/copyCheckBtn.png'); width: 14px; height: 14px;}
+.shareBox > div > div .url_copyBtn.active:after{background-image: url('../../assets/images/copyCheckBtn.png'); width: 14px; height: 14px;}
 .shareBox > div:nth-child(2) ul{display: flex; justify-content: space-between;}
 .shareBox > div:nth-child(2) ul li a{position: relative; display: block; width: 50px; height: 50px; background-color: #F5F5F5; border-radius: 5px;}
 .shareBox > div:nth-child(2) ul li a:after{content: ''; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background-size: contain; background-repeat: no-repeat; background-position: center;}
@@ -49,16 +49,16 @@ button{cursor: pointer;}
     background: linear-gradient(32deg, rgba(252,176,69,1) 0%, rgba(252,166,66,1) 9%, rgba(252,117,53,1) 26%, rgba(253,29,29,1) 49%, rgba(131,58,180,1) 85%, rgba(131,58,180,1) 100%);
 }
 .shareBox > div:nth-child(2) ul li:nth-child(5):hover a{background-color: #2EB34A;}
-.shareBox > div:nth-child(2) ul li:nth-child(1) a:after{background-image: url('/assets/images/linkedin.png'); width: 14px; height: 14px;}
-.shareBox > div:nth-child(2) ul li:nth-child(2) a:after{background-image: url('/assets/images/facebook.png'); width: 9px; height: 16px;}
-.shareBox > div:nth-child(2) ul li:nth-child(3) a:after{background-image: url('/assets/images/twitter.png'); width: 18px; height: 15px;}
-.shareBox > div:nth-child(2) ul li:nth-child(4) a:after{background-image: url('/assets/images/instagram.png'); width: 18px; height: 18px;}
-.shareBox > div:nth-child(2) ul li:nth-child(5) a:after{background-image: url('/assets/images/blog.png'); width: 20px; height: 18px;}
-.shareBox > div:nth-child(2) ul li:nth-child(1):hover a:after{background-image: url('/assets/images/linkedin_hover.png');}
-.shareBox > div:nth-child(2) ul li:nth-child(2):hover a:after{background-image: url('/assets/images/facebook_hover.png');}
-.shareBox > div:nth-child(2) ul li:nth-child(3):hover a:after{background-image: url('/assets/images/twitter_hover.png');}
-.shareBox > div:nth-child(2) ul li:nth-child(4):hover a:after{background-image: url('/assets/images/instagram_hover.png');}
-.shareBox > div:nth-child(2) ul li:nth-child(5):hover a:after{background-image: url('/assets/images/blog_hover.png');}
+.shareBox > div:nth-child(2) ul li:nth-child(1) a:after{background-image: url('../../assets/images/linkedin.png'); width: 14px; height: 14px;}
+.shareBox > div:nth-child(2) ul li:nth-child(2) a:after{background-image: url('../../assets/images/facebook.png'); width: 9px; height: 16px;}
+.shareBox > div:nth-child(2) ul li:nth-child(3) a:after{background-image: url('../../assets/images/twitter.png'); width: 18px; height: 15px;}
+.shareBox > div:nth-child(2) ul li:nth-child(4) a:after{background-image: url('../../assets/images/instagram.png'); width: 18px; height: 18px;}
+.shareBox > div:nth-child(2) ul li:nth-child(5) a:after{background-image: url('../../assets/images/blog.png'); width: 20px; height: 18px;}
+.shareBox > div:nth-child(2) ul li:nth-child(1):hover a:after{background-image: url('../../assets/images/linkedin_hover.png');}
+.shareBox > div:nth-child(2) ul li:nth-child(2):hover a:after{background-image: url('../../assets/images/facebook_hover.png');}
+.shareBox > div:nth-child(2) ul li:nth-child(3):hover a:after{background-image: url('../../assets/images/twitter_hover.png');}
+.shareBox > div:nth-child(2) ul li:nth-child(4):hover a:after{background-image: url('../../assets/images/instagram_hover.png');}
+.shareBox > div:nth-child(2) ul li:nth-child(5):hover a:after{background-image: url('../../assets/images/blog_hover.png');}
 
 
 .header_pc,
@@ -68,7 +68,7 @@ header{position: fixed; left: 0; top: -90px; width: 100%; z-index: 999; transiti
 header.fixed{top: 0;}
 .header_pc{display: flex;}
 .header_pc h1{cursor: pointer; width: 10.13%;}
-.header_pc h1 a{height: 90px; text-indent: -9999px; display: block; background: url('/assets/images/dkLok_logo.png') center / contain no-repeat; max-width: 150px; width: 100%;}
+.header_pc h1 a{height: 90px; text-indent: -9999px; display: block; background: url('../../assets/images/dkLok_logo.png') center / contain no-repeat; max-width: 150px; width: 100%;}
 .header_pc > div{width: 89.86%; display: flex; height: 90px; align-items: center;}
 .header_pc nav{width: 86%;}
 .header_pc nav ul li,
@@ -99,7 +99,7 @@ header.fixed .header_pc nav > ul > li > span + div:hover{visibility: visible; op
 .header_pc .rightBox .langBox,
 .header_pc .rightBox .snsBox{margin-left: 35px; position: relative;}
 .header_pc .rightBox .snsBox button{height: 90px;}
-.header_pc .rightBox .langBox button{background: url('/assets/images/langBtn.png') center / contain no-repeat; width: 18px; height: 90px; border: none; padding: 0;}
+.header_pc .rightBox .langBox button{background: url('../../assets/images/langBtn.png') center / contain no-repeat; width: 18px; height: 90px; border: none; padding: 0;}
 .header_pc .rightBox .langBox button:hover + div,
 .header_pc .rightBox .langBox > div:hover,
 .header_pc .rightBox .snsBox button:hover + div,
@@ -109,14 +109,14 @@ header.fixed .header_pc nav > ul > li > span + div:hover{visibility: visible; op
 .header_pc .rightBox .langBox > div span{cursor: pointer; display: block; font-size: 14px; border-radius: 3px; font-weight: 500; color: #CCCCCC; text-align: center; line-height: 25px;}
 .header_pc .rightBox .snsBox > div a{border-radius: 3px; cursor: pointer; margin: 0 auto; width: 28px; height: 28px; display: block; position: relative;}
 .header_pc .rightBox .snsBox > div a:after{content: ''; transition: background 0.2s ease-out; content: ''; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background-repeat: no-repeat; background-position: center; background-size: contain;}
-.header_pc .rightBox .snsBox > div a:nth-of-type(1):after{background-image: url('/assets/images/footer_linkedIn.png'); width: 14px; height: 14px;}
-.header_pc .rightBox .snsBox > div a:nth-of-type(2):after{background-image: url('/assets/images/footer_x.png'); width: 14px; height: 14px;}
-.header_pc .rightBox .snsBox > div a:nth-of-type(3):after{background-image: url('/assets/images/footer_facebook.png'); width: 7px; height: 14px;}
-.header_pc .rightBox .snsBox > div a:nth-of-type(4):after{background-image: url('/assets/images/footer_youtube.png'); width: 14px; height: 10px;}
-.header_pc .rightBox .snsBox > div a:nth-of-type(1):hover:after{background-image: url('/assets/images/footer_linkedIn_hover.png');}
-.header_pc .rightBox .snsBox > div a:nth-of-type(2):hover:after{background-image: url('/assets/images/footer_x_hover.png');}
-.header_pc .rightBox .snsBox > div a:nth-of-type(3):hover:after{background-image: url('/assets/images/footer_facebook_hover.png');}
-.header_pc .rightBox .snsBox > div a:nth-of-type(4):hover:after{background-image: url('/assets/images/footer_youtube_hover.png');}
+.header_pc .rightBox .snsBox > div a:nth-of-type(1):after{background-image: url('../../assets/images/footer_linkedIn.png'); width: 14px; height: 14px;}
+.header_pc .rightBox .snsBox > div a:nth-of-type(2):after{background-image: url('../../assets/images/footer_x.png'); width: 14px; height: 14px;}
+.header_pc .rightBox .snsBox > div a:nth-of-type(3):after{background-image: url('../../assets/images/footer_facebook.png'); width: 7px; height: 14px;}
+.header_pc .rightBox .snsBox > div a:nth-of-type(4):after{background-image: url('../../assets/images/footer_youtube.png'); width: 14px; height: 10px;}
+.header_pc .rightBox .snsBox > div a:nth-of-type(1):hover:after{background-image: url('../../assets/images/footer_linkedIn_hover.png');}
+.header_pc .rightBox .snsBox > div a:nth-of-type(2):hover:after{background-image: url('../../assets/images/footer_x_hover.png');}
+.header_pc .rightBox .snsBox > div a:nth-of-type(3):hover:after{background-image: url('../../assets/images/footer_facebook_hover.png');}
+.header_pc .rightBox .snsBox > div a:nth-of-type(4):hover:after{background-image: url('../../assets/images/footer_youtube_hover.png');}
 
 .header_pc .rightBox .snsBox > div a:hover{background-color: #fff;}
 .header_pc .rightBox .langBox > div span.active,
@@ -179,7 +179,7 @@ body.active{overflow: hidden;}
 
 .header_mo .right_menu{position: fixed; right: 6%;}
 .header_mo .right_menu .lang_box{top: -1px; right: 50px; position: absolute;}
-.header_mo .right_menu .lang_box button{background: url('/assets/images/langBtn.png') center / contain no-repeat; width: 20px; height: 20px; border: none; padding: 0;}
+.header_mo .right_menu .lang_box button{background: url('../../assets/images/langBtn.png') center / contain no-repeat; width: 20px; height: 20px; border: none; padding: 0;}
 .header_mo .right_menu .lang_box > div{display: none; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05); border-radius: 5px; background-color: #fff; position: absolute; left: 50%; top: 33px; transform: translateX(-50%);}
 .header_mo .right_menu .lang_box > div.active{display: block;}
 .header_mo .right_menu .lang_box > div > span{cursor: pointer; font-size: 14px; font-weight: 500; color: #999999; padding: 10px 20px; display: block;}
@@ -195,10 +195,10 @@ body.active{overflow: hidden;}
 .header_mo .right_menu .snsBox > div > a:not(:last-child){margin-bottom: 2px;}
 
 .header_mo .right_menu .snsBox > div a:after{content: ''; transition: background 0.2s ease-out; content: ''; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background-repeat: no-repeat; background-position: center; background-size: contain;}
-.header_mo .right_menu .snsBox > div a:nth-of-type(1):after{background-image: url('/assets/images/footer_linkedIn_hover.png'); width: 14px; height: 14px;}
-.header_mo .right_menu .snsBox > div a:nth-of-type(2):after{background-image: url('/assets/images/footer_x_hover.png'); width: 14px; height: 14px;}
-.header_mo .right_menu .snsBox > div a:nth-of-type(3):after{background-image: url('/assets/images/footer_facebook_hover.png'); width: 7px; height: 14px;}
-.header_mo .right_menu .snsBox > div a:nth-of-type(4):after{background-image: url('/assets/images/footer_youtube_hover.png'); width: 14px; height: 10px;}
+.header_mo .right_menu .snsBox > div a:nth-of-type(1):after{background-image: url('../../assets/images/footer_linkedIn_hover.png'); width: 14px; height: 14px;}
+.header_mo .right_menu .snsBox > div a:nth-of-type(2):after{background-image: url('../../assets/images/footer_x_hover.png'); width: 14px; height: 14px;}
+.header_mo .right_menu .snsBox > div a:nth-of-type(3):after{background-image: url('../../assets/images/footer_facebook_hover.png'); width: 7px; height: 14px;}
+.header_mo .right_menu .snsBox > div a:nth-of-type(4):after{background-image: url('../../assets/images/footer_youtube_hover.png'); width: 14px; height: 10px;}
 /* 모바일 헤더 Fin */
 .depth_1,
 .depth_2{transition: left 0.3s; width: 100%;}
@@ -222,7 +222,7 @@ body.active{overflow: hidden;}
 .depth_2 .mo_sub_menuBox .hasChild > span:nth-child(2){position: absolute; right: 20px; top: 50%; transform: translateY(-50%);}
 
 footer{border-top: 1px solid #EEEEEE; padding: 50px 0;}
-footer > div > span{cursor: pointer; margin-bottom: 85px; opacity: 0.2; display: block; filter: grayscale(100%); background: url('/assets/images/dkLok_footerLogo.png') center / contain no-repeat; width: 145px; height: 24px;}
+footer > div > span{cursor: pointer; margin-bottom: 85px; opacity: 0.2; display: block; filter: grayscale(100%); background: url('../../assets/images/dkLok_footerLogo.png') center / contain no-repeat; width: 145px; height: 24px;}
 footer > div > div{display: flex; justify-content: space-between; align-items: end;}
 footer > div > div > div:nth-child(1) span,
 footer > div > div > div:nth-child(1) a{text-decoration: none; font-size: 16px; font-weight: 400; color: #666666; position: relative;}
@@ -242,14 +242,14 @@ footer > div > div > div:nth-child(2) > div > ul li a{position: absolute; left: 
 footer > div > div > div:nth-child(2) > div > ul li:not(:first-child){margin-left: 8px;}
 footer > div > div > div:nth-child(2) > div > ul li:after{transition: background 0.2s ease-out; content: ''; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background-repeat: no-repeat; background-position: center; background-size: contain; }
 footer > div > div > div:nth-child(2) > div > ul li:hover{background-color: #F9F9F9;}
-footer > div > div > div:nth-child(2) > div > ul li:nth-child(1):after{background-image: url('/assets/images/footer_linkedIn.png'); width: 14px; height: 14px;}
-footer > div > div > div:nth-child(2) > div > ul li:nth-child(2):after{background-image: url('/assets/images/footer_x.png'); width: 14px; height: 14px;}
-footer > div > div > div:nth-child(2) > div > ul li:nth-child(3):after{background-image: url('/assets/images/footer_facebook.png'); width: 7px; height: 14px;}
-footer > div > div > div:nth-child(2) > div > ul li:nth-child(4):after{background-image: url('/assets/images/footer_youtube.png'); width: 14px; height: 10px;}
-footer > div > div > div:nth-child(2) > div > ul li:nth-child(1):hover:after{background-image: url('/assets/images/footer_linkedIn_hover.png');}
-footer > div > div > div:nth-child(2) > div > ul li:nth-child(2):hover:after{background-image: url('/assets/images/footer_x_hover.png');}
-footer > div > div > div:nth-child(2) > div > ul li:nth-child(3):hover:after{background-image: url('/assets/images/footer_facebook_hover.png');}
-footer > div > div > div:nth-child(2) > div > ul li:nth-child(4):hover:after{background-image: url('/assets/images/footer_youtube_hover.png');}
+footer > div > div > div:nth-child(2) > div > ul li:nth-child(1):after{background-image: url('../../assets/images/footer_linkedIn.png'); width: 14px; height: 14px;}
+footer > div > div > div:nth-child(2) > div > ul li:nth-child(2):after{background-image: url('../../assets/images/footer_x.png'); width: 14px; height: 14px;}
+footer > div > div > div:nth-child(2) > div > ul li:nth-child(3):after{background-image: url('../../assets/images/footer_facebook.png'); width: 7px; height: 14px;}
+footer > div > div > div:nth-child(2) > div > ul li:nth-child(4):after{background-image: url('../../assets/images/footer_youtube.png'); width: 14px; height: 10px;}
+footer > div > div > div:nth-child(2) > div > ul li:nth-child(1):hover:after{background-image: url('../../assets/images/footer_linkedIn_hover.png');}
+footer > div > div > div:nth-child(2) > div > ul li:nth-child(2):hover:after{background-image: url('../../assets/images/footer_x_hover.png');}
+footer > div > div > div:nth-child(2) > div > ul li:nth-child(3):hover:after{background-image: url('../../assets/images/footer_facebook_hover.png');}
+footer > div > div > div:nth-child(2) > div > ul li:nth-child(4):hover:after{background-image: url('../../assets/images/footer_youtube_hover.png');}
 
 
 @media screen and (max-width:1600px){

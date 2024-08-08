@@ -4,27 +4,27 @@
 .common_banner.sub_banner .sb_txt p { margin-top:10px; font-weight:300; font-size:21px; text-align:left; color:#EEEEEE; opacity:0.85; line-height:31px;}
 
 /* sub1 */
-.common_banner.sub_banner.about-dk-lok {background:url("/assets/images/banner/about-us.jpg") no-repeat center bottom; background-size:cover;}
+.common_banner.sub_banner.about-dk-lok {background:url("../../assets/images/banner/about-us.jpg") no-repeat center bottom; background-size:cover;}
 .common_banner.sub_banner .ceo-pic {position:absolute; right:0; bottom:-88px;}
-.common_banner.sub_banner.dk-lok-history {background:url("/assets/images/banner/about-us.jpg") no-repeat center bottom; background-size:cover;}
-.common_banner.sub_banner.quality-assurance {background:url("/assets/images/banner/about-us.jpg") no-repeat center bottom; background-size:cover;}
+.common_banner.sub_banner.dk-lok-history {background:url("../../assets/images/banner/about-us.jpg") no-repeat center bottom; background-size:cover;}
+.common_banner.sub_banner.quality-assurance {background:url("../../assets/images/banner/about-us.jpg") no-repeat center bottom; background-size:cover;}
 /* sub2 */
-.common_banner.sub_banner.industries {background:url("/assets/images/banner/industries.jpg") no-repeat center bottom; background-size:cover;}
+.common_banner.sub_banner.industries {background:url("../../assets/images/banner/industries.jpg") no-repeat center bottom; background-size:cover;}
 /* sub3 */
 .common_banner.sub_banner.sub_banner_3 .sb_txt {margin:0 auto 115px;}
-.common_banner.sub_banner.instrumentation {background:url("/assets/images/banner/sb-sample.jpg") no-repeat center bottom; background-size:cover;}
-.common_banner.sub_banner.semiconductor {background:url("/assets/images/banner/sb-sample.jpg") no-repeat center bottom; background-size:cover;}
-.common_banner.sub_banner.ball-valve {background:url("/assets/images/banner/sb-sample.jpg") no-repeat center bottom; background-size:cover;}
-.common_banner.sub_banner.prod-category {background:url("/assets/images/banner/sb-sample.jpg") no-repeat center bottom; background-size:cover;}
-.common_banner.sub_banner.prod-detail {background:url("/assets/images/banner/sb-sample.jpg") no-repeat center bottom; background-size:cover;}
+.common_banner.sub_banner.instrumentation {background:url("../../assets/images/banner/sb-sample.jpg") no-repeat center bottom; background-size:cover;}
+.common_banner.sub_banner.semiconductor {background:url("../../assets/images/banner/sb-sample.jpg") no-repeat center bottom; background-size:cover;}
+.common_banner.sub_banner.ball-valve {background:url("../../assets/images/banner/sb-sample.jpg") no-repeat center bottom; background-size:cover;}
+.common_banner.sub_banner.prod-category {background:url("../../assets/images/banner/sb-sample.jpg") no-repeat center bottom; background-size:cover;}
+.common_banner.sub_banner.prod-detail {background:url("../../assets/images/banner/sb-sample.jpg") no-repeat center bottom; background-size:cover;}
 /* sub4 */
-.common_banner.sub_banner.community {background:url("/assets/images/banner/community.jpg") no-repeat center bottom; background-size:cover;}
-.common_banner.sub_banner.community-view {background:url("/assets/images/banner/community.jpg") no-repeat center bottom; background-size:cover;}
+.common_banner.sub_banner.community {background:url("../../assets/images/banner/community.jpg") no-repeat center bottom; background-size:cover;}
+.common_banner.sub_banner.community-view {background:url("../../assets/images/banner/community.jpg") no-repeat center bottom; background-size:cover;}
 /* sub5 */
 .common_banner.sub_banner.sub_banner_5 .sb_txt {margin:0 auto 115px;}
-.common_banner.sub_banner.contact-us {background:url("/assets/images/banner/contact-us.jpg") no-repeat center bottom; background-size:cover;}
+.common_banner.sub_banner.contact-us {background:url("../../assets/images/banner/contact-us.jpg") no-repeat center bottom; background-size:cover;}
 /* etc */
-.common_banner.sub_banner.service-network {background:url("/assets/images/banner/contact-us.jpg") no-repeat center bottom; background-size:cover;}
+.common_banner.sub_banner.service-network {background:url("../../assets/images/banner/contact-us.jpg") no-repeat center bottom; background-size:cover;}
 
 .common_banner.sub_banner-3 {height:498px;}
 .common_banner.sub_banner-3 .sb_txt {margin-bottom:45px;}
@@ -423,7 +423,7 @@ span.arr {color:#999; font-size:18px; font-weight:200; padding:0 10px; display: 
 .certificate-view #images::after {content:""; display:block; clear:both;}
 .certificate-view #images li {margin:0 20px 50px; vertical-align: top; display: inline-block; width:30%; max-height:420px; /*width:185px; height:233px;*/ cursor:pointer; overflow:hidden; display:flex; float: left; align-items: center; align-content: center; position:relative; padding:20px; justify-content: center;}
 
-/* .certificate-view #images li::after {z-index:10; content:""; position:absolute; left:0; top:0; width:100%; height:100%; background:url("/assets/images/certifi-cover.png") no-repeat; background-size:cover;} */
+/* .certificate-view #images li::after {z-index:10; content:""; position:absolute; left:0; top:0; width:100%; height:100%; background:url("../../assets/images/certifi-cover.png") no-repeat; background-size:cover;} */
 .certificate-view #images li img {position:relative; z-index:11; max-width:100%; height:auto;}
 
 .data-table {}
@@ -1027,7 +1027,7 @@ table.dataTable tbody tr:hover {background:#eee; color:#df0615;}
 .catalog-content .prod-list ul li {position:relative; cursor:pointer;}
 .catalog-content .prod-list ul li .share {position:absolute; right:10px; top:10px; z-index:1; color:#fff; z-index:10; transition:0.5s; cursor:pointer; padding:10px; ;}
 /* .catalog-content .prod-list ul li .share:hover {transform:scale(1.2); opacity:1;} */
-.catalog-content .prod-list ul li .top .thumb {background:url("/assets/images/catalog-bg.png") no-repeat center center; background-size:cover; display:flex; font-size:21px; font-weight:500; line-height:1.4; padding:40px; color:#fff; transition:0.5s; text-align:center;}
+.catalog-content .prod-list ul li .top .thumb {background:url("../../assets/images/catalog-bg.png") no-repeat center center; background-size:cover; display:flex; font-size:21px; font-weight:500; line-height:1.4; padding:40px; color:#fff; transition:0.5s; text-align:center;}
 .catalog-content .prod-list ul li .top .thumb span {opacity:0.5; line-height:1.4;}
 .catalog-content .prod-list ul li:hover .top .thumb span {opacity:1;}
 .catalog-content .prod-list ul li .top .thumb img {width:100%; height:100%; object-fit:cover;}
@@ -1357,8 +1357,8 @@ table.dataTable tbody tr:hover {background:#eee; color:#df0615;}
 
 .stockPrice_data2{position: relative; }
 .stockPriceWrap .stockPrice tbody tr td span{position: absolute; left: 15px; top: 28px; display: block; background-repeat: no-repeat; background-size: contain; background-position: center; width: 10px; height: 9px;}
-.stockPriceWrap .stockPrice tbody tr td .red{background-image: url('/assets/images/triangle_red.png');}
-.stockPriceWrap .stockPrice tbody tr td .blue{background-image: url('/assets/images/triangle_blue.png');}
+.stockPriceWrap .stockPrice tbody tr td .red{background-image: url('../../assets/images/triangle_red.png');}
+.stockPriceWrap .stockPrice tbody tr td .blue{background-image: url('../../assets/images/triangle_blue.png');}
 
 .daily_stockPriceWrap .daily_stockPrice thead tr th{background-color: #FBFBFB; border-bottom: 1px solid #EEEEEE; color: #444444;}
 .daily_stockPriceWrap .daily_stockPrice tbody tr td{border-bottom: 1px solid #EEEEEE; text-align: center; font-size: 18px; color: #555555; font-weight: 400; position: relative;}
