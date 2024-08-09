@@ -163,6 +163,7 @@ body.active{overflow: hidden;}
 .header_mo .nav > ul li div{cursor: pointer; position: sticky; z-index: 1; left: 0; top: 0; display: block; line-height: 50px; text-decoration: none;}    
 .header_mo .nav > ul li div:not(.mo_sub_menuBox),
 .header_mo .nav > ul li .mo_sub_menu_none{padding: 0 5%; box-sizing: border-box;}
+.header_mo .nav > ul li .mo_sub_menu_none a,
 .header_mo .nav > ul li .mo_sub_menu a{text-decoration: none; font-size: 17px; font-weight: 500; color: #555555;}
 .header_mo .nav > ul > li > div{display: block; position: relative;}
 .header_mo .nav > ul > li > div > span:nth-child(1){font-size: 17px; font-weight: 500; color: #555555;}
